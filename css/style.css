@@ -1,0 +1,120 @@
+    header, footer, aside, nav, article, section {  
+    display: block;  
+}
+
+body { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 10pt; background-color: #232323; }
+label { width: 125px; display: inline-block; padding: 5px; }
+#submitbox { margin: 10px; margin-left: 140px; }
+
+.langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
+.titler { width: 465px; display: inline-block; }
+
+h1 { text-shadow: #2C2C2C 3px 3px 3px; }
+h2 { margin-bottom: 0px; }
+
+
+header, footer
+{
+	color: #99C0FB;	
+}
+
+.lltab
+{
+	margin-right: 80px!important;	
+}
+
+header, footer, #main
+{
+	padding: 15px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7px;
+}
+
+
+
+a:link, a:visited
+{
+	color: #244368;
+	text-decoration: none;
+}
+
+
+a:hover
+{
+	font-weight: bold;
+       -webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+h1 a:link
+{
+	color: #99C0FB;
+       text-shadow: #2C2C2C 3px 3px 3px;
+}
+
+h1 a:visited
+{
+	color: #99C0FB;
+       text-shadow: #2C2C2C 3px 3px 3px;
+}
+
+nav
+{
+	float: right;
+}
+
+#main
+{
+
+       webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #EEE;
+	box-shadow: 3px 3px 3px #000000;
+	-moz-box-shadow: 3px 3px 3px #000000;
+	-webkit-box-shadow: 3px 3px 3px #000000;
+}
+
+#main a:link
+{
+	color: #244368;
+	text-decoration: none;	
+}
+
+nav a 
+{
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	border-bottom: none;
+       webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #EEE;
+	margin-top: 55px;
+	font-size: 12pt;
+}
+
+nav a:hover
+{
+	background-color: #FFF;
+       font-weight: bold;
+       -webkit-transition: all 1s ease;
+	transition: all 1s ease; 	
+}
+
+.lltab
+{
+	margin-right: 80px!important;	
+}
+
+#code
+{
+	padding: 20px;
+}
