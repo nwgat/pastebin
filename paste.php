@@ -2,8 +2,6 @@
 
 include "includes/common.php";
 
-session_start(); 
-
 if($_POST['user_token'] == $_SESSION['user_token']) 
 {
 
@@ -11,12 +9,8 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 	$nname = $_POST["nname"]; // poster name
 	$code = $_POST["code"]; // pasted code **required**
 	$lang = $_POST["lang"]; //language to highlight it as
-	$alter = $_POST["alter"];// is it an alteration
-
-	if(strpos('localhost', $_SERVER['HTTP_REFERER']) == false)
-	{
-		die ('This page can be processed from this domain only.');
-	}
+	$alter = $_POST["alter"]; // is it an alteration
+	$shemail = $_POST["shemail"]; // email of user
 
 	if(isset($_POST['website']) && !$_POST['website'] == '')
 	{
@@ -42,7 +36,8 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		$paste[ "code" ] = $code;
 		$paste[ "language" ] = $lang;
 		$paste[ "deleteafter" ] = (int)$_POST["keepfor"];
-		
+		$paste[ "shemail" ] = $shemail;		
+
 		if( !empty( $alter ) )
 		{	
 			$paste[ "alter" ] = (int)$alter;
@@ -54,8 +49,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
   
 		if( $id != false )
 		{
-                	unset($_SESSION['user_token']);
-                	session_destroy(); 
+                	unset($_SESSION['user_token']); 
 			header( "Location: $id\r\n" );
 			return;
 		}
@@ -64,7 +58,6 @@ if($_POST['user_token'] == $_SESSION['user_token'])
  else 
 {
 	unset($_SESSION['user_token']);
-	session_destroy();
 	die( "Your request has expired, please go back and resubmit! " );
 }
 	

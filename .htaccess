@@ -1,5 +1,6 @@
 Options +FollowSymLinks
 Options +Indexes
+php_value session.cookie_lifetime 0
 
 RewriteEngine on
 RewriteRule ^([0-9]+)$ view.php?id=$1
