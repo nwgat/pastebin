@@ -2,6 +2,7 @@
 
 	include "includes/config.php";
 	include "includes/database/mysql.database.php";
+	include 'includes/openid.php';
 
 	$db = new Database( $dbname, $dbhost, $dbuser, $dbpass );
 	
@@ -55,5 +56,40 @@
 	
 	DeleteExpired( $db );
 	$langs = GetLangsList();
+
+	session_start();
+
+	try 
+	{
+		if(!isset($_GET['openid_mode'])) 
+			{
+				if(isset($_GET['login'])) 
+			{
+				$openid = new LightOpenID;
+						$openid->identity = 'https://www.google.com/accounts/o8/id';
+						$openid->required = array('contact/email');
+						header('Location: ' . $openid->authUrl());
+			}
+		}
+
+		elseif($_GET['openid_mode'] == 'cancel') 
+		{
+				echo 'User has canceled authentication!';
+		}
+	 
+		else 
+		{
+				$openid = new LightOpenID;
+			if ($openid->validate() && $openid->identity)
+			{
+					$userinfo = $openid->getAttributes();
+				$_SESSION['user_login'] = $userinfo['contact/email'];
+			}
+		}
+	}
+	catch(ErrorException $e) 
+	{
+		echo $e->getMessage();
+	}
 
 ?>
