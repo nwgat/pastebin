@@ -9,23 +9,23 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 
 	$sname = $_POST["sname"]; // script name
 	$nname = $_POST["nname"]; // poster name
-	$code = $_POST["code"]; // code. actually required.
-	$lang = $_POST["lang"];
-	$alter = $_POST["alter"];
+	$code = $_POST["code"]; // pasted code **required**
+	$lang = $_POST["lang"]; //language to highlight it as
+	$alter = $_POST["alter"];// is it an alteration
 
-	if(strpos('localhost', $_SERVER['HTTP_REFERER'])==false)
+	if(strpos('localhost', $_SERVER['HTTP_REFERER']) == false)
 	{
 		die ('This page can be processed from this domain only.');
 	}
 
-	if(isset($_POST['website']) and !$_POST['website']=='')
+	if(isset($_POST['website']) && !$_POST['website'] == '')
 	{
-		die('You are spam bot.');
+		die('You are a spam bot.');
 	}
  
-	if(isset($_POST['email']) and !$_POST['email']=='')
+	if(isset($_POST['email']) && !$_POST['email'] == '')
 	{
-		die('You are spam bot.');
+		die('You are a spam bot.');
 	}
 	
 	if( !empty( $code ) && $code != "" )
@@ -49,7 +49,6 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		}
 		
 		$db->SimpleInsert( "snippets", $paste );
-	
 		$id = $db->InsertID();
 		unset($_SESSION['user_token']);
   
