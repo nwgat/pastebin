@@ -17,16 +17,12 @@
 	$page = "View Code";
 	$lang = $result["language" ];
 	
-	if( $lang == "best_guess" )
-{
-		$lang = "glua";
-}		
 	include "includes/page/header.php";
 
 ?>
 
-			<h2><?php echo htmlentities( $result['sname'] ); ?></h2>
-            <?php echo '<span class="langr">By ' . htmlentities( $result["nname"] ) . ' - ' . $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '</span>'; ?>
+			<h2><?php if( empty( $result['sname'] ) ) { echo "Untitled"; } else { echo htmlentities( $result['sname'] ); } // kill me now ?></h2>
+            <?php echo '<span class="langr">'; if( !empty( $result['nname' ] ) ) { echo 'By ' . htmlentities( $result["nname"] ) . ' - '; }  echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '</span>'; ?>
 			
 			<article id="code">
 <?php
