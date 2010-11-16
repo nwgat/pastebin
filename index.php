@@ -6,8 +6,10 @@
 	
 	include "includes/common.php";
 	include "includes/page/header.php";
+	
 	$form_token = uniqid();
-        $_SESSION['user_token'] = $form_token;
+    $_SESSION['user_token'] = $form_token;
+	
 	$alter = (int)$_GET[ "alter" ];
 	$orig = array();
 	
@@ -16,9 +18,19 @@
 		$orig = $db->SelectFirst( "snippets", "id = '$alter'" );
 	}
 	
-	$remembered_name = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname", "ORDER BY id DESC LIMIT 1" );
-	$remembered_name = $remembered_name["nname"];
-
+	// Remember my name, use email if we haven't pasted before
+	$last_snippet = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname, language", "ORDER BY id DESC LIMIT 1" );
+	$remembered_name = "";
+	
+	if( !empty($last_snippet["nname"]) ) // we've been here before, use the last name we used to 
+	{
+		$remembered_name = $remembered_name_db["nname"];
+	}
+	elseif( !empty($_SESSION["user_login"]) ) // use the first bit of our email address
+	{
+		$email_split = explode( "@", $_SESSION["user_login"] );
+		$remembered_name = $email_split[0];
+	}
 ?>
 
 			<h2>Paste Code</h2>
@@ -31,7 +43,7 @@
 					<input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
 					<input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
 					<label for="nname">Name:</label>
-					<input type="text" name="nname" size="45" value="<?php if(!empty($remembered_name)) {echo $remembered_name;} ?>" /><br />
+					<input type="text" name="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . $remembered_name . '"';} ?>/><br />
 					
 					<label for="sname">Script Name:</label>
 					<input type="text" name="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
