@@ -19,17 +19,21 @@
 	}
 	
 	// Remember my name, use email if we haven't pasted before
-	$last_snippet = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname, language", "ORDER BY id DESC LIMIT 1" );
 	$remembered_name = "";
 	
-	if( !empty($last_snippet["nname"]) ) // we've been here before, use the last name we used to 
+	if( !empty( $_SESSION["user_login"] ) ) // we're logged in
 	{
-		$remembered_name = $last_snippet["nname"];
-	}
-	elseif( !empty($_SESSION["user_login"]) ) // use the first bit of our email address
-	{
-		$email_split = explode( "@", $_SESSION["user_login"] );
-		$remembered_name = $email_split[0];
+		$last_snippet = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname, language", "ORDER BY id DESC LIMIT 1" );
+	
+		if( !empty($last_snippet["nname"]) ) // we've been here before, use the last name we used to 
+		{
+			$remembered_name = $last_snippet["nname"];
+		}
+		elseif( !empty($_SESSION["user_login"]) ) // use the first bit of our email address
+		{
+			$email_split = explode( "@", $_SESSION["user_login"] );
+			$remembered_name = $email_split[0];
+		}
 	}
 ?>
 
