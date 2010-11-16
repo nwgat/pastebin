@@ -15,6 +15,9 @@
 	{
 		$orig = $db->SelectFirst( "snippets", "id = '$alter'" );
 	}
+	
+	$remembered_name = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname", "ORDER BY id DESC LIMIT 1" );
+	$remembered_name = $remembered_name["nname"];
 
 ?>
 
@@ -28,7 +31,7 @@
 					<input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
 					<input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
 					<label for="nname">Name:</label>
-					<input type="text" name="nname" size="45" /><br />
+					<input type="text" name="nname" size="45" value="<?php if(!empty($remembered_name)) {echo $remembered_name;} ?>" /><br />
 					
 					<label for="sname">Script Name:</label>
 					<input type="text" name="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
