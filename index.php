@@ -37,7 +37,7 @@
 					<label for="code">Code:</label>
 					<textarea rows="25" cols="120" name="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea><br />
                     
-                    <label for="language">Language:</label>
+                    <label for="lang">Language:</label>
                     <select name="lang">
 <?php
 

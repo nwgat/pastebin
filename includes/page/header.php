@@ -17,7 +17,6 @@
                           <?php } ?>
 				<a href="./">Home</a>
 				<a href="recent.php">Recent Activity</a>
-				<a href="gmod/">Gmod Code DB</a>
 			</nav>
 			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1>
 		</header>
