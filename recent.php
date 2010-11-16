@@ -13,8 +13,8 @@
 				<ul>
 <?php
 
-	$snippets_list = $db->QueryArray( "SELECT sname, nname, language, time FROM snippets ORDER BY id DESC LIMIT 15", $db );
-	
+	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets ORDER BY id DESC LIMIT 15", $db );
+
 	if( $snippets_list )
 	{
 		foreach( $snippets_list as $k => $v )
