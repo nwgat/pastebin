@@ -29,7 +29,7 @@
 		{
 			$remembered_name = $last_snippet["nname"];
 		}
-		elseif( !empty($_SESSION["user_login"]) ) // use the first bit of our email address
+		else // use the first bit of our email address
 		{
 			$email_split = explode( "@", $_SESSION["user_login"] );
 			$remembered_name = $email_split[0];
