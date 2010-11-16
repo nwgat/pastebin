@@ -16,7 +16,7 @@
 				<a href="index.php?alter=<?php echo $cid; ?>" class="lltab">Alter Code</a>
                           <?php } ?>
 				<a href="./">Home</a>
-				<a href="recent.php">Recent Activity</a>
+				<a href="./recent">Recent Activity</a>
 			</nav>
 			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1>
 		</header>
