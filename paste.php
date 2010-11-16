@@ -13,32 +13,28 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 	$lang = $_POST["lang"];
 	$alter = $_POST["alter"];
 
-	$errors = array();
-
-	#check the page that submits is belong to our domain or not
 	if(strpos('localhost', $_SERVER['HTTP_REFERER'])==false)
 	{
-	die ('This page can be processed from this domain only.');
+		die ('This page can be processed from this domain only.');
 	}
 
-	#check user is bot or not
 	if(isset($_POST['website']) and !$_POST['website']=='')
 	{
-	die('You are spam bot.');
+		die('You are spam bot.');
 	}
  
-	#check user is bot or not
 	if(isset($_POST['email']) and !$_POST['email']=='')
 	{
-	die('You are spam bot.');
+		die('You are spam bot.');
 	}
 	
 	if( !empty( $code ) && $code != "" )
 	{
 
 		if( empty( $lang ) )
+		{
 			$lang = "text";
-               
+		}               
 			
 		$paste = array();
 		$paste[ "sname" ] = $sname;
@@ -48,16 +44,19 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		$paste[ "deleteafter" ] = (int)$_POST["keepfor"];
 		
 		if( !empty( $alter ) )
+		{	
 			$paste[ "alter" ] = (int)$alter;
+		}
 		
 		$db->SimpleInsert( "snippets", $paste );
 	
 		$id = $db->InsertID();
-		unset($_SESSION['user_token']);  
+		unset($_SESSION['user_token']);
+  
 		if( $id != false )
 		{
-                     unset($_SESSION['user_token']);
-                     session_destroy(); 
+                	unset($_SESSION['user_token']);
+                	session_destroy(); 
 			header( "Location: $id\r\n" );
 			return;
 		}
