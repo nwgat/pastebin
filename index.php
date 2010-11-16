@@ -24,7 +24,7 @@
 	
 	if( !empty($last_snippet["nname"]) ) // we've been here before, use the last name we used to 
 	{
-		$remembered_name = $remembered_name_db["nname"];
+		$remembered_name = $last_snippet["nname"];
 	}
 	elseif( !empty($_SESSION["user_login"]) ) // use the first bit of our email address
 	{
