@@ -1,14 +1,13 @@
 <?php
 	
-        session_start();
-        $form_token = uniqid();
-        $_SESSION['user_token'] = $form_token;
+
 
 	$page = "Pastebin";
 	
 	include "includes/common.php";
 	include "includes/page/header.php";
-	
+	$form_token = uniqid();
+        $_SESSION['user_token'] = $form_token;
 	$alter = (int)$_GET[ "alter" ];
 	$orig = array();
 	
@@ -26,8 +25,8 @@
 			<section id="pastearea">
 				<form action="paste.php" method="post">
 					<?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
-
-	  <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
+					<input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
+					<input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
 					<label for="nname">Name:</label>
 					<input type="text" name="nname" size="45" /><br />
 					
