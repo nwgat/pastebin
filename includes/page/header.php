@@ -9,6 +9,7 @@
                   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
               <![endif]-->
 	</head>
+	<?php flush(); ?>
 	<body>
 		<header>
 			<nav>
@@ -34,3 +35,4 @@
 			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1> 
 		</header>
 		<section id="main">
+		<?php flush(); ?>
