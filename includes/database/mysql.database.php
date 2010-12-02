@@ -22,7 +22,7 @@ class Database {
         
         function Query( $query )
         {
-                $q = mysql_query( $query, $this->db ) or die( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . mysql_error() );
+                $q = mysql_query( $query, $this->db ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . mysql_error() );
                 return $q;
         }
 		
@@ -98,6 +98,28 @@ class Database {
                 
                 return $this->Query( "INSERT INTO " . $table . " ( " . $fields . " ) VALUES( " . $valuez . " )" );
         }
+		
+		function SimpleUpdate( $table, $values, $where, $limit = 1 )
+		{
+			$fields = "";
+            $count = 0;
+                
+			foreach( $values as $k => $v )
+            {
+                    if( $count > 0 )
+                    {
+                            $fields .= ", "; // concat a comma in front of the string to seperate
+                    }
+                                
+                    $fields .= "`" . $this->SanitizeString( $k ) . "` = '" . $this->SanitizeString( $v ) . "'";
+                    $count++;
+            }
+			
+			if( $limit > 0 )
+				$where .= " LIMIT " . $limit;
+                
+            return $this->Query( "UPDATE " . $table . " SET " . $fields . " WHERE " . $where );		
+		}
 }
 
 ?>
