@@ -102,23 +102,23 @@ class Database {
 		function SimpleUpdate( $table, $values, $where, $limit = 1 )
 		{
 			$fields = "";
-            $count = 0;
+			$count = 0;
                 
 			foreach( $values as $k => $v )
-            {
-                    if( $count > 0 )
-                    {
-                            $fields .= ", "; // concat a comma in front of the string to seperate
-                    }
+			{
+				if( $count > 0 )
+				{
+					$fields .= ", "; // concat a comma in front of the string to seperate
+				}
                                 
-                    $fields .= "`" . $this->SanitizeString( $k ) . "` = '" . $this->SanitizeString( $v ) . "'";
-                    $count++;
-            }
+				$fields .= "`" . $this->SanitizeString( $k ) . "` = '" . $this->SanitizeString( $v ) . "'";
+				$count++;
+			}
 			
 			if( $limit > 0 )
 				$where .= " LIMIT " . $limit;
                 
-            return $this->Query( "UPDATE " . $table . " SET " . $fields . " WHERE " . $where );		
+			return $this->Query( "UPDATE " . $table . " SET " . $fields . " WHERE " . $where );		
 		}
 }
 
