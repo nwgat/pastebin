@@ -53,7 +53,7 @@
 					<input type="text" name="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
 					
 					<label for="code">Code:</label>
-					<textarea rows="25" cols="120" name="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea><br />
+					<textarea rows="25" cols="90" name="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea><br />
                     
                     <label for="lang">Language:</label>
                     <select name="lang">
