@@ -21,8 +21,7 @@
                           <?php 
 			  if (!$_SESSION['user_login'])
 			  {
-			  	echo ('<a href="" onclick="document.loginForm.submit();return false;">Login<form name="loginForm" action="?login" method="post">
-			  	</form></a>');
+			  	echo ('<a href="./index?login">Login</a>');
 			  }
 
 			  else
