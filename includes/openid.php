@@ -66,7 +66,7 @@ class LightOpenID
 
     function __construct()
     {
-        $this->trustRoot = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+        $this->trustRoot = (!empty($_SERVER['HTTP']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
         $uri = $_SERVER['REQUEST_URI'];
         $uri = strpos($uri, '?') ? substr($uri, 0, strpos($uri, '?')) : $uri;
         $this->returnUrl = $this->trustRoot . $uri;

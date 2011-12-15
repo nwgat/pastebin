@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+	<?php flush(); ?>
 	<head>
-              <meta charset="UTF-8">
+              <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<title>Luahelp Pastebin - <?php echo $page; ?></title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-
-              <!--[if lt IE 9]>
-                  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-              <![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/geshi.css" />
+		<!--[if lt IE 9]>
+		<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
 	</head>
 	<?php flush(); ?>
 	<body>
@@ -21,7 +22,7 @@
                           <?php 
 			  if (!$_SESSION['user_login'])
 			  {
-			  	echo ('<a href="./index?login">Login</a>');
+			  	echo ('<a href="./index.php?login">Login</a>');
 			  }
 
 			  else
@@ -33,5 +34,6 @@
 			</nav>
 			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1> 
 		</header>
+	       <?php flush(); ?>
 		<section id="main">
 		<?php flush(); ?>

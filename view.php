@@ -1,5 +1,5 @@
 <?php
-
+	
 	include "includes/common.php";
 	include "includes/geshi/geshi.php";
 	
@@ -34,7 +34,8 @@
 	$geshi->set_code_style( 'background: #f0f0f0; color: #000020;', 'background: #ececec; color: #000020;' );
 	$geshi->set_link_styles( GESHI_LINK, 'color: #000060; text-decoration: none' );
 	$geshi->set_link_styles( GESHI_HOVER, 'background-color: #f0f000;' );
-	
+	$geshi->enable_classes();
+	$geshi->set_overall_class('mycode');
 	echo $geshi->parse_code();
 ?>
 			</article>
