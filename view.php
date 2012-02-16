@@ -22,7 +22,11 @@
 ?>
 
 			<h2><?php if( empty( $result['sname'] ) ) { echo "Untitled"; } else { echo htmlentities( $result['sname'] ); } // kill me now ?></h2>
-            <?php echo '<span class="langr">'; if( !empty( $result['nname' ] ) ) { echo 'By ' . htmlentities( $result["nname"] ) . ' - '; }  echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '</span>'; ?>
+            <?php echo '<span class="langr" id="codedesc">'; if( !empty( $result['nname' ] ) ) { echo 'By ' . htmlentities( $result["nname"] ) . ' - '; }  echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '</span>'; ?>
+			
+			<div class="langr" id="stringtools" style="margin-top: -30px; float: right">
+				MD5: <?php echo md5( $result["code"] ); ?>, SHA1: <?php echo sha1( $result["code"] ); ?>
+			</div>
 			
 			<article id="code">
 <?php
@@ -39,10 +43,6 @@
 	echo $geshi->parse_code();
 ?>
 			</article>
-			
-			<div class="langr" id="stringtools">
-				MD5: <?php echo md5( $result["code"] ); ?>, SHA1: <?php echo sha1( $result["code"] ); ?>
-			</div>
             
 			<?php if( count( $altres ) > 0 ) { ?>
 				<div id="info">

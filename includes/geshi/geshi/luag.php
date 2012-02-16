@@ -43,7 +43,7 @@
  ************************************************************************************/
 
 $language_data = array (
-    'LANG_NAME' => 'Garry\'s Mod Lua',
+    'LANG_NAME' => 'Garry\'s Mod Lua (Legacy)',
     'COMMENT_SINGLE' => array(1 => "--", 2 => '//'),
     'COMMENT_MULTI' => array('--[[' => ']]', "/*" => "*/" ),
     'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,

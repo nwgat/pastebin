@@ -1,8 +1,8 @@
 		</section>
 		
 		<footer>
-            	    &copy;2010 Stephen &quot;SteveUK&quot; Swires and HTF. This site uses HTML5.
-            	    <br />irc.gamesurge.net #luahelp
+            	    &copy;2012 Stephen &quot;SteveUK&quot; Swires and HTF.
+					<a href="irc://irc.gamesurge.net/luahelp">irc.gamesurge.net #luahelp</a>
 		</footer>
 		
 	</body>

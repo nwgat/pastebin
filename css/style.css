@@ -118,6 +118,7 @@ nav a:hover
 	margin-right: 80px!important;	
 }
 
-#code
-	padding: 20px;
+#code {
+	margin-top: 10px;
+	padding: 5px;
 }

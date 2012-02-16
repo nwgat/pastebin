@@ -2,10 +2,15 @@
 <html>
 	<?php flush(); ?>
 	<head>
-              <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<title>Luahelp Pastebin - <?php echo $page; ?></title>
+		
+		<!-- meta tags -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+		<!-- stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/geshi.css" />
+		
 		<!--[if lt IE 9]>
 		<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 		<![endif]-->

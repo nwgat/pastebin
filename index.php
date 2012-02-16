@@ -11,6 +11,7 @@
     $_SESSION['user_token'] = $form_token;
 	
 	$alter = (int)$_GET[ "alter" ];
+	$isAlteration = ( $alter && ($alter>0) );
 	$orig = array();
 	
 	if( !empty( $alter ) )
@@ -37,9 +38,16 @@
 	}
 ?>
 
-			<h2>Paste Code</h2>
+			<h2><?php if($isAlteration ) echo 'Alter Code'; else echo 'Paste Code'; ?></h2>
             
-            <p>Use this to create a new paste, only the code field is required, the rest can be left blank.</p>
+            <p>
+				<?php
+					if( $isAlteration )
+						echo 'You are making an alteration to the code ' . ( empty($orig["sname"]) ? '<em>Untitled</em>' : htmlentities($orig["sname"]) ) . ' by ' . ( empty($orig["nname"]) ? 'Anonymous Coward' : htmlentities($orig["nname"]) ) . '.' ;
+					else
+						echo 'Use this to create a new paste, only the code field is required, the rest can be left blank.';
+				?>
+			</p>
 			
 			<section id="pastearea">
 				<form action="paste.php" method="post">
@@ -47,7 +55,7 @@
 					<input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
 					<input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
 					<label for="nname">Name:</label>
-					<input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . $remembered_name . '"';} ?>/><br />
+					<input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} ?>/><br />
 					
 					<label for="sname">Script Name:</label>
 					<input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
@@ -67,7 +75,7 @@
 	}
 
 ?>
-                        <option value="luag">-</option>
+                        <option value="glua">-</option>
 <?php
 	foreach( $langs["langs"] as $k => $v )
 	{

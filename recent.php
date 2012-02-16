@@ -4,18 +4,20 @@
 	
 	include "includes/common.php";
 	include "includes/page/header.php";
+
+	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets ORDER BY id DESC LIMIT 15", $db );	
 	
 ?>
 
 			<h3>Recently Pasted Code</h3>
+			<p>Showing the last <?php echo count($snippets_list); ?> pastes in the database.</p>
 			
 			<article id="last15">
 				<ul>
 <?php
 
-	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets ORDER BY id DESC LIMIT 15", $db );
 
-	if( $snippets_list )
+	if( $snippets_list && count($snippets_list) > 0 )
 	{
 		foreach( $snippets_list as $k => $v )
 		{
@@ -31,6 +33,8 @@
 			echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $langs["names"][ $v["language"] ] . ', ' . $v["time"] . '</span></li>';
 		}
 	}
+	else
+		echo '<li><span class="titler">No pastes found in the database.</span></li>';
 	
 ?>
 				</ul>
@@ -45,7 +49,7 @@
 	
 	foreach( $top_langs as $k => $v )
 	{
-		echo '<li>' . $langs["names"][ $v["language"] ] . '</li>';	
+		echo '<li>' . $langs["names"][ $v["language"] ] . ' <span class="langr">(' . $v[1] . ' pastes)</li>';	
 	}
 ?>
                 </ol>	
