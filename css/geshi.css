@@ -1857,6 +1857,69 @@
 .lua .ln-xtra, .lua li.ln-xtra, .lua div.ln-xtra {background-color: #ffc;}
 .lua span.xtra { display:block; }
 
+.glua .de1, .glua .de2 { margin-left:15px; padding-top:0; background:none; vertical-align:top; line-height: 150%;}
+.glua  {font-family:monospace; background:#fcfcfc; width: 100%; font-size: 12px;}
+.glua .imp {font-weight: bold; color: red;}
+.glua li, .glua .li1 {font-weight: normal; vertical-align:top;background: #FcFcFc;}
+.glua .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
+.glua .li2 {font-weight: bold; vertical-align:top;background: #f2f2f2;}
+.glua .kw1 {color: #0000FF; font-weight: bold;}
+.glua .kw2 {color: #0080C0; font-weight: bold;}
+.glua .kw3 {color: #8000FF;}
+.glua .kw4 {color: #ff0000;}
+.glua .kw5 {color: #8000FF;}
+.glua .kw6 {color: #ff0000;}
+.glua .kw7 {color: #8000FF;}
+.glua .kw8 {color: #8000FF;}
+.glua .kw9 {color: #8000FF;}
+.glua .kw10 {color: #8000FF;}
+.glua .kw11 {color: #8000FF;}
+.glua .kw12 {color: #8000FF;}
+.glua .kw13 {color: #ff0000;}
+.glua .kw14 {color: #ff0000;}
+.glua .kw15 {color: #8000FF;}
+.glua .kw16 {color: #ff0000;}
+.glua .kw17 {color: #ff0000;}
+.glua .kw18 {color: #8000FF;}
+.glua .kw19 {color: #8000FF;}
+.glua .kw20 {color: #8000FF;}
+.glua .kw21 {color: #8000FF;}
+.glua .kw22 {color: #8000FF;}
+.glua .kw23 {color: #8000FF;}
+.glua .kw24 {color: #ff0000;}
+.glua .kw25 {color: #8000FF;}
+.glua .kw26 {color: #8000FF;}
+.glua .kw27 {color: #ff0000;}
+.glua .kw28 {color: #8000FF;}
+.glua .kw29 {color: #8000FF;}
+.glua .kw30 {color: #0000A0;}
+.glua .kw31 {color: #0000A0;}
+.glua .kw32 {color: #0000A0;}
+.glua .kw33 {color: #0000A0;}
+.glua .kw34 {color: #0000A0;}
+.glua .kw35 {color: #0000A0;}
+.glua .kw36 {color: #0000A0;}
+.glua .kw37 {color: #0000A0;}
+.glua .kw38 {color: #0000A0;}
+.glua .kw39 {color: #0000A0;}
+.glua .kw40 {color: #0000A0;}
+.glua .kw41 {color: #0000A0;}
+.glua .kw42 {color: #0000A0;}
+.glua .kw43 {color: #0000A0;}
+.glua .kw44 {color: #0000A0;}
+.glua .co1 {color: #008000; font-style: italic;}
+.glua .co2 {color: #008000; font-style: italic;}
+.glua .coMULTI {color: #008000; font-style: italic;}
+.glua .es0 {color: #0000FF; font-weight: bold;}
+.glua .br0 {color: #0000A0; font-weight: bold;}
+.glua .sy0 {color: #0000A0; font-weight: bold;}
+.glua .st0 {color: #808080;}
+.glua .nu0 {color: #FF8000;}
+.glua .me0 {color: #b1b100;}
+.glua .ln-xtra, .glua li.ln-xtra, .glua div.ln-xtra {background-color: #ffc;}
+.glua span.xtra { display:block; }
+
+
 .m68k .de1, .m68k .de2 {/*font: normal normal 1em/1.2em monospace;*/ margin:0; padding-top:0; background:none; vertical-align:top; line-height: 150%;}
 .m68k  {font-family:monospace; background:#fcfcfc; width: 100%; font-size: 12px;}
 .m68k .imp {font-weight: bold; color: red;}
@@ -3318,3 +3381,5 @@
 .z80 .re2 {color: #993333;}
 .z80 .ln-xtra, .z80 li.ln-xtra, .z80 div.ln-xtra {background-color: #ffc;}
 .z80 span.xtra { display:block; }
+
+.de1, .de2 {font-weight: bold;}
