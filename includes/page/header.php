@@ -25,16 +25,16 @@
 				<a href="./">Home</a>
 				<a href="./recent">Recent Activity</a>
                           <?php 
-			  if (!$_SESSION['user_login'])
-			  {
-			  	echo ('<a href="./index.php?login">Login</a>');
-			  }
-
-			  else
-			  {
-				echo ("<a href='./user'>Your Pastes</a>");
-			  	echo ("<a href='./logout'>Logout</a>");
-			  }
+				if (!$_SESSION['user_login'])
+				{
+					echo ('<a href="./index.php?login">Login (Google)</a>');
+					echo ('<a href="./index.php?login&amp;provider=steam">Login (Steam)</a>');
+				}
+				else
+				{
+					echo ("<a href='./user'>Your Pastes</a>");
+					echo ("<a href='./logout'>Logout</a>");
+				}
 			  ?>
 			</nav>
 			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1> 

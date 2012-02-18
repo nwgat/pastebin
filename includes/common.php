@@ -1,5 +1,7 @@
 <?php
 
+	session_start();
+	
 	include "includes/config.php";
 	include "includes/database/mysql.database.php";
 	include 'includes/openid.php';
@@ -57,33 +59,41 @@
 	DeleteExpired( $db );
 	$langs = GetLangsList();
 
-	session_start();
-
 	try 
 	{
 		if(!isset($_GET['openid_mode'])) 
-			{
-				if(isset($_GET['login'])) 
+		{
+			if(isset($_GET['login'])) 
 			{
 				$openid = new LightOpenID;
+				
+				switch( $_GET["provider"] )
+				{
+					case "steam":
+						$openid->identity = 'https://steamcommunity.com/openid/';
+						break;
+						
+					default: // google
 						$openid->identity = 'https://www.google.com/accounts/o8/id';
 						$openid->required = array('contact/email');
-						header('Location: ' . $openid->authUrl());
+				}
+
+				header('Location: ' . $openid->authUrl());
 			}
 		}
-
 		elseif($_GET['openid_mode'] == 'cancel') 
 		{
-				echo 'User has canceled authentication!';
+			session_destroy();
+			echo 'User has canceled authentication!';
 		}
-	 
 		else 
 		{
-				$openid = new LightOpenID;
+			$openid = new LightOpenID;
+			
 			if ($openid->validate() && $openid->identity)
 			{
-					$userinfo = $openid->getAttributes();
-				$_SESSION['user_login'] = $userinfo['contact/email'];
+				$userinfo = $openid->getAttributes();
+				$_SESSION['user_login'] = ( isset( $userinfo['contact/email'] ) ? $userinfo['contact/email'] : $openid->__get("identity") ) ;
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = 'localhost';
-$dbuser = '';
-$dbpass = '';
-$dbname = '';
+$dbuser = 'root';
+$dbpass = '001152p';
+$dbname = 'pastebin';
 
 ?>

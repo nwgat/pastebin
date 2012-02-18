@@ -32,8 +32,24 @@
 		}
 		else // use the first bit of our email address
 		{
-			$email_split = explode( "@", $_SESSION["user_login"] );
-			$remembered_name = $email_split[0];
+			if( strstr( $_SESSION["user_login"], "steamcommunity.com" ) != FALSE )
+			{
+				if( !isset( $_SESSION["steam_name"] ) )
+				{
+					$steam_split = explode( "/", $_SESSION["user_login"] );
+					$steamid = $steam_split[count($steam_split)-1];
+					
+					$profile = simplexml_load_file( 'http://steamcommunity.com/profiles/' . $steamid . '/?xml=1' );
+					$_SESSION["steam_name"] = (string)$profile->steamID;
+				}
+				
+				$remembered_name = $_SESSION["steam_name"];
+			}
+			else
+			{
+				$email_split = explode( "@", $_SESSION["user_login"] );
+				$remembered_name = $email_split[0];
+			}
 		}
 	}
 ?>
