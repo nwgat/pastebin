@@ -66,7 +66,7 @@
 			</p>
 			
 			<section id="pastearea">
-				<form action="paste.php" method="post">
+				<form action="paste.php" method="post" id="pasteform">
 					<?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
 					<input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
 					<input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />

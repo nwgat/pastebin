@@ -13,6 +13,8 @@
 		$altres = $db->SelectFirst( "snippets", "id = '$result[alter]'" );
 	}
 	
+	$alterations = $db->SelectArray( "snippets", "`alter` = '$result[id]'" );
+	
 	$showCodeButtons = true;
 	$page = "View Code";
 	$lang = $result["language" ];
@@ -22,7 +24,18 @@
 ?>
 
 			<h2><?php if( empty( $result['sname'] ) ) { echo "Untitled"; } else { echo htmlentities( $result['sname'] ); } // kill me now ?></h2>
-            <?php echo '<span class="langr" id="codedesc">'; if( !empty( $result['nname' ] ) ) { echo 'By ' . htmlentities( $result["nname"] ) . ' - '; }  echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '</span>'; ?>
+			<span class="langr" id="codedesc">
+            <?php
+				
+				if( !empty( $result['nname' ] ) )
+					echo 'By ' . htmlentities( $result["nname"] ) . ' - ';
+				
+				echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '.';
+			
+				if( count( $altres ) > 0 )
+					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> by ' . ( !empty($altres["nname"]) ? htmlentities($altres["nname"]) : "<em>Anonymous Coward</em>");
+			?>
+			</span>
 			
 			<div class="langr" id="stringtools" style="margin-top: -30px; float: right">
 				MD5: <?php echo md5( $result["code"] ); ?>, SHA1: <?php echo sha1( $result["code"] ); ?>
@@ -43,11 +56,14 @@
 	echo $geshi->parse_code();
 ?>
 			</article>
-            
-			<?php if( count( $altres ) > 0 ) { ?>
-				<div id="info">
-					This is an alteration of <a href="view.php?id=<?php echo $altres["id"]; ?>"><?php echo htmlentities( $altres["sname"] ); ?></a>
-				</div>
+			
+			<?php if( count( $alterations ) > 0 ) { ?>
+				<h3>Code Alterations</h3>
+				<ul>
+					<?php foreach( $alterations as $ak => $av ) { ?>
+						<li><a href="./<?php echo $av["id"]; ?>"><?php echo htmlentities( $av["sname"] ); ?></a> by <?php echo ( !empty($av["nname"]) ? htmlentities($av["nname"]) : "<em>Anonymous Coward</em>"); ?></li>
+					<?php } ?>
+				</ul>
 			<?php } ?>
 		
 <?php include "includes/page/footer.php"; ?>

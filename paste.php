@@ -49,8 +49,11 @@ if($_POST['user_token'] == $_SESSION['user_token'])
   
 		if( $id != false )
 		{
-                	unset($_SESSION['user_token']); 
-			header( "Location: $id\r\n" );
+			unset($_SESSION['user_token']); 
+			
+			if( !$_POST["ajax"] ) header( "Location: $id\r\n" );
+			echo $id;
+			
 			return;
 		}
 	}
