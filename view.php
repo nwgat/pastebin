@@ -33,7 +33,7 @@
 				echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '.';
 			
 				if( count( $altres ) > 0 )
-					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> by ' . ( !empty($altres["nname"]) ? htmlentities($altres["nname"]) : "<em>Anonymous Coward</em>");
+					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> ' . ( !empty($altres["nname"]) ? 'by ' . htmlentities($altres["nname"]) : '');
 			?>
 			</span>
 			

@@ -21,9 +21,13 @@
 			<h3>Your Pasted Code</h3>
 			
 <?php
-		echo "<p>You have <strong>" . $num_code . "</strong> paste";
-		if( $num_code != 1 ) echo "s";
-		echo " in the database.</p>";
+		if( $num_code > 0 )
+		{
+			echo "<p>You have <strong>" . $num_code . "</strong> paste";
+			if( $num_code != 1 ) echo "s";
+			echo " in the database. The most recent paste is shown first.</p>";
+		}
+		else echo "<p>You have not pasted anything yet, or all of your pastes have expired.</p>";
 ?>
 
 <?php if( $num_code > 0 ) { ?>			

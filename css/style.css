@@ -123,6 +123,19 @@ nav a:hover
 	padding: 5px;
 }
 
+#loginbuttons {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#loginbuttons a {
+	width: 28px;
+}
+
+#loginbuttons img {
+	vertical-align: middle;
+}
+
 #originalinfo {
 	padding-top: 5px;
 }

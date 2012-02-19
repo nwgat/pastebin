@@ -21,25 +21,30 @@
 	<body>
 		<header>
 			<nav>
-                          <?php if( $showCodeButtons == true ) { ?>
+				<?php if( $showCodeButtons == true ) { ?>
 				<a href="index.php?alter=<?php echo $cid; ?>" class="lltab">Alter Code</a>
-                          <?php } ?>
+                <?php }
+				
+				if(!$_SESSION['user_login']) { ?>
+				<div id="loginbuttons">
+					Login:
+					
+					<a href="./index.php?login"><img src="images/google.png" alt="Google" /></a>
+					<a href="./index.php?login&amp;provider=steam"><img src="images/steam.png" alt="Steam Community" /></a>
+				</div>
+				<?php } ?>
 				<a href="./">Home</a>
 				<a href="./recent">Recent Activity</a>
-                          <?php 
-				if (!$_SESSION['user_login'])
+                <?php 
+				if ($_SESSION['user_login'])
 				{
-					echo ('<a href="./index.php?login">Login (Google)</a>');
-					echo ('<a href="./index.php?login&amp;provider=steam">Login (Steam)</a>');
+					echo ("\t\t\t\t<a href='./user'>Your Pastes</a>\r\n");
+					echo ("\t\t\t\t<a href='./logout'>Logout</a>\r\n");
 				}
-				else
-				{
-					echo ("<a href='./user'>Your Pastes</a>");
-					echo ("<a href='./logout'>Logout</a>");
-				}
-			  ?>
+				?>
 			</nav>
-			       <h1><a href="./">Luahelp - <?php echo $page; ?></a></h1> 
+	
+			<h1><a href="./">Luahelp - <?php echo $page; ?></a></h1> 
 		</header>
 	       <?php flush(); ?>
 		<section id="main">
