@@ -29,8 +29,8 @@
 				<div id="loginbuttons">
 					Login:
 					
-					<a href="./index.php?login"><img src="images/google.png" alt="Google" /></a>
-					<a href="./index.php?login&amp;provider=steam"><img src="images/steam.png" alt="Steam Community" /></a>
+					<a href="./index.php?login"><img src="images/google.png" alt="Google" title="Login via Google" /></a>
+					<a href="./index.php?login&amp;provider=steam"><img src="images/steam.png" alt="Steam Community" title="Login via Steam Community" /></a>
 				</div>
 				<?php } ?>
 				<a href="./">Home</a>
