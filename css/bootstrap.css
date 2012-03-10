@@ -568,7 +568,7 @@ label {
 input,
 select,
 .uneditable-input {
-  display: inline-block;
+  display: block;
   width: 210px;
   height: 18px;
   padding: 4px;
@@ -583,6 +583,7 @@ select,
   border-radius: 3px;
   vertical-align: middle;
   float:left;
+  clear: both;
 }
 
 textarea
