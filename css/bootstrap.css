@@ -581,6 +581,7 @@ select,
   -moz-border-radius: 3px;
   border-radius: 3px;
   float:left;
+  margin-bottom: 9px;
 }
 
 textarea
@@ -640,8 +641,6 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   width: auto;
   height: auto;
   clear:both;
-  margin-top: 9px;
-  margin-bottom: 9px;
 }
 select, input[type="file"] {
   height: 28px;
