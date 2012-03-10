@@ -563,6 +563,7 @@ label {
   color: #333333;
   float:left;
   margin-right: 5px;
+  clear: both;
 }
 input,
 select,
