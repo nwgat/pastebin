@@ -640,6 +640,7 @@ input[type="file"] {
 input[type="button"], input[type="reset"], input[type="submit"] {
   width: auto;
   height: auto;
+  clear:both;
 }
 select, input[type="file"] {
   height: 28px;
