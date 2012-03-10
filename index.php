@@ -23,15 +23,9 @@ if( !empty( $alter ) )
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
     <input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
-    <label for="nname">Name:</label>
-    <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} ?>/><br />
-    
-    <label for="sname">Script Name:</label>
-    <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
-    
     <label for="code">Code:</label>
     <textarea rows="25" cols="90" name="code" id="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea><br />
-    
+
     <label for="lang">Language:</label>
     <select name="lang" id="lang">
       <?php
@@ -52,8 +46,11 @@ if( !empty( $alter ) )
       }
       ?>
     </select><br />
-    
-    <label for="keepfor">Keep For:</label>
+      <label for="nname">Name:</label>
+     <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} ?>/><br />
+     <label for="sname">Script Name:</label>
+     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
+     <label for="keepfor">Keep For:</label>
     <select name="keepfor" id="keepfor">
       <option value="-1">Forever</option>
       <option value="-1">-</option>
