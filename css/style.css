@@ -25,10 +25,15 @@
 
 .nname {
 float: right;
-margin-left: -80px;
 }
 
 .snamme {
 float:right;
-margin-left: -80px;
+}
+
+.lang {
+float:left;
+}
+.keepfor {
+float:left;
 }
