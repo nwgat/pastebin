@@ -23,10 +23,7 @@ if( !empty( $alter ) )
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
     <input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
-    <label for="code">Code:</label>
     <textarea rows="25" cols="90" name="code" id="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea><br />
-
-    <label for="lang">Language:</label>
     <select name="lang" id="lang">
       <?php
 
@@ -46,20 +43,15 @@ if( !empty( $alter ) )
       }
       ?>
     </select><br />
-      <label for="nname">Name:</label>
-     <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} ?>/><br />
-
-     <label for="keepfor">Keep For:</label>
+     <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/><br />
     <select name="keepfor" id="keepfor">
       <option value="-1">Forever</option>
-      <option value="-1">-</option>
       <option value="12">12 hours</option>
       <option value="24">1 day</option>
       <option value="168">1 week</option>
       <option value="672">4 weeks</option>
     </select><br />
-     <label for="sname">Script Name:</label>
-     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
+     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } else {echo 'value="Untitled"';} ?> size="45" /><br />
     <input name="website" type="hidden" id="website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
     <input type="submit" id="submitbox" name="paste" value="Paste Code" />
