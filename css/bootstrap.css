@@ -581,9 +581,7 @@ select,
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  vertical-align: middle;
   float:left;
-  clear: both;
 }
 
 textarea
