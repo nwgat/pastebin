@@ -43,7 +43,6 @@ if( !empty( $alter ) )
       }
       ?>
     </select><br />
-     <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/><br />
     <select name="keepfor" id="keepfor">
       <option value="-1">Forever</option>
       <option value="12">12 hours</option>
@@ -51,7 +50,8 @@ if( !empty( $alter ) )
       <option value="168">1 week</option>
       <option value="672">4 weeks</option>
     </select><br />
-     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } else {echo 'value="Untitled"';} ?> size="45" /><br />
+    <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/><br />
+    <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } else {echo 'value="Untitled"';} ?> size="45" /><br />
     <input name="website" type="hidden" id="website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
     <input type="submit" id="submitbox" name="paste" value="Paste Code" />
