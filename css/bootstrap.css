@@ -568,12 +568,11 @@ label {
 input,
 select,
 .uneditable-input {
-  display: block;
+  display: inline-block;
   width: 210px;
   height: 18px;
   padding: 4px;
-  margin-right: 4px;
-  margin-bottom: 9px;
+  margin-right: 10px;
   font-size: 13px;
   line-height: 18px;
   color: #555555;
