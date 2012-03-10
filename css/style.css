@@ -22,3 +22,11 @@
 
 .langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
 .titler { width: 465px; display: inline-block; }
+
+.nname {
+float: right;
+}
+
+.snamme {
+float:right;
+}

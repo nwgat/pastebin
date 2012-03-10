@@ -48,8 +48,7 @@ if( !empty( $alter ) )
     </select><br />
       <label for="nname">Name:</label>
      <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} ?>/><br />
-     <label for="sname">Script Name:</label>
-     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
+
      <label for="keepfor">Keep For:</label>
     <select name="keepfor" id="keepfor">
       <option value="-1">Forever</option>
@@ -59,7 +58,8 @@ if( !empty( $alter ) )
       <option value="168">1 week</option>
       <option value="672">4 weeks</option>
     </select><br />
-
+     <label for="sname">Script Name:</label>
+     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } ?> size="45" /><br />
     <input name="website" type="hidden" id="website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
     <input type="submit" id="submitbox" name="paste" value="Paste Code" />
