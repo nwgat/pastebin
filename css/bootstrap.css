@@ -549,7 +549,7 @@ textarea {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
-  display: block;
+  display: inline-block;
 }
 input,
 button,
