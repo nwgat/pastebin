@@ -1,0 +1,10 @@
+When initially installing the pastebin you need to create a file called config.php with the following information in it:
+
+<?php
+
+$dbhost = 'host of database (usually localhost)';
+$dbuser = 'database user';
+$dbpass = 'database password';
+$dbname = 'database name';
+
+?>
