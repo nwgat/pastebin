@@ -1,4 +1,4 @@
-When initially installing the pastebin you need to create a file called config.php with the following information in it:
+When initially installing the pastebin you need to create a file called config.php in ./includes/ with the following information in it:
 
 <?php
 
