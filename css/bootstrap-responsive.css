@@ -25,7 +25,7 @@
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
    display:block;
-   float:none;
+   float:left;
   }
   article {
     padding-left: 0px;
@@ -117,8 +117,11 @@
   .carousel-caption {
     position: static;
   }
-  navbar-text {
-
+  .navbar-text {
+  float:left;
+  }
+  .pull-right{
+    float:left;
   }
 }
 @media (max-width: 767px) {
