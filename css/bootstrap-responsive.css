@@ -24,6 +24,8 @@
 @media (max-width: 480px) {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
+   display:block;
+   float:none;
   }
   article {
     padding-left: 0px;
@@ -114,6 +116,9 @@
   }
   .carousel-caption {
     position: static;
+  }
+  navbar-text {
+
   }
 }
 @media (max-width: 767px) {
