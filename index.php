@@ -77,6 +77,7 @@ if ( $('#code').is(':empty') )
         $(".alert").alert('close')
         return true;
     }
+    return false;
     });
 }
 catch(e)
