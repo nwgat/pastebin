@@ -64,6 +64,8 @@ if( !empty( $alter ) )
   </form>
 </section>
 <script type="text/javascript">
+try
+{
  $("form").submit(function() {
 if ( $('#code').is(':empty') )
     {
@@ -76,8 +78,9 @@ if ( $('#code').is(':empty') )
         return true;
     }
     });
-
-
+}
+catch
+{}
   </script>
 <?php
 include "includes/page/footer.php";
