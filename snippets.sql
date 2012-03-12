@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.2deb1
+-- version 3.3.10
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 16, 2010 at 09:16 PM
+-- Generation Time: Mar 12, 2012 at 02:05 PM
 -- Server version: 5.1.41
--- PHP Version: 5.3.2-1ubuntu4.5
+-- PHP Version: 5.3.2-1ubuntu4.14
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -35,5 +35,6 @@ CREATE TABLE IF NOT EXISTS `snippets` (
   `alter` int(8) NOT NULL DEFAULT '-1',
   `deleteafter` int(12) NOT NULL,
   `shemail` varchar(125) NOT NULL,
+  `private` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2520 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2789 ;

@@ -52,6 +52,7 @@ if( !empty( $alter ) )
     </select>
     <input type="text" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/>
     <input type="text" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } else {echo 'value="Untitled"';} ?> size="45" />
+    <input type="checkbox" name="private" description="Private Paste?">
     <input name="website" type="hidden" id="website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
     <input type="submit" id="submitbox" name="paste" value="Paste Code" />

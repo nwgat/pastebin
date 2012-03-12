@@ -5,7 +5,7 @@
 	include "includes/common.php";
 	include "includes/page/header.php";
 
-	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets ORDER BY id DESC LIMIT 15", $db );	
+	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets WHERE private='0' ORDER BY id DESC LIMIT 15", $db );	
 	
 ?>
 

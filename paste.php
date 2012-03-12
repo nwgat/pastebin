@@ -11,6 +11,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 	$lang = $_POST["lang"]; //language to highlight it as
 	$alter = $_POST["alter"]; // is it an alteration
 	$shemail = $_POST["shemail"]; // email of user
+	$private = $_POST["private"];
 
 	if(isset($_POST['website']) && !$_POST['website'] == '')
 	{
@@ -37,7 +38,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		$paste[ "language" ] = $lang;
 		$paste[ "deleteafter" ] = (int)$_POST["keepfor"];
 		$paste[ "shemail" ] = $shemail;		
-
+        $paste[ "private"] = $private;
 		if( !empty( $alter ) )
 		{	
 			$paste[ "alter" ] = (int)$alter;
