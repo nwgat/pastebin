@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/geshi.css" />
   <link href="./css/bootstrap.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <style type="text/css">
   body {
     padding-top: 60px;
