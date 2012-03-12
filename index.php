@@ -66,7 +66,7 @@ if( !empty( $alter ) )
 <script type="text/javascript">
 try
 {
- $("form").submit(function() {
+ $("#pasteform").submit(function() {
 if ( $('#code').is(':empty') )
     {
         $("#alert").show();
