@@ -74,7 +74,7 @@ try
     }
     else
     {
-        $("#alert")hide();
+        $("#alert").alert('close');
         return true;
     }
     });
