@@ -19,6 +19,10 @@ if( !empty( $alter ) )
 
 ?>
 <section id="pastearea">
+    <div id="alert" class="alert alert-error hide fade in">
+    <a class="close" data-dismiss="alert">×</a>
+    <strong>Warning!</strong> Please remember to include some text in your paste!
+    </div>
   <form action="paste.php" method="post" id="pasteform">
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
@@ -59,7 +63,17 @@ if( !empty( $alter ) )
 
   </form>
 </section>
+<script type="text/javascript">
+if ( $('#code').is(':empty') )
+    {
+        $("#alert").show();
+    }
+    else
+    {
+        $(".alert").alert('close')
+    }
 
+  </script>
 <?php
 include "includes/page/footer.php";
 ?>
