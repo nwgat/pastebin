@@ -79,7 +79,7 @@ if ( $('#code').is(':empty') )
     }
     });
 }
-catch
+catch(e)
 {}
   </script>
 <?php
