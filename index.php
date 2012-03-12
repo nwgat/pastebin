@@ -64,14 +64,19 @@ if( !empty( $alter ) )
   </form>
 </section>
 <script type="text/javascript">
+ $("form").submit(function() {
 if ( $('#code').is(':empty') )
     {
         $("#alert").show();
+        return false;
     }
     else
     {
         $(".alert").alert('close')
+        return true;
     }
+    });
+
 
   </script>
 <?php
