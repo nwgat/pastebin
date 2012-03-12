@@ -20,7 +20,6 @@ if( !empty( $alter ) )
 ?>
 <section id="pastearea">
     <div id="alert" class="alert alert-error hide fade in">
-    <a class="close" data-dismiss="alert">×</a>
     <strong>Warning!</strong> Please remember to include some text in your paste!
     </div>
   <form action="paste.php" method="post" id="pasteform">
@@ -63,6 +62,7 @@ if( !empty( $alter ) )
 
   </form>
 </section>
+
 <script type="text/javascript">
 try
 {
@@ -77,7 +77,6 @@ if ( $('#code').is(':empty') )
         $(".alert").alert('close')
         return true;
     }
-    return false;
     });
 }
 catch(e)
