@@ -101,7 +101,7 @@
     }
   }
   
-  echo (htmlentities("<p class='navbar-text pull-right'>Logged in as <a href='./user'>".$remembered_name."</a></p>"));
+  echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user'>".htmlentities($remembered_name)."</a></p>");
 }
 if( empty( $_SESSION["user_login"] ) ) {?>
 <p class='navbar-text pull-right' id='loginbuttons'>
