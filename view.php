@@ -39,10 +39,6 @@
 			</p>
 			</span>
 			
-			<div class="langr" id="stringtools">
-				MD5: <?php echo md5( $result["code"] ); ?>, SHA1: <?php echo sha1( $result["code"] ); ?>
-			</div>
-			
 			<article id="code">
 <?php
 

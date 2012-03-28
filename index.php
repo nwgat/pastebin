@@ -18,15 +18,15 @@ if( !empty( $alter ) )
 }
 
 ?>
-<section id="pastearea">
+<div id="pastearea" class="container-fluid">
     <div id="alert" class="alert alert-error hide fade in">
     <strong>Warning!</strong> Please remember to include some text in your paste!
     </div>
-  <form action="paste.php" method="post" id="pasteform">
+  <form action="paste.php" method="post" id="pasteform" class="form-inline">
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
     <input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
-    <textarea rows="25" cols="90" name="code" id="code"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea>
+    <textarea rows="25" cols="90" name="code" id="code" style="width: 100%; height: 50%; margin-bottom: 5px"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea>
     <select name="lang" id="lang">
       <?php
 
@@ -58,10 +58,13 @@ if( !empty( $alter ) )
     <img class="icon-lock" title="Private Paste?"><input type="checkbox" class"checkbox-inline" title="Private Paste?" name="private" value="1">
     <input name="website" type="hidden" id="website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
-    <input type="submit" id="submitbox" name="paste" value="Paste Code" />
-
+	
+	<div class="form-actions">
+		<button type="submit" id="submitbox" class="btn btn-primary" name="paste">Paste Code</button>
+		<button type="reset" class="btn">Reset Form</button>
+	</div>
   </form>
-</section>
+</div>
 
 <script type="text/javascript">
 try
