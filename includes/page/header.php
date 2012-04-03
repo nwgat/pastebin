@@ -59,8 +59,12 @@
                  echo('<li><a href="index.php?alter='.$cid.'" class="lltab">Alter Code</a></li>');
                }
                ?>
+				<li class="divider-vertical"></li>
+				<li><a href="irc://irc.gamesurge.net/luahelp">Join IRC</a></li>
+				<li><a href="https://github.com/harderthanfire/-luahelp-Pastebin">GitHub</a></li>
              </ul>
-             <?php
+			 
+			 <?php
 
         if( !empty( $_SESSION["user_login"] ) ) // we're logged in
 		{
@@ -74,9 +78,6 @@
   <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community' title='Login via Steam Community' /></a>
 </p>
 <?php } ?>
-
-
-
 </div><!--/.nav-collapse -->
 </div>
 </div>
