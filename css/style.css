@@ -25,5 +25,9 @@ body {
 	padding-top: 5px;
 }
 
+textarea#code {
+	font-family: Consolas, 'Courior New', courier;
+}
+
 .langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
 .titler { width: 465px; display: inline-block; }

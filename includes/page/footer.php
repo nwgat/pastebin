@@ -19,10 +19,5 @@
 			</div>
 		</div>
     </div>
-	 
-    <!-- Footer javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/bootstrap.js"></script>
   </body>
   </html>

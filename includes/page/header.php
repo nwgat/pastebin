@@ -8,7 +8,7 @@
   <!-- meta tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Stephen Swires, HTF">
 
   <!-- bootstrap styles -->
   <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -20,18 +20,19 @@
   
   <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
   
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
 
-      <!-- fav and touch icons -->
-      <link rel="shortcut icon" href="favicon.ico">
-      <link rel="apple-touch-icon" href="favicon.ico">
-      <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico">
-      <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico">
-    </head>
+  <!-- fav and touch icons -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico">
+</head>
 
     <body>
       <div class="navbar navbar-fixed-top">
@@ -62,46 +63,12 @@
              <?php
 
         if( !empty( $_SESSION["user_login"] ) ) // we're logged in
-        {
-
-
-           // Remember my name, use email if we haven't pasted before
-          $remembered_name = "";
-          
-  if( !empty( $_SESSION["user_login"] ) ) // we're logged in
-  {
-    $last_snippet = $db->SelectFirst( "snippets", "shemail = '" . $_SESSION["user_login"] . "'", "nname, language", "ORDER BY id DESC LIMIT 1" );
-    
-    if( !empty($last_snippet["nname"]) ) // we've been here before, use the last name we used to 
-    {
-      $remembered_name = $last_snippet["nname"];
-    }
-    else // use the first bit of our email address
-    {
-      if( strstr( $_SESSION["user_login"], "steamcommunity.com" ) != FALSE )
-      {
-        if( !isset( $_SESSION["steam_name"] ) )
-        {
-          $steam_split = explode( "/", $_SESSION["user_login"] );
-          $steamid = $steam_split[count($steam_split)-1];
-          
-          $profile = simplexml_load_file( 'http://steamcommunity.com/profiles/' . $steamid . '/?xml=1' );
-          $_SESSION["steam_name"] = (string)$profile->steamID;
-        }
-        
-        $remembered_name = $_SESSION["steam_name"];
-      }
-      else
-      {
-        $email_split = explode( "@", $_SESSION["user_login"] );
-        $remembered_name = $email_split[0];
-      }
-    }
-  }
-  
-  echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user'>".htmlentities($remembered_name)."</a></p>");
-}
-if( empty( $_SESSION["user_login"] ) ) {?>
+		{
+			$remembered_name = findUserHandle();
+			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user'>".htmlentities($remembered_name)."</a></p>");
+		}
+		
+		if( empty( $_SESSION["user_login"] ) ) {?>
 <p class='navbar-text pull-right' id='loginbuttons'>
   <a href='./index.php?login'><img src='img/google.png' alt='Google' title='Login via Google' /></a>
   <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community' title='Login via Steam Community' /></a>
