@@ -10,19 +10,17 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- styles -->
+  <!-- bootstrap styles -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+
+  <!-- pastebin styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/geshi.css" />
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <style type="text/css">
-  body {
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
-  </style>
-  <link href="./css/bootstrap-responsive.css" rel="stylesheet">
-
+  
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
