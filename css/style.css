@@ -26,7 +26,7 @@ body {
 }
 
 textarea#code {
-	font-family: Consolas, 'Courior New', courier;
+	font-family: Consolas, 'Courier New', courier;
 }
 
 .langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
