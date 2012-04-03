@@ -56,7 +56,8 @@
                   echo('<li><a href="./recent">Recent</a></li>');
                 }
                 if( $showCodeButtons == true ) {
-                 echo('<li><a href="index.php?alter='.$cid.'" class="lltab">Alter Code</a></li>');
+                 echo('<li><a href="./?alter='.$cid.'" class="lltab">Alter Code</a></li>');
+				 echo('<li><a href="./'.$cid.'?plain=1" class="lltab">View Plain Text</a></li>');
                }
                ?>
 				<li class="divider-vertical"></li>

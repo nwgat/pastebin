@@ -13,6 +13,15 @@
 		$altres = $db->SelectFirst( "snippets", "id = '$result[alter]'" );
 	}
 	
+	// plain text view mode
+	if( isset($_GET["plain"]) )
+	{
+		header("Content-Type: text/plain");
+		echo $result["code"];
+		
+		exit;
+	}
+	
 	$alterations = $db->SelectArray( "snippets", "`alter` = '$result[id]'" );
 	
 	$showCodeButtons = true;
