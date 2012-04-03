@@ -4,8 +4,8 @@ php_value session.cookie_lifetime 0
 
 RewriteEngine on
 RewriteRule ^([0-9]+)$ view.php?id=$1 [L,QSA]
-RewriteRule ^([\w]+)$ $1.php [L,QSA]
-RewriteRule ^([\w]+)/([0-9]+)$ $1.php?id=$2 [L,QSA]
+RewriteRule ^([\w]+)$ $1.php [QSA]
+RewriteRule ^([\w]+)/([0-9]+)$ $1.php?id=$2 [QSA]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
