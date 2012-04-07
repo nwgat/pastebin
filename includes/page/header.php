@@ -63,7 +63,12 @@
 				<li class="divider-vertical"></li>
 				<li><a href="irc://irc.gamesurge.net/luahelp">Join IRC</a></li>
 				<li><a href="https://github.com/harderthanfire/-luahelp-Pastebin">GitHub</a></li>
+				<li class="divider-vertical"></li>
              </ul>
+			 
+			<form class="navbar-search pull-left" action="browse" method="get">
+				<input type="text" name="s" class="search-query" placeholder="Search" />
+			</form>
 			 
 			 <?php
 
