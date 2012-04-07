@@ -9,6 +9,14 @@
 	$db = new Database( $dbname, $dbhost, $dbuser, $dbpass );
 	
 	$showCodeButtons = false;
+	
+	function getPlural( $val, $singular, $plural )
+	{
+		if( $val == 1 )
+			return $singular;
+			
+		return $plural;
+	}
 
 	function findUserHandle()
 	{

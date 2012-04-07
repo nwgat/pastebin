@@ -36,11 +36,15 @@
 		$expiredate = $postdate + ( $result["deleteafter"] * 3600 );
 		
 		$seconds_left = ($expiredate-date("U"));
+		$days_left = floor($seconds_left/86400);
+		$hours_left = floor($seconds_left/3600);
+		$hour_secleft = floor($seconds_left/60)%60;
+		
 		
 		if( $seconds_left <= 0 )
 			$expires = 'Expired, pending deletion.';
 		else
-			$expires = 'Expires ' . ( $seconds_left >= 86400 ? floor($seconds_left/86400) . ' day(s)' :  floor($seconds_left/3600) . ' hour(s) and ' . floor($seconds_left/60)%60 . ' minute(s)' ) . ' from now.';
+			$expires = 'Expires ' . ( $seconds_left >= 86400 ? $days_left . getPlural( $days_left, ' day', ' days' ) :  $hours_left . getPlural( $hours_left, ' hour', ' hours' ) . ' and ' . $hour_secleft . getPlural( $hour_secleft, ' hour', ' hours' ) . ' from now.' );
 	}
 	
 	include "includes/page/header.php";
