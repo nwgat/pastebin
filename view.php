@@ -40,7 +40,7 @@
 		if( $seconds_left <= 0 )
 			$expires = 'Expired, pending deletion.';
 		else
-			$expires = 'Expires ' . ( $seconds_left >= 86400 ? floor($seconds_left/86400) . ' day(s)' :  floor($seconds_left/3600) . ' hour(s)' ) . ' from now.';
+			$expires = 'Expires ' . ( $seconds_left >= 86400 ? floor($seconds_left/86400) . ' day(s)' :  floor($seconds_left/3600) . ' hour(s) and ' . floor($seconds_left/60)%60 . ' minute(s)' ) . ' from now.';
 	}
 	
 	include "includes/page/header.php";
