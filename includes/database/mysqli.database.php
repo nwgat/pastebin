@@ -17,7 +17,7 @@ class Database {
                         $string = stripslashes( $string );
                 }
 
-                return mysqli_real_escape_string( $string );
+                return mysqli_real_escape_string($this->db, $string );
         }
         
         function Query( $query )
