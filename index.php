@@ -59,7 +59,7 @@ if( !empty( $alter ) )
     <img class="icon-lock showTooltip" title="Private Paste?" style="padding-top: 3px; margin-top: 3px;"><input type="checkbox" class="checkbox-inline showTooltip" title="Private Paste?" name="private" value="1">
     <input name="website" type="hidden" id="website" title="Website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
-		<p style="margin-top: 5px;"><button type="submit" id="submitbox" class="btn btn-primary" name="paste">Paste Code</button>
+		<p style="margin-top: 10px;"><button type="submit" id="submitbox" class="btn btn-primary" name="paste">Paste Code</button>
 		<button type="reset" class="btn">Reset Form</button></p>
   </form>
 </div>
