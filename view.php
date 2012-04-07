@@ -63,7 +63,7 @@
 			</p>
 			</span>
 			
-			<article id="code">
+			<article id="code" class="well">
 <?php
 
 	$geshi =& new GeSHi( $result["code"], $lang );
