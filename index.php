@@ -30,19 +30,20 @@ if( !empty( $alter ) )
     <select name="lang" id="lang" class="showTooltip" title="Syntax Highlighting">
       <?php
 
+	  $langs = $db->QueryArrayIndexed( "SELECT * FROM languages" );
       $top_langs = $db->QueryArray( "SELECT language FROM snippets GROUP BY language ORDER BY COUNT(*) DESC LIMIT 10" );
       
       foreach( $top_langs as $k => $v )
       {
-        echo '      <option value="' . $v["language"] . '">' . htmlentities( $langs["names"][$v["language"]] ) . '</option>' . "\r\n";      
+        echo '      <option value="' . $v["language"] . '">' . htmlentities( $langs[$v["language"]]['friendly_name'] ) . '</option>' . "\r\n";      
       }
 
       ?>
       <option value="glua">-</option>
       <?php
-      foreach( $langs["langs"] as $k => $v )
+      foreach( $langs as $k => $v )
       {
-        echo '      <option value="' . $v . '">' . htmlentities( $langs["names"][$v] ) . '</option>' . "\r\n";  
+        echo '      <option value="' . $k . '">' . htmlentities( $langs[$k]['friendly_name'] ) . '</option>' . "\r\n";  
       }
       ?>
     </select>

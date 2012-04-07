@@ -5,7 +5,7 @@
 	
 	$cid = (int)$_GET["id" ];
 	
-	$result = $db->SelectFirst( "snippets", "id = '$cid'" );
+	$result = $db->SelectFirst( "snippets, languages", "snippets.language = languages.lang_id AND snippets.id = '$cid'" );
 	$altres = array();
 	
 	if( $result[ "alter" ] > -1 )
@@ -40,7 +40,7 @@
 				if( !empty( $result['nname' ] ) )
 					echo 'By ' . htmlentities( $result["nname"] ) . ' - ';
 				
-				echo $langs["names"][ $result["language"] ] . ', ' . $result["time"] . '.';
+				echo htmlentities( $result['friendly_name'] ) . ', ' . $result["time"] . '.';
 			
 				if( count( $altres ) > 0 )
 					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> ' . ( !empty($altres["nname"]) ? 'by ' . htmlentities($altres["nname"]) : '');

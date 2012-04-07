@@ -5,7 +5,7 @@
 	include "includes/common.php";
 	include "includes/page/header.php";
 
-	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets WHERE private='0' ORDER BY id DESC LIMIT 15", $db );	
+	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, friendly_name, time FROM snippets, languages WHERE snippets.language = languages.lang_id AND snippets.private='0' ORDER BY id DESC LIMIT 15", $db );	
 	
 ?>
 
@@ -30,7 +30,7 @@
 				$nname = "Anonymous Coward";
 				
 				
-			echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $langs["names"][ $v["language"] ] . ', ' . $v["time"] . '</span></li>';
+			echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ', ' . $v["time"] . '</span></li>';
 		}
 	}
 	else
@@ -45,11 +45,11 @@
 			<article id="popular">
 				<ol>
 <?php
-	$top_langs = $db->QueryArray( "SELECT language, COUNT(*) AS langcount FROM snippets GROUP BY language ORDER BY langcount DESC LIMIT 5" );
+	$top_langs = $db->QueryArray( "SELECT language, COUNT(*) AS langcount, friendly_name FROM snippets, languages WHERE snippets.language = languages.lang_id GROUP BY language ORDER BY langcount DESC LIMIT 5" );
 	
 	foreach( $top_langs as $k => $v )
 	{
-		echo '<li>' . $langs["names"][ $v["language"] ] . ' <span class="langr">(' . $v[1] . ' pastes)</li>';	
+		echo '<li>' . $v['friendly_name'] . ' <span class="langr">(' . $v[1] . ' pastes)</li>';	
 	}
 ?>
                 </ol>	

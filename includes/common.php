@@ -80,8 +80,6 @@
 		return "";
 	}
 	
-	$langs = GetLangsList();
-
 	try 
 	{
 		if(!isset($_GET['openid_mode'])) 
