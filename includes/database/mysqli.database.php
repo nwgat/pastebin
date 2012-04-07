@@ -6,7 +6,8 @@ class Database {
         
         function Database( $db, $host, $user, $pass )
         {
-                $mysqli = new mysqli($host, $user, $pass, $db);    
+                $this->db = new mysqli($host, $user, $pass, $db);
+                
         }
         
         function SanitizeString( $string )
@@ -16,18 +17,18 @@ class Database {
                         $string = stripslashes( $string );
                 }
 
-                return $mysqli->real_escape_string( $string );
+                return mysqli_real_escape_string( $string );
         }
         
         function Query( $query )
         {
-                $q = $mysqli->query( $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . $mysqli->error );
+                $q = mysqli_query( $query, $this->db ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . mysqli_error() );
                 return $q;
         }
 		
 		function InsertID( )
 		{
-				return $mysqli->insert_id;
+				return mysqli_insert_id( $this->db );
 		}
         
         function QueryArray( $query ) 
@@ -35,7 +36,7 @@ class Database {
                 $return = $this->Query( $query );
                 $returnval = array();
                 
-                while( $r = $return->fetch_array(MYSQLI_ASSOC) )
+                while( $r = mysqli_fetch_array( $return, MYSQLI_ASSOC ) )
                 {
                         $returnval[] = $r;
                 }
@@ -48,7 +49,7 @@ class Database {
                 $return = $this->Query( $query );
                 $returnval = array();
                 
-                while( $r = $return->fetch_array(MYSQLI_NUM) )
+                while( $r = mysqli_fetch_array( $return, MYSQLI_NUM ) )
                 {
                         $returnval[$r[0]] = $r;
                 }
@@ -66,7 +67,7 @@ class Database {
                 if( !$return )
                         return array();
                 
-                return $return->fetch_array(MYSQLI_ASSOC);
+                return mysqli_fetch_array( $return, MYSQLI_ASSOC );
         }
         
         function SelectArray( $from, $where = "", $fields = "*", $extrasql = "" ) // extrasql is not sanitised.
@@ -79,7 +80,7 @@ class Database {
                 
                 if( $return )
                 {
-                        while( $r = $return->fetch_array(MYSQLI_ASSOC) )
+                        while( $r = mysql_fetch_array( $return, MYSQLI_ASSOC ) )
                         {
                                 $returnval[] = $r;
                         }
