@@ -36,7 +36,7 @@ class Database {
                 $return = $this->Query( $query );
                 $returnval = array();
                 
-                while( $r = mysqli_fetch_array( $return, MYSQLI_ASSOC ) )
+                while( $r = mysqli_fetch_array( $return ) )
                 {
                         $returnval[] = $r;
                 }
