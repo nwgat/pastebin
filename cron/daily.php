@@ -1,4 +1,5 @@
 <?php
+chdir(dirname(__FILE__)); // change dir to file
 
 chdir( "../" ); // change cwdir to pastebin root
 
