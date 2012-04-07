@@ -55,7 +55,7 @@ if( !empty( $alter ) )
     </select>
     <input type="text" class="showTooltip" title="Nickname" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/>
     <input type="text" class="showTooltip" title="Paste Title" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } else {echo 'value="Untitled"';} ?> size="45" />
-    <img class="icon-lock" title="Private Paste?"><input type="checkbox" class"checkbox-inline" title="Private Paste?" name="private" value="1">
+    <img class="icon-lock" alt="Private Paste?"><input type="checkbox" class="checkbox-inline showTooltip" title="Private Paste?" name="private" value="1">
     <input name="website" class="showTooltip" type="hidden" id="website" title="Website" />
     <input name="email" class="showTooltip" type="text" id="email" style="display:none" value=""/>
 	
