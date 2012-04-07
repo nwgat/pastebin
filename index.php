@@ -26,7 +26,7 @@ if( !empty( $alter ) )
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />
     <input type="hidden" name="shemail" value="<?php echo  $_SESSION['user_login'];  ?>" />
-    <textarea rows="25" cols="90" name="code" id="code" style="width: 99%; height: 50%; margin-bottom: 5px;"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea>
+    <textarea rows="25" cols="90" name="code" id="code" style="width: 99%; height: 50%; margin-bottom: 5px; margin-top: 10px;"><?php if( !empty( $alter ) ) { echo htmlentities( $orig["code"] ); } ?></textarea>
     <select name="lang" id="lang" class="showTooltip" title="Syntax Highlighting">
       <?php
 
