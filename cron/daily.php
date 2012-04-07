@@ -2,18 +2,18 @@
 
 chdir( "../" ); // change cwdir to pastebin root
 
-include "includes/common.php";
+include "../includes/common.php";
 
 // check to see if we have any new languages to add to the database
 $languages = $db->QueryArrayIndexed( "SELECT * FROM languages" );
-$dir = opendir( getcwd() . "/includes/geshi/geshi");
+$dir = opendir( getcwd() . "../includes/geshi/geshi");
 
 while( $file = readdir($dir) )
 {
 	if ( $file == '..' || $file == '.' || !stristr($file, '.') || $file == 'css-gen.cfg' || $file == ".svn" ) continue;
 		
 	$lang = substr($file, 0,  strpos($file, '.'));
-	$lang_file = file_get_contents( getcwd() . "/includes/geshi/geshi/$file" );
+	$lang_file = file_get_contents( getcwd() . "../includes/geshi/geshi/$file" );
 
 	$matches = array();
 	preg_match( '/LANG_NAME\'.*?=>.*?\'(.+)\',/', $lang_file, $matches );
