@@ -49,7 +49,7 @@ class Database {
                 $return = $this->Query( $query );
                 $returnval = array();
                 
-                while( $r = mysqli_fetch_array( $return, MYSQLI_NUM ) )
+                while( $r = mysqli_fetch_array( $return->result_id, MYSQLI_ASSOC ) )
                 {
                         $returnval[$r[0]] = $r;
                 }
@@ -67,7 +67,7 @@ class Database {
                 if( !$return )
                         return array();
                 
-                return mysqli_fetch_array( $return, MYSQLI_ASSOC );
+                return mysqli_fetch_array( $return->result_id, MYSQLI_ASSOC );
         }
         
         function SelectArray( $from, $where = "", $fields = "*", $extrasql = "" ) // extrasql is not sanitised.
@@ -80,7 +80,7 @@ class Database {
                 
                 if( $return )
                 {
-                        while( $r = mysql_fetch_array( $return, MYSQLI_ASSOC ) )
+                        while( $r = mysql_fetch_array( $return->result_id, MYSQLI_ASSOC ) )
                         {
                                 $returnval[] = $r;
                         }
