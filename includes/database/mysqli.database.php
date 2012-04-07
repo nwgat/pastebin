@@ -21,7 +21,7 @@ class Database {
         
         function Query( $query )
         {
-                $q = $mysqli->query( $query, $this->db ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . $mysqli->error );
+                $q = $mysqli->query( $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . $mysqli->error );
                 return $q;
         }
 		
