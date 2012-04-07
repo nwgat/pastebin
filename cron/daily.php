@@ -13,7 +13,7 @@ while( $file = readdir($dir) )
 	if ( $file == '..' || $file == '.' || !stristr($file, '.') || $file == 'css-gen.cfg' || $file == ".svn" ) continue;
 		
 	$lang = substr($file, 0,  strpos($file, '.'));
-	$lang_file = file_get_contents( dirname(__FILE__) . "/geshi/geshi/$file" );
+	$lang_file = file_get_contents( getcwd() . "/includes/geshi/geshi/$file" );
 
 	$matches = array();
 	preg_match( '/LANG_NAME\'.*?=>.*?\'(.+)\',/', $lang_file, $matches );
