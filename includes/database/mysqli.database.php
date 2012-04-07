@@ -6,7 +6,7 @@ class Database {
         
         function Database( $db, $host, $user, $pass )
         {
-                $this->db = $mysqli = new mysqli($host, $user, $pass, $db);    
+                $this->db = new mysqli($host, $user, $pass, $db);    
         }
         
         function SanitizeString( $string )
@@ -16,18 +16,18 @@ class Database {
                         $string = stripslashes( $string );
                 }
 
-                return $mysqli->real_escape_string( $string );
+                return real_escape_string( $string );
         }
         
         function Query( $query )
         {
-                $q = $mysqli->query( $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . $mysqli->error );
+                $q = query( $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . error );
                 return $q;
         }
 		
 		function InsertID( )
 		{
-				return $mysqli->insert_id;
+				return insert_id;
 		}
         
         function QueryArray( $query ) 
