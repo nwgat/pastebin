@@ -31,7 +31,7 @@ while( $file = readdir($dir) )
 	elseif( $languages[$lang] && $languages[$lang]['friendly_name'] != $friendly_name )
 	{
 		$db->Query( 'UPDATE languages SET `friendly_name` = \'' . $db->SanitizeString( $friendly_name ) . '\' WHERE `lang_id` = \'' . $lang . '\'' );
-		echo "Updated record for $lang / $friendly_name";
+		echo "Updated record for $lang / $friendly_name\r\n";
 	}
 }
 
