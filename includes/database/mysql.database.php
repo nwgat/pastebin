@@ -43,6 +43,19 @@ class Database {
                 
                 return $returnval;      
         }
+		
+		function QueryArrayIndexed( $query )
+		{
+                $return = $this->Query( $query );
+                $returnval = array();
+                
+                while( $r = mysql_fetch_array( $return ) )
+                {
+                        $returnval[$r[0]] = $r;
+                }
+                
+                return $returnval;    		
+		}
         
         function SelectFirst( $from, $where = "", $fields = "*", $extrasql = "" )
         {

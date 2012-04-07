@@ -1,23 +1,29 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.10
+-- version 3.2.4
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 12, 2012 at 02:05 PM
+-- Generation Time: Apr 07, 2012 at 03:44 AM
 -- Server version: 5.1.41
--- PHP Version: 5.3.2-1ubuntu4.14
+-- PHP Version: 5.3.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
+--
+-- Database: `pastebin`
+--
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+-- --------------------------------------------------------
 
 --
--- Database: `pb_lua`
+-- Table structure for table `languages`
 --
+
+CREATE TABLE IF NOT EXISTS `languages` (
+  `lang_id` varchar(25) NOT NULL,
+  `friendly_name` text NOT NULL,
+  PRIMARY KEY (`lang_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -30,11 +36,197 @@ CREATE TABLE IF NOT EXISTS `snippets` (
   `nname` varchar(75) DEFAULT NULL,
   `sname` varchar(125) DEFAULT NULL,
   `code` longtext NOT NULL,
-  `language` varchar(75) NOT NULL DEFAULT 'text',
+  `language` varchar(75) NOT NULL,
   `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `alter` int(8) NOT NULL DEFAULT '-1',
   `deleteafter` int(12) NOT NULL,
   `shemail` varchar(125) NOT NULL,
   `private` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2789 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+
+
+--
+-- Dumping data for table `languages`
+--
+
+INSERT INTO `languages` (`lang_id`, `friendly_name`) VALUES
+('php', 'PHP'),
+('4cs', 'GADV 4CS'),
+('abap', 'ABAP'),
+('actionscript', 'ActionScript'),
+('actionscript3', 'ActionScript 3'),
+('ada', 'Ada'),
+('apache', 'Apache configuration'),
+('applescript', 'AppleScript'),
+('apt_sources', 'Apt sources'),
+('asm', 'ASM'),
+('asp', 'ASP'),
+('autoconf', 'Autoconf'),
+('autohotkey', 'Autohotkey'),
+('autoit', 'AutoIt'),
+('avisynth', 'AviSynth'),
+('awk', 'awk'),
+('bash', 'Bash'),
+('basic4gl', 'Basic4GL'),
+('bf', 'Brainfuck'),
+('bibtex', 'BibTeX'),
+('blitzbasic', 'BlitzBasic'),
+('bnf', 'bnf'),
+('boo', 'Boo'),
+('c', 'C'),
+('caddcl', 'CAD DCL'),
+('cadlisp', 'CAD Lisp'),
+('cfdg', 'CFDG'),
+('cfm', 'ColdFusion'),
+('chaiscript', 'ChaiScript'),
+('cil', 'CIL'),
+('clojure', 'Clojure'),
+('cmake', 'CMake'),
+('cobol', 'COBOL'),
+('cpp-qt', 'C++ (QT)'),
+('cpp', 'C++'),
+('csharp', 'C#'),
+('css', 'CSS'),
+('cuesheet', 'Cuesheet'),
+('c_mac', 'C (Mac)'),
+('d', 'D'),
+('dcs', 'DCS'),
+('delphi', 'Delphi'),
+('diff', 'Diff'),
+('div', 'DIV'),
+('dos', 'DOS'),
+('dot', 'dot'),
+('ecmascript', 'ECMAScript'),
+('eiffel', 'Eiffel'),
+('email', 'eMail (mbox)'),
+('erlang', 'Erlang'),
+('fo', 'FO (abas-ERP)'),
+('fortran', 'Fortran'),
+('freebasic', 'FreeBasic'),
+('fsharp', 'F#'),
+('gambas', 'GAMBAS'),
+('gdb', 'GDB'),
+('genero', 'genero'),
+('genie', 'Genie'),
+('gettext', 'GNU Gettext'),
+('glsl', 'glSlang'),
+('glua', 'Garry''s Mod Lua'),
+('gml', 'GML'),
+('gnuplot', 'Gnuplot'),
+('groovy', 'Groovy'),
+('gwbasic', 'GwBasic'),
+('haskell', 'Haskell'),
+('hicest', 'HicEst'),
+('hq9plus', 'HQ9+'),
+('html4strict', 'HTML'),
+('icon', 'Icon'),
+('idl', 'Uno Idl'),
+('ini', 'INI'),
+('inno', 'Inno'),
+('intercal', 'INTERCAL'),
+('io', 'Io'),
+('j', 'J'),
+('java', 'Java'),
+('java5', 'Java(TM) 2 Platform Standard Edition 5.0'),
+('javascript', 'Javascript'),
+('jquery', 'jQuery'),
+('kixtart', 'KiXtart'),
+('klonec', 'KLone C'),
+('klonecpp', 'KLone C++'),
+('latex', 'LaTeX'),
+('lisp', 'Lisp'),
+('locobasic', 'Locomotive Basic'),
+('logtalk', 'Logtalk'),
+('lolcode', 'LOLcode'),
+('lotusformulas', 'Lotus Notes @Formulas'),
+('lotusscript', 'LotusScript'),
+('lscript', 'LScript'),
+('lsl2', 'LSL2'),
+('lua', 'Lua'),
+('luag', 'Garry''s Mod Lua (Legacy)'),
+('m68k', 'Motorola 68000 Assembler'),
+('magiksf', 'MagikSF'),
+('make', 'GNU make'),
+('mapbasic', 'MapBasic'),
+('matlab', 'Matlab M'),
+('mirc', 'mIRC Scripting'),
+('mmix', 'MMIX'),
+('modula2', 'Modula-2'),
+('modula3', 'Modula-3'),
+('mpasm', 'Microchip Assembler'),
+('mxml', 'MXML'),
+('mysql', 'MySQL'),
+('newlisp', 'newlisp'),
+('nsis', 'NSIS'),
+('oberon2', 'Oberon-2'),
+('objc', 'Objective-C'),
+('ocaml-brief', 'OCaml (brief)'),
+('ocaml', 'OCaml'),
+('oobas', 'OpenOffice.org Basic'),
+('oracle11', 'Oracle 11 SQL'),
+('oracle8', 'Oracle 8 SQL'),
+('oxygene', 'Oxygene (Delphi Prism)'),
+('oz', 'OZ'),
+('pascal', 'Pascal'),
+('pcre', 'PCRE'),
+('per', 'per'),
+('perl', 'Perl'),
+('perl6', 'Perl 6'),
+('pf', 'OpenBSD Packet Filter'),
+('php-brief', 'PHP (brief)'),
+('pic16', 'PIC16'),
+('pike', 'Pike'),
+('pixelbender', 'Pixel Bender 1.0'),
+('plsql', 'PL/SQL'),
+('postgresql', 'PostgreSQL'),
+('povray', 'POVRAY'),
+('powerbuilder', 'PowerBuilder'),
+('powershell', 'PowerShell'),
+('progress', 'Progress'),
+('prolog', 'Prolog'),
+('properties', 'PROPERTIES'),
+('providex', 'ProvideX'),
+('purebasic', 'PureBasic'),
+('python', 'Python'),
+('q', 'q/kdb+'),
+('qbasic', 'QBasic/QuickBASIC'),
+('rails', 'Rails'),
+('rebol', 'REBOL'),
+('reg', 'Microsoft Registry'),
+('robots', 'robots.txt'),
+('rpmspec', 'RPM Specification File'),
+('rsplus', 'R / S+'),
+('ruby', 'Ruby'),
+('sas', 'SAS'),
+('scala', 'Scala'),
+('scheme', 'Scheme'),
+('scilab', 'SciLab'),
+('sdlbasic', 'sdlBasic'),
+('smalltalk', 'Smalltalk'),
+('smarty', 'Smarty'),
+('sql', 'SQL'),
+('systemverilog', 'SystemVerilog'),
+('tcl', 'TCL'),
+('teraterm', 'Tera Term Macro'),
+('text', 'Text'),
+('thinbasic', 'thinBasic'),
+('tsql', 'T-SQL'),
+('typoscript', 'TypoScript'),
+('unicon', 'Unicon (Unified Extended Dialect of Icon)'),
+('vala', 'Vala'),
+('vb', 'Visual Basic'),
+('vbnet', 'vb.net'),
+('verilog', 'Verilog'),
+('vhdl', 'VHDL'),
+('vim', 'Vim Script'),
+('visualfoxpro', 'Visual Fox Pro'),
+('visualprolog', 'Visual Prolog'),
+('whitespace', 'Whitespace'),
+('whois', 'Whois (RPSL format)'),
+('winbatch', 'Winbatch'),
+('xbasic', 'XBasic'),
+('xml', 'XML'),
+('xorg_conf', 'Xorg configuration'),
+('xpp', 'X++'),
+('z80', 'ZiLOG Z80 Assembler');
