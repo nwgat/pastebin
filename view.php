@@ -28,6 +28,21 @@
 	$page = "View Code";
 	$lang = $result["language" ];
 	
+	$expires = "";
+	
+	if( $result["deleteafter"] > 0 )
+	{
+		$postdate = strtotime( $result["time"] . ' GMT' );
+		$expiredate = $postdate + ( $result["deleteafter"] * 3600 );
+		
+		$seconds_left = ($expiredate-date("U"));
+		
+		if( $seconds_left <= 0 )
+			$expires = 'Expired, pending deletion.';
+		else
+			$expires = 'Expires ' . ( $seconds_left >= 86400 ? floor($seconds_left/86400) . ' day(s)' :  floor($seconds_left/3600) . ' hour(s)' ) . ' from now.';
+	}
+	
 	include "includes/page/header.php";
 
 ?>
@@ -40,7 +55,7 @@
 				if( !empty( $result['nname' ] ) )
 					echo 'By ' . htmlentities( $result["nname"] ) . ' - ';
 				
-				echo htmlentities( $result['friendly_name'] ) . ', ' . $result["time"] . '.';
+				echo htmlentities( $result['friendly_name'] ) . ', ' . $result["time"] . '. ' . $expires;
 			
 				if( count( $altres ) > 0 )
 					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> ' . ( !empty($altres["nname"]) ? 'by ' . htmlentities($altres["nname"]) : '');
