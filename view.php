@@ -32,7 +32,7 @@
 	
 	if( $result["deleteafter"] > 0 )
 	{
-		$postdate = strtotime( $result["time"] . ' GMT' );
+		$postdate = strtotime( $result["time"] );
 		$expiredate = $postdate + ( $result["deleteafter"] * 3600 );
 		
 		$seconds_left = ($expiredate-date("U"));
@@ -76,12 +76,14 @@
 			</article>
 			
 			<?php if( count( $alterations ) > 0 ) { ?>
+			<article id="alterations">
 				<h3>Code Alterations</h3>
 				<ul>
 					<?php foreach( $alterations as $ak => $av ) { ?>
-						<li><a href="./<?php echo $av["id"]; ?>"><?php echo htmlentities( $av["sname"] ); ?></a> by <?php echo ( !empty($av["nname"]) ? htmlentities($av["nname"]) : "<em>Anonymous Coward</em>"); ?></li>
+						<li><a href="./<?php echo $av["id"]; ?>"><?php echo htmlentities( $av["sname"] ); ?></a> by <?php echo ( !empty($av["nname"]) ? htmlentities($av["nname"]) : "<em>Anonymous Coward</em>"); ?>. <span class="langr"><?php echo $av["time"]; ?></span></li>
 					<?php } ?>
 				</ul>
+			</article>
 			<?php } ?>
 		
 <?php include "includes/page/footer.php"; ?>

@@ -22,6 +22,11 @@ if( !empty( $alter ) )
     <div id="alert" class="alert alert-error hide fade in">
     <strong>Warning!</strong> Please remember to include some text in your paste!
     </div>
+<?php if( !empty($orig) ): ?>
+	<div id="alterinfo" class="alert alert-info">
+		You are submitting an alteration of <a href="<?php echo $orig["id"]; ?>"><?php echo htmlentities($orig["sname"]); ?></a>.
+	</div>
+<?php endif; ?>
   <form action="paste.php" method="post" id="pasteform" class="form-inline">
     <?php if( !empty( $alter ) ) { echo '<input type="hidden" name="alter" value="' . $alter . '" />'; } ?>
     <input type="hidden" name="user_token" value="<?php echo  $_SESSION['user_token'];  ?>" />

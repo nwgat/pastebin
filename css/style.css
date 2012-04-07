@@ -25,6 +25,10 @@ body {
 	padding-top: 5px;
 }
 
+#alterations {
+	margin-top: 10px;
+}
+
 textarea#code {
 	font-family: Consolas, 'Courier New', courier;
 }
