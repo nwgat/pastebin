@@ -8,6 +8,12 @@ include "includes/common.php";
 $db->Query( "DELETE FROM snippets WHERE deleteafter > 0 AND NOW() > DATE_ADD(`time`, INTERVAL `deleteafter` HOUR)");
 
 // check to see if we have any new languages to add to the database
+$db->Query( "CREATE TABLE IF NOT EXISTS `languages` (
+  `lang_id` varchar(25) NOT NULL,
+  `friendly_name` text NOT NULL,
+  PRIMARY KEY (`lang_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;" ); // remove on next pull
+
 $languages = $db->QueryArrayIndexed( "SELECT * FROM languages" );
 $dir = opendir( getcwd() . "/includes/geshi/geshi");
 
