@@ -10,25 +10,6 @@
 	
 	$showCodeButtons = false;
 	
-	function DeleteExpired( $db )
-	{
-			// delete after x days code
-			$cd = date( "U" ); // current time as unix timestamp.
-	
-			$limitedsnippits = $db->SelectArray( "snippets", "deleteafter > '0'" );
-	
-			foreach( $limitedsnippits as $k => $hold )
-			{
-					$delsec = $hold["deleteafter"] * 3600; // get this in seconds.
-					
-					if( $hold["timestamp"] + $delsec < $cd )
-					{
-							$db->Query( "DELETE FROM snippets WHERE id = '" . $hold["sid"] . "'", $db );
-					}
-			}
-			// end delete after x days
-	}
-	
 	function GetLangsList( )
 	{
 			// loop through the avaliable languages for syntax highlighting
@@ -99,7 +80,6 @@
 		return "";
 	}
 	
-	DeleteExpired( $db );
 	$langs = GetLangsList();
 
 	try 
