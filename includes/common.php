@@ -3,7 +3,7 @@
 	session_start();
 	
 	include "includes/config.php";
-	include "includes/database/mysql.database.php";
+	include "includes/database/mysqli.database.php";
 	include 'includes/openid.php';
 
 	$db = new Database( $dbname, $dbhost, $dbuser, $dbpass );
