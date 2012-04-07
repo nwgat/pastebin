@@ -16,9 +16,10 @@
 	<div class="pagination pagination-right">
 		<ul>
 			<li<?php if($page == 1):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page-1; ?>">&laquo;</a></li>
-			<?php for( $i = max(1,$page-5); $i <= min( ceil($count[0][0]/5), $page+5 ); $i++ ): ?>
+			<?php for( $i = max(1,$page-2); $i <= min( ceil($count[0][0]/5), $page+2 ); $i++ ): ?>
 			<li<?php if($page == $i): ?> class="active"<?php endif; ?>><a href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 			<?php endfor; ?>
+			<li<?php if($page >= ceil($count[0][0]/5)):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page+1; ?>">&raquo;</a></li>
 		</ul>
 	</div>
 	
