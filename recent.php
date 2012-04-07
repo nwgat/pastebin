@@ -10,7 +10,7 @@
 ?>
 
 			<h3>Recently Pasted Code</h3>
-			<p>Showing the last <?php echo count($snippets_list); ?> pastes in the database.</p>
+			<p>Showing the last <?php echo count($snippets_list); ?> pastes in the database. <a href="browse">Browse all</a></p>
 			
 			<article id="last15">
 				<ul>

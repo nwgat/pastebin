@@ -9,39 +9,7 @@
 	$db = new Database( $dbname, $dbhost, $dbuser, $dbpass );
 	
 	$showCodeButtons = false;
-	
-	function GetLangsList( )
-	{
-			// loop through the avaliable languages for syntax highlighting
-			if (!($dir = @opendir(dirname(__FILE__) . "/geshi/geshi"))) {
-					echo '<option>Could not find lists of languages!</option>';
-			}
-	
-			$langs = array();
-	
-			while ( $file = readdir($dir) )
-			{
-				if ( $file == '..' || $file == '.' || !stristr($file, '.') || $file == 'css-gen.cfg' || $file == ".svn" ) continue;
-					
-				$lang = substr($file, 0,  strpos($file, '.'));
-				$lang_file = file_get_contents( dirname(__FILE__) . "/geshi/geshi/$file" );
 
-				$matches = array();
-				preg_match( '/LANG_NAME\'.*?=>.*?\'(.+)\',/', $lang_file, $matches );
-				
-				$lang_names[ $lang ] = stripslashes( $matches[1] );
-				$langs[] = $lang;
-			}
-			
-			closedir($dir);
-			sort($langs, SORT_STRING);
-	
-			$returnv[ "langs" ] = $langs;
-			$returnv[ "names" ] = $lang_names;
-			
-			return $returnv;
-	}
-	
 	function findUserHandle()
 	{
 		global $_SESSION, $db;
