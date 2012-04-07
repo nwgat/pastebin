@@ -44,7 +44,7 @@
 		if( $seconds_left <= 0 )
 			$expires = 'Expired, pending deletion.';
 		else
-			$expires = 'Expires ' . ( $seconds_left >= 86400 ? $days_left . getPlural( $days_left, ' day', ' days' ) :  $hours_left . getPlural( $hours_left, ' hour', ' hours' ) . ' and ' . $hour_secleft . getPlural( $hour_secleft, ' hour', ' hours' ) . ' from now.' );
+			$expires = 'Expires ' . ( $seconds_left >= 86400 ? $days_left . getPlural( $days_left, ' day', ' days' ) :  $hours_left . getPlural( $hours_left, ' hour', ' hours' ) . ' and ' . $hour_secleft . getPlural( $hour_secleft, ' minute', ' minutes' ) . ' from now.' );
 	}
 	
 	include "includes/page/header.php";
