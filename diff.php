@@ -37,7 +37,7 @@ function diffUsingJS () {
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("diffdiv");
 	while (diffoutputdiv.firstChild) diffoutputdiv.removeChild(diffoutputdiv.firstChild);
-	contextSize = "2";
+	contextSize = "1";
 	contextSize = contextSize ? contextSize : null;
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
