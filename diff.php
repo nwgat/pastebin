@@ -48,10 +48,6 @@ function diffUsingJS () {
 }
 window.onload = function () { diffUsingJS(); };
 
-
-});
-
-
 </script>
 <div classs="well" id="diffdiv"></div>
 
