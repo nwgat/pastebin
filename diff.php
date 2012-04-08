@@ -31,13 +31,12 @@ var $ = dojo.byId;
 var url = window.location.toString().split("#")[0];
 
 function diffUsingJS () {
-	var base = difflib.stringAsLines($(<?php echo json_encode(htmlentities($altres['code']));?>).value);
-	var newtxt = difflib.stringAsLines($(<?php echo json_encode($result['code']);?>).value);
+	var base = difflib.stringAsLines(<?php echo json_encode(htmlentities($altres['code']));?>);
+	var newtxt = difflib.stringAsLines(<?php echo json_encode($result['code']);?>);
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("well");
 	while (diffoutputdiv.firstChild) diffoutputdiv.removeChild(diffoutputdiv.firstChild);
-	contextSize = "0";
 	contextSize = contextSize ? contextSize : null;
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
