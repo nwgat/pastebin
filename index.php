@@ -82,7 +82,7 @@ if( !empty( $edit ) )
     <input name="website" type="hidden" id="website" title="Website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
 		<p style="margin-top: 10px;"><button type="submit" id="submitbox" class="btn btn-primary" name="paste">Paste Code</button>
-		<?php if ( empty( $edit ) ){ echo '<button type="reset" class="btn">Reset Form</button></p>}';}?>
+		<?php if ( empty( $edit ) ){ echo '<button type="reset" class="btn">Reset Form</button></p>';}?>
   </form>
 </div>
 
