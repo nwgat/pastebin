@@ -68,7 +68,7 @@
 	include "includes/page/header.php";
 		if( $result[ "alter" ] > -1 )
 	{
-$diff = htmlDiff($altres['sname'],$result['sname']);
+$diff = htmlDiff($altres['code'],$result['code']);
 print_r($diff);
 }
 ?>
