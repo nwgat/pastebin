@@ -10,6 +10,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 	$code = $_POST["code"]; // pasted code **required**
 	$lang = $_POST["lang"]; //language to highlight it as
 	$alter = $_POST["alter"]; // is it an alteration
+	$edit = $_POST["edit"]; // is it an edit
 	$shemail = $_POST["shemail"]; // email of user
 	$private = $_POST["private"];
 
@@ -32,6 +33,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		}               
 			
 		$paste = array();
+		if ( !empty( $edit ) )
 		$paste[ "sname" ] = $sname;
 		$paste[ "nname" ] = $nname;
 		$paste[ "code" ] = $code;
@@ -43,9 +45,17 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		{	
 			$paste[ "alter" ] = (int)$alter;
 		}
-		
+		if( !empty ( $edit ) )
+		{
+		$login = $_SESSION['user_login'];	
+		$db->SimpleUpdate( "snippets", $paste, "id = '$edit' AND shemail = '$login'" )
+		$id = $edit;
+		}
+		else
+		{
 		$db->SimpleInsert( "snippets", $paste );
 		$id = $db->InsertID();
+	    }
 		unset($_SESSION['user_token']);
   
 		if( $id != false )
@@ -55,6 +65,12 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 			if( !$_POST["ajax"] ) header( "Location: $id\r\n" );
 			echo $id;
 			
+			return;
+		}
+		else
+		{
+			unset($_SESSION['user_token']);
+			header( "Location: ./" );
 			return;
 		}
 	}
