@@ -80,8 +80,8 @@
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
 <p class='navbar-text pull-right' id='loginbuttons'>
-  <a href='./index.php?login' class='navTooltip' title='Login via Google'><img src='img/google.png' alt='Google' title='Login via Google' /></a>
-  <a href='./index.php?login&amp;provider=steam' class='navTooltip' title='Login via Steam'><img src='img/steam.png' alt='Steam Community' title='Login via Steam Community' /></a>
+  <a href='./index.php?login' class='navTooltip' title='Login via Google'><img src='img/google.png' alt='Google'/></a>
+  <a href='./index.php?login&amp;provider=steam' class='navTooltip' title='Login via Steam'><img src='img/steam.png' alt='Steam Community'/></a>
 </p>
 <?php } ?>
 </div><!--/.nav-collapse -->
