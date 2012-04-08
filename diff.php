@@ -31,8 +31,8 @@ var $ = dojo.byId;
 var url = window.location.toString().split("#")[0];
 
 function diffUsingJS () {
-	var base = difflib.stringAsLines($("<?php echo '$altres[\"code\"]';?>").value);
-	var newtxt = difflib.stringAsLines($("<?php echo '$result[\"code\"]';?>").value);
+	var base = difflib.stringAsLines($("<?php echo ($altres['code']);?>").value);
+	var newtxt = difflib.stringAsLines($("<?php echo ($result['code')';?>").value);
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("well");
@@ -41,11 +41,10 @@ function diffUsingJS () {
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
 												   opcodes:opcodes,
-												   baseTextName:"<?php echo '$altres[\"sname\"]';?>",
-												   newTextName:"<?php echo '$result[\"sname\"]';?>",
+												   baseTextName:"<?php echo ($altres['sname']);?>",
+												   newTextName:"<?php echo ($result['sname']);?>",
 												   contextSize:contextSize,
 												   viewType: 1 }));
-	window.location = url + "#diff";
 	diffUsingJS();
 }
 </script>
