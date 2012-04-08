@@ -41,7 +41,7 @@ textarea#code, pre {
 .noborder { border: 0px none; }
 .navbar {z-index: 0 !important;}
 .tooltip-inner {
-	background-color: #999999 !important;
-	color: #333 !important;
+	background-color: #f5f5f5 !important;
+	color: #ffffff !important;
 
 }
