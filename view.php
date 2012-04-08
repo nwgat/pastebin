@@ -2,7 +2,7 @@
 	
 	include "includes/common.php";
 	include "includes/geshi/geshi.php";
-	
+	include "includes/simplediff.php";
 	$cid = (int)$_GET["id" ];
 	
 	$result = $db->SelectFirst( "snippets, languages", "snippets.language = languages.lang_id AND snippets.id = '$cid'" );
@@ -64,9 +64,13 @@
 			$expires .= ' from now.';
 		}
 	}
-	
-	include "includes/page/header.php";
 
+	include "includes/page/header.php";
+		if( $result[ "alter" ] > -1 )
+	{
+$diff = htmlDiff($altres['sname'],$result['sname']);
+print_r($diff);
+}
 ?>
 
 			<?php if(!empty($expires)): ?>
