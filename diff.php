@@ -42,7 +42,7 @@ function diffUsingJS () {
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
 												   opcodes:opcodes,
-												   baseTextName:<?php echo json_encode(htmlentities($altres['sname']));?>,
+												   baseTextName:<?php echo json_encode($altres['sname']);?>,
 												   newTextName:<?php echo json_encode($result['sname']);?>,
 												   contextSize:contextSize,
 												   viewType: 0 }));
