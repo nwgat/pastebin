@@ -33,7 +33,6 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		}               
 			
 		$paste = array();
-		if ( !empty( $edit ) )
 		$paste[ "sname" ] = $sname;
 		$paste[ "nname" ] = $nname;
 		$paste[ "code" ] = $code;
