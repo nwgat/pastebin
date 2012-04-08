@@ -46,8 +46,9 @@ function diffUsingJS () {
 												   newTextName:<?php echo json_encode($result['sname']);?>,
 												   contextSize:contextSize,
 												   viewType: 1 }));
-	diffUsingJS();
 }
+diffUsingJS();
+
 </script>
 <div classs="well" id="diffdiv"></div>
 
