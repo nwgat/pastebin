@@ -12,6 +12,14 @@
 	
 	
 	include "includes/page/header.php";
+	if( isset($_GET["delete"]) )
+	{
+	?>
+		<div id="alterinfo" class="alert alert-info">
+	The paste was deleted
+	</div>
+	<?php
+	}
 	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, friendly_name, time FROM snippets, languages WHERE snippets.language = languages.lang_id AND shemail='".$shemail."' ORDER BY shemail DESC, id DESC");
 	$num_code = count( $snippets_list );
 	
@@ -46,7 +54,7 @@
 					$nname = "Anonymous Coward";
 					
 					
-				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ' ' . $v["time"] . '</span><a href="./delete?' . $v["id"] . '"><img class="icon-remove" style="margin-left: 5px; margin-top: 3px;"></a></li>';
+				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ' ' . $v["time"] . '</span><a href="./delete?id=' . $v["id"] . '"><img class="icon-remove" style="margin-left: 5px; margin-top: 3px;"></a></li>';
 			}
 		}
 	}
