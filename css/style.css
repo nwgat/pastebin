@@ -43,5 +43,7 @@ textarea#code, pre {
 .tooltip-inner {
 	background-color: #131517 !important;
 	color: #ffffff !important;
-
+}
+.tooltip-arrow {
+	background-color: #131517 !important;
 }
