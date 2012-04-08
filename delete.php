@@ -11,5 +11,5 @@
 
 	$did = (int)$_GET["id" ];
 	$db->Query( "DELETE FROM snippets WHERE id='" . $did . "' AND shemail='" .$shemail. "'")
-	header('Location: ./user?delete');
+	header("Location: ./user?delete\r\n");
 	?>
