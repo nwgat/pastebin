@@ -47,7 +47,7 @@
 					$nname = "Anonymous Coward";
 					
 					
-				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $langs["names"][ $v["language"] ] . ', ' . $v["time"] . '</span></li>';
+				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $langs["names"][ $v["language"] ] . ', ' . $v["time"] . '</span><span class=".icon-remove"><a href="./delete?"'.$v["id"].'</a></span></li>';
 			}
 		}
 	}
