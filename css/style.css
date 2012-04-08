@@ -2,6 +2,7 @@ body {
 	padding-top: 60px;
 	padding-bottom: 40px;
 	color: #ffffff !important;
+	font-family: Consolas, "Courier New", Tahoma, monospace !important;
 }
 
 article#code {
@@ -39,7 +40,10 @@ textarea#code, pre {
 .langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
 .titler { width: 465px; display: inline-block; }
 .noborder { border: 0px none; }
-.navbar {z-index: 0 !important;}
+.navbar {
+	z-index: 0 !important;
+    font-family: Consolas, "Courier New", Tahoma, monospace !important;
+}
 .tooltip-inner {
 	background-color: #131517 !important;
 	color: #ffffff !important;
