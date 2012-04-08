@@ -39,3 +39,4 @@ textarea#code, pre {
 .titler { width: 465px; display: inline-block; }
 .noborder { border: 0px none; }
 .tooltip {z-index: 3 !important;}
+.navbar {z-index: 0 !important;}
