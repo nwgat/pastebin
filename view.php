@@ -6,6 +6,10 @@
 	$cid = (int)$_GET["id" ];
 	
 	$result = $db->SelectFirst( "snippets, languages", "snippets.language = languages.lang_id AND snippets.id = '$cid'" );
+	if (is_null($result))
+	{
+		header( 'Location: /index' ) ;
+	}
 	$altres = array();
 	
 	if( $result[ "alter" ] > -1 )
