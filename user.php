@@ -54,7 +54,7 @@
 					$nname = "Anonymous Coward";
 					
 					
-				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ' ' . $v["time"] . '</span><a href="./?edit=' .$v["id"] . '"class="showTooltip" title="Edit Paste"><i class ="icon-pencil icon-white" style="margin-left: 5px; margin-top: 3px;"></i></a><a href="./delete?id=' . $v["id"] . '"class="showTooltip" title="Delete Paste"><i class="icon-remove icon-white" style="margin-left: 5px; margin-top: 3px;"></i></a></li>';
+				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ' ' . $v["time"] . '</span><a href="./?edit=' .$v["id"] . '"class="showTooltip" title="Edit Paste"><i class ="icon-pencil" style="margin-left: 5px; margin-top: 3px;"></i></a><a href="./delete?id=' . $v["id"] . '"class="showTooltip" title="Delete Paste"><i class="icon-remove" style="margin-left: 5px; margin-top: 3px;"></i></a></li>';
 			}
 		}
 	}
