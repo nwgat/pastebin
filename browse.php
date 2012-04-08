@@ -14,7 +14,7 @@
 	$show = ( isset($_GET["show"]) ? min((int)$_GET["show"], 15 ) : 5 );
 	$offset = ($page-1)*$show;
 	
-	$snippets = $db->QueryArray( 'SELECT id, sname, SUBSTRING(code, 1, 200) as codesub FROM snippets WHERE private = 0 ' . $additionalsql . ' ORDER BY id DESC LIMIT ' . $show . ' OFFSET ' . $offset );
+	$snippets = $db->QueryArray( 'SELECT id, nname, sname, time, SUBSTRING(code, 1, 200) as codesub FROM snippets WHERE private = 0 ' . $additionalsql . ' ORDER BY id DESC LIMIT ' . $show . ' OFFSET ' . $offset );
 	$count = $db->QueryArray( 'SELECT COUNT(id) FROM snippets WHERE private = 0 ' . $additionalsql );
 	
 	$pagination_start = max( 1, $page-7 );
@@ -36,7 +36,9 @@
 	
 <?php foreach($snippets as $k => $v ): ?>
 	<div class="well">
-		<h4><?php echo (!empty($v["sname"]) ? htmlentities($v["sname"]) : "Untitled" ); ?></h4>
+		<h4><?php echo (!empty($v["sname"]) ? htmlentities($v["sname"]) : "Untitled" ); ?> by <?php echo (!empty($v["nname"]) ? htmlentities($v["nname"]) : "Anonymous Coward" ); ?></h4>
+		<span class="langr"><?php echo $v["time"]; ?></span>
+		
 		<pre><?php echo htmlentities($v["codesub"]); ?><?php if(strlen($v["codesub"]) >= 150 ): ?>...<?php endif; ?></pre>
 		<a href="<?php echo $v["id"]; ?>">View all</a>
 	</div>

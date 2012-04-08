@@ -31,7 +31,7 @@ article#code {
 	margin-top: 10px;
 }
 
-textarea#code {
+textarea#code, pre {
 	font-family: Consolas, 'Courier New', courier;
 }
 
