@@ -46,7 +46,10 @@ function diffUsingJS () {
 												   contextSize:contextSize,
 												   viewType: 1 }));
 }
+ $(document).ready(function() {
 diffUsingJS();
+ });
+
 
 </script>
 <div classs="well" id="diffdiv"></div>
