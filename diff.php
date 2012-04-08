@@ -31,7 +31,7 @@ var $ = dojo.byId;
 var url = window.location.toString().split("#")[0];
 
 function diffUsingJS () {
-	var base = difflib.stringAsLines(<?php echo json_encode(htmlentities($altres['code']));?>);
+	var base = difflib.stringAsLines(<?php echo json_encode($altres['code']);?>);
 	var newtxt = difflib.stringAsLines(<?php echo json_encode($result['code']);?>);
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
