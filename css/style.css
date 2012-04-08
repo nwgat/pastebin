@@ -38,5 +38,8 @@ textarea#code, pre {
 .langr { font-size: 7pt; color: #6C6C6C; font-style: italic;}
 .titler { width: 465px; display: inline-block; }
 .noborder { border: 0px none; }
-.tooltip {z-index: 3 !important;}
+.tooltip-inner{
+	z-index: 3 !important;
+	background-color: #666;
+}
 .navbar {z-index: 0 !important;}
