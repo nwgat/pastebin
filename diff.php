@@ -50,7 +50,7 @@ function diffUsingJS () {
 window.onload = function () { diffUsingJS(); };
 
 </script>
-<div classs="well"><pre id="diffdiv"></pre></div>
+<div classs="well" id="diffdiv"></div>
 
 	<?php include "includes/page/footer.php"; ?>
 
