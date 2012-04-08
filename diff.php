@@ -23,8 +23,8 @@
 	include "includes/page/header.php";
 ?>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dojo/dojo.xd.js"></script>
-<script type="text/javascript" src="diffview.js"></script>
-<script type="text/javascript" src="difflib.js"></script>
+<script type="text/javascript" src="/js/diffview.js"></script>
+<script type="text/javascript" src="/js/difflib.js"></script>
 
 <script language="javascript">
 var $ = dojo.byId;

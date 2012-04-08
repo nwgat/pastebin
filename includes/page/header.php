@@ -17,7 +17,7 @@
   <!-- pastebin styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/geshi.css" />
-  <link rel="stylesheet" type="text/css" href="diffview.css"/>
+  <link rel="stylesheet" type="text/css" href="css/diffview.css"/>
   
   <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
