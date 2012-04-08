@@ -77,12 +77,12 @@ if( !empty( $edit ) )
       <option value="672">4 weeks</option>
     </select>
     <input type="text" class="showTooltip" title="Nickname" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/>
-    <input type="text" class="showTooltip" title="Paste Title" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } elseif {( !empty($edit) ) {echo ' value="' . htmlentities( $orig["sname"] ) . '"';} else {echo ' value="Untitled"';} ?> size="45" />
+    <input type="text" class="showTooltip" title="Paste Title" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } elseif ( !empty($edit) ) {echo ' value="' . htmlentities( $orig["sname"] ) . '"';} else {echo ' value="Untitled"';} ?> size="45" />
     <img class="icon-lock" style="margin-top: 4px;"><input type="checkbox" class="checkbox-inline showTooltip" title="Private Paste?" name="private" value="1">
     <input name="website" type="hidden" id="website" title="Website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
 		<p style="margin-top: 10px;"><button type="submit" id="submitbox" class="btn btn-primary" name="paste">Paste Code</button>
-		<?php if ( empty( $edit )){ echo '<button type="reset" class="btn">Reset Form</button></p>}';?>
+		<?php if ( empty( $edit ) ){ echo '<button type="reset" class="btn">Reset Form</button></p>}';}?>
   </form>
 </div>
 
