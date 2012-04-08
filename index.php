@@ -76,8 +76,8 @@ if( !empty( $edit ) )
       <option value="168">1 week</option>
       <option value="672">4 weeks</option>
     </select>
-    <input type="text" class="showTooltip" title="Nickname" name="nname" id="nname" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'value="Anonymous Coward"';} ?>/>
-    <input type="text" class="showTooltip" title="Paste Title" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } elseif ( !empty($edit) ) {echo ' value="' . htmlentities( $orig["sname"] ) . '"';} else {echo ' value="Untitled"';} ?> size="45" />
+    <input type="text" class="showTooltip" title="Nickname" name="nname" id="nname" placeholder="Your Name" size="45" <?php if(!empty($remembered_name)) {echo 'value="' . htmlentities($remembered_name) . '"';} else{echo 'placeholder="Your Name"';} ?>/>
+    <input type="text" class="showTooltip" title="Paste Title" name="sname" id="sname"<?php if( !empty( $alter ) ) { echo ' value="Alteration of ' . htmlentities( $orig["sname"] ) . '"'; } elseif ( !empty($edit) ) {echo ' value="' . htmlentities( $orig["sname"] ) . '"';} else {echo ' placeholder="Paste Title"';} ?> size="45" />
     <i class="icon-lock" style="margin-top: 4px;"></i><input type="checkbox" class="checkbox-inline showTooltip" title="Private Paste?" name="private" value="1">
     <input name="website" type="hidden" id="website" title="Website" />
     <input name="email" type="text" id="email" style="display:none" value=""/>
