@@ -46,9 +46,10 @@ function diffUsingJS () {
 												   contextSize:contextSize,
 												   viewType: 1 }));
 }
- $(document).ready(function() {
-diffUsingJS();
- });
+window.onload = function () { diffUsingJS(); };
+
+
+});
 
 
 </script>
