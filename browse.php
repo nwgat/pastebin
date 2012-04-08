@@ -5,15 +5,19 @@
 	include "includes/common.php";
 	include "includes/page/header.php";
 	
-	$page = ( isset($_GET["p"]) ? (int)$_GET["p"] : 1 );
+	$page = ( isset($_GET["p"]) ? max((int)$_GET["p"], 1 ) : 1 );
 	$search = ( isset($_GET["s"]) ? $_GET["s"] : '' );
-	
-	$offset = ($page-1)*5;
+
 	$urlappend = ( !empty($search) ? '&amp;s=' . htmlentities($search) : '' );
 	$additionalsql = ( !empty($search) ? 'AND (`sname` LIKE \'%' . $db->SanitizeString($search) . '%\' OR `code` LIKE \'%' . $db->SanitizeString($search) . '%\' )' : '' );
 	
-	$snippets = $db->QueryArray( 'SELECT id, sname, SUBSTRING(code, 1, 200) as codesub FROM snippets WHERE private = 0 ' . $additionalsql . ' ORDER BY id DESC LIMIT 5 OFFSET ' . $offset );
+	$show = ( isset($_GET["show"]) ? min((int)$_GET["show"], 15 ) : 5 );
+	$offset = ($page-1)*$show;
+	
+	$snippets = $db->QueryArray( 'SELECT id, sname, SUBSTRING(code, 1, 200) as codesub FROM snippets WHERE private = 0 ' . $additionalsql . ' ORDER BY id DESC LIMIT ' . $show . ' OFFSET ' . $offset );
 	$count = $db->QueryArray( 'SELECT COUNT(id) FROM snippets WHERE private = 0 ' . $additionalsql );
+	
+	$pagination_start = max( 1, $page-7 );
 ?>
 
 	<?php if( !empty($search) ): ?>
@@ -23,10 +27,10 @@
 	<div class="pagination pagination-right">
 		<ul>
 			<li<?php if($page == 1):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page-1 . $urlappend; ?>">&laquo;</a></li>
-			<?php for( $i = max(1,$page-2); $i <= min( ceil($count[0][0]/5), $page+2 ); $i++ ): ?>
+			<?php for( $i = $pagination_start; $i <= min( $pagination_start+7, ceil( $count[0][0]/$show ) ); $i++ ): ?>
 			<li<?php if($page == $i): ?> class="active"<?php endif; ?>><a href="?p=<?php echo $i . $urlappend; ?>"><?php echo $i; ?></a></li>
 			<?php endfor; ?>
-			<li<?php if($page >= ceil($count[0][0]/5)):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page+1 . $urlappend; ?>">&raquo;</a></li>
+			<li<?php if($page >= ceil($count[0][0]/$show)):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page+1 . $urlappend; ?>">&raquo;</a></li>
 		</ul>
 	</div>
 	
@@ -41,7 +45,7 @@
 	<div class="pagination pagination-right">
 		<ul>
 			<li<?php if($page == 1):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page-1 . $urlappend; ?>">&laquo;</a></li>
-			<li<?php if($page >= ceil($count[0][0]/5)):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page+1 . $urlappend; ?>">&raquo;</a></li>
+			<li<?php if($page >= ceil($count[0][0]/$show)):?> class="disabled"<?php endif; ?>><a href="?p=<?php echo $page+1 . $urlappend; ?>">&raquo;</a></li>
 		</ul>
 	</div>
 <?php include "includes/page/footer.php"; ?>
