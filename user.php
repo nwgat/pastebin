@@ -47,7 +47,7 @@
 					$nname = "Anonymous Coward";
 					
 					
-				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $langs["names"][ $v["language"] ] . ', ' . $v["time"] . '</span><a href="./delete?"'.$v["id"].'><img class=".icon-remove"></a></li>';
+				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . htmlentities( $langs[$v["language"]]['friendly_name'] ) . ' ' . $v["time"] . '</span><a href="./delete?"'.$v["id"].'><img class=".icon-remove"></a></li>';
 			}
 		}
 	}
