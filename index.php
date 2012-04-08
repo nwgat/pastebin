@@ -102,7 +102,6 @@ try
     }
     });
 
- $(".showTooltip").tooltip( );
 }
 catch(e)
 {}

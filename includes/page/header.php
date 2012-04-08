@@ -75,13 +75,13 @@
         if( !empty( $_SESSION["user_login"] ) ) // we're logged in
 		{
 			$remembered_name = findUserHandle();
-			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user'>".htmlentities($remembered_name)."</a></p>");
+			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user' class='showTooltip' title='Your Pastes'>".htmlentities($remembered_name)."</a></p>");
 		}
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
 <p class='navbar-text pull-right' id='loginbuttons'>
-  <a href='./index.php?login'><img src='img/google.png' alt='Google' title='Login via Google' /></a>
-  <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community' title='Login via Steam Community' /></a>
+  <a href='./index.php?login'><img src='img/google.png' alt='Google' title='Login via Google' class='showTooltip'/></a>
+  <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community' title='Login via Steam Community' class='showTooltip'/></a>
 </p>
 <?php } ?>
 </div><!--/.nav-collapse -->
