@@ -36,7 +36,7 @@ function diffUsingJS () {
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("well");
-	
+	contextSize = "0";
 	contextSize = contextSize ? contextSize : null;
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
