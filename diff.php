@@ -35,9 +35,10 @@ function diffUsingJS () {
 	var newtxt = difflib.stringAsLines(<?php echo json_encode($result['code']);?>);
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
-	var diffoutputdiv = $("well");
+	var diffoutputdiv = $("diffdiv");
 	contextSize = "0";
 	contextSize = contextSize ? contextSize : null;
+	while (diffoutputdiv.firstChild) diffoutputdiv.removeChild(diffoutputdiv.firstChild);
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
 												   newTextLines:newtxt,
 												   opcodes:opcodes,
@@ -48,7 +49,7 @@ function diffUsingJS () {
 	diffUsingJS();
 }
 </script>
-<div classs="well"></div>
+<div classs="well" id="diffdiv"></div>
 
 	<?php include "includes/page/footer.php"; ?>
 
