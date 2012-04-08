@@ -116,9 +116,9 @@ $language_data = array (
 			7 => 'color: #49bfaa;',
             ),
         'COMMENTS' => array(
-            1 => 'color: #09ad05; font-style: italic; font-family: Comic Sans MS, Courier New, Courier;',
-			2 =>  'color: #09ad05; font-style: italic; font-family: Comic Sans MS, Courier New, Courier;',
-            'MULTI' => 'color: #09ad05; font-style: italic; font-family: Comic Sans MS, Courier New, Courier;'
+            1 => 'color: #09ad05; font-style: italic; font-family: Arial, Helvetica, sans-serif;',
+			2 =>  'color: #09ad05; font-style: italic; font-family: Arial, Helvetica, sans-serif;',
+            'MULTI' => 'color: #09ad05; font-style: italic; font-family: Arial, Helvetica, sans-serif;'
             ),
         'ESCAPE_CHAR' => array(
             0 => 'color: #000099; font-weight: bold;'

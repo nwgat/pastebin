@@ -36,21 +36,41 @@
 		$expiredate = $postdate + ( $result["deleteafter"] * 3600 );
 		
 		$seconds_left = ($expiredate-date("U"));
-		$days_left = floor($seconds_left/86400);
-		$hours_left = floor($seconds_left/3600);
-		$hour_secleft = floor($seconds_left/60)%60;
-		
 		
 		if( $seconds_left <= 0 )
-			$expires = 'Expired, pending deletion.';
+			$expires = 'This paste has expired and is pending deletion.';
 		else
-			$expires = 'Expires ' . ( $seconds_left >= 86400 ? $days_left . getPlural( $days_left, ' day', ' days' ) :  $hours_left . getPlural( $hours_left, ' hour', ' hours' ) . ' and ' . $hour_secleft . getPlural( $hour_secleft, ' minute', ' minutes' ) . ' from now.' );
+		{
+			$expires = 'This paste expires in ';
+
+			if( $seconds_left >= 86400 )
+			{
+				$days_left = floor($seconds_left/86400);
+				
+				$expires .= $days_left . getPlural( $days_left, ' day', ' days' );
+			}
+			else
+			{
+				$hours_left = floor($seconds_left/3600);
+				$hours_secleft = floor($seconds_left/60)%60;
+		
+				$expires .= ($hours_left>0 ? $hours_left . getPlural( $hours_left, ' hour', ' hours' ) : '' ) . ( $hours_secleft>0 ?  ' and ' . $hours_secleft . getPlural( $hours_secleft, ' minute', ' minutes' ) : '' );
+			}
+			
+			$expires .= ' from now.';
+		}
 	}
 	
 	include "includes/page/header.php";
 
 ?>
 
+			<?php if(!empty($expires)): ?>
+			<div id="expire" class="alert alert-info">
+				<?php echo $expires; ?>
+			</div>
+			<?php endif; ?>
+			
 			<h2><?php if( empty( $result['sname'] ) ) { echo "Untitled"; } else { echo htmlentities( $result['sname'] ); } // kill me now ?></h2>
 			<span class="langr" id="codedesc">
 			<p>
@@ -59,7 +79,7 @@
 				if( !empty( $result['nname' ] ) )
 					echo 'By ' . htmlentities( $result["nname"] ) . ' - ';
 				
-				echo htmlentities( $result['friendly_name'] ) . ', ' . $result["time"] . '. ' . $expires;
+				echo htmlentities( $result['friendly_name'] ) . ', ' . $result["time"] . '.';
 			
 				if( count( $altres ) > 0 )
 					echo ' Based on <a href="view.php?id=' . $altres["id"] . '">' . htmlentities( $altres["sname"] ) . '</a> ' . ( !empty($altres["nname"]) ? 'by ' . htmlentities($altres["nname"]) : '');
