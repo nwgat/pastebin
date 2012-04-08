@@ -36,6 +36,7 @@ function diffUsingJS () {
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("diffdiv");
+	while (diffoutputdiv.firstChild) diffoutputdiv.removeChild(diffoutputdiv.firstChild);
 	contextSize = "0";
 	contextSize = contextSize ? contextSize : null;
 	diffoutputdiv.appendChild(diffview.buildView({ baseTextLines:base,
@@ -49,7 +50,7 @@ function diffUsingJS () {
 window.onload = function () { diffUsingJS(); };
 
 </script>
-<div classs="well" id="diffdiv"></div>
+<div classs="well" id="diffdiv"><p>some test data to see if this means it will render correctly</p></div>
 
 	<?php include "includes/page/footer.php"; ?>
 
