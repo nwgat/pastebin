@@ -1,6 +1,6 @@
         <script type="text/javascript">
         $(".showTooltip").tooltip( );
-        $('.navTooltip').tooltip('bottom');
+        $(".navTooltip").tooltip(placement="bottom");
         </script>
         </div><!--/span-->
       </div><!--/row-->
