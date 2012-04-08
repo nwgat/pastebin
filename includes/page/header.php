@@ -75,7 +75,7 @@
         if( !empty( $_SESSION["user_login"] ) ) // we're logged in
 		{
 			$remembered_name = findUserHandle();
-			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user' class='tooltip.bottom showTooltip' title='Your Pastes'>".htmlentities($remembered_name)."</a></p>");
+			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user' class='showTooltip' title='Your Pastes'>".htmlentities($remembered_name)."</a></p>");
 		}
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
