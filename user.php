@@ -12,7 +12,6 @@
 	
 	
 	include "includes/page/header.php";
-	
 	$snippets_list = $db->QueryArray( "SELECT id, sname, nname, language, time FROM snippets WHERE shemail='".$shemail."' ORDER BY shemail DESC, id DESC");
 	$num_code = count( $snippets_list );
 	
@@ -47,7 +46,7 @@
 					$nname = "Anonymous Coward";
 					
 					
-				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . htmlentities( $langs[$v["language"]]['friendly_name'] ) . ' ' . $v["time"] . '</span><a href="./delete?"'.$v["id"].'><img class=".icon-remove"></a></li>';
+				echo '<li><span class="titler"><a href="' . $v["id"] . '">' . $sname . '</a> by ' . $nname . '</span> <span class="langr">' . $v["friendly_name"] . ' ' . $v["time"] . '</span><a href="./delete?"'.$v["id"].'><img class="icon-remove"></a></li>';
 			}
 		}
 	}
