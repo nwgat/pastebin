@@ -48,7 +48,7 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		if( !empty ( $edit ) )
 		{
 		$login = $_SESSION['user_login'];	
-		$db->SimpleUpdate( "snippets", $paste, "id = '$edit' AND shemail = '$login'" )
+		$db->SimpleUpdate( "snippets", $paste, "id = '$edit' AND shemail = '$login'" );
 		$id = $edit;
 		}
 		else
