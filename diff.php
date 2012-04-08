@@ -45,7 +45,7 @@ function diffUsingJS () {
 												   baseTextName:<?php echo json_encode(htmlentities($altres['sname']));?>,
 												   newTextName:<?php echo json_encode($result['sname']);?>,
 												   contextSize:contextSize,
-												   viewType: 1 }));
+												   viewType: 0 }));
 }
 window.onload = function () { diffUsingJS(); };
 
