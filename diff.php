@@ -32,7 +32,7 @@ var url = window.location.toString().split("#")[0];
 
 function diffUsingJS () {
 	var base = difflib.stringAsLines($("<?php echo ($altres['code']);?>").value);
-	var newtxt = difflib.stringAsLines($("<?php echo ($result['code');?>").value);
+	var newtxt = difflib.stringAsLines($("<?php echo ($result['code']);?>").value);
 	var sm = new difflib.SequenceMatcher(base, newtxt);
 	var opcodes = sm.get_opcodes();
 	var diffoutputdiv = $("well");
