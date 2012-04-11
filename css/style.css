@@ -60,3 +60,6 @@ textarea#code, pre {
 .tooltip-arrow {
 	background-color: #131517 !important;
 }
+
+.mycode ol { font-weight: bold; } 
+li.li2 { font-weight: normal; } 
