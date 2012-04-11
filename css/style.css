@@ -10,11 +10,12 @@ pre#code {
 	padding: 5px;
 	padding-top: 10px;
 	padding-left: 25px;
-	line-height: normal;
+	line-height: normal !important
+	font-family: Consolas, "Courier New", monospace !important;
 }
 
 pre#li {
-	line-height: normal;
+	line-height: normal !important;
 }
 
 #loginbuttons {
@@ -47,7 +48,7 @@ textarea#code, pre {
 .noborder { border: 0px none; }
 .navbar {
 	z-index: 0 !important;
-    font-family: Consolas, "Courier New", Tahoma, monospace !important;
+    font-family: Consolas, "Courier New", monospace !important;
 }
 .tooltip-inner {
 	background-color: #131517 !important;
