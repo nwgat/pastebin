@@ -18,6 +18,10 @@ pre#li {
 	line-height: normal !important;
 }
 
+pre li {
+	line-height: normal !important;	
+}
+
 #loginbuttons {
 	display: inline-block;
 	margin-right: 20px;

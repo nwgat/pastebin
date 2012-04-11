@@ -1,4 +1,4 @@
-.glua .de1, .glua .de2 {font: normal normal 1em/1.2em Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.glua .de1, .glua .de2 { margin:0; padding:0; background:none; vertical-align:top;}
 .glua  {font-family:Consolas, 'Courier New', monospace;}
 .glua .imp {font-weight: bold; color: red;}
 .glua li, .glua .li1 {font-weight: normal; vertical-align:top;}
@@ -23,8 +23,8 @@
 .glua .ln-xtra, .glua li.ln-xtra, .glua div.ln-xtra {background-color: #ffc;}
 .glua span.xtra { display:block; }
 
-.luag .de1, .luag .de2 {font: normal normal 1em/1.2em Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.luag  {font-family:Consolas, 'Courier New', monospace;}
+.luag .de1, .luag .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.luag  
 .luag .imp {font-weight: bold; color: red;}
 .luag li, .luag .li1 {font-weight: normal; vertical-align:top;}
 .luag .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -48,8 +48,8 @@
 .luag .ln-xtra, .luag li.ln-xtra, .luag div.ln-xtra {background-color: #ffc;}
 .luag span.xtra { display:block; }
 
-._4cs .de1, ._4cs .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-._4cs  {font-family:monospace;}
+._4cs .de1, ._4cs .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+._4cs  {font-family:Consolas, 'Courier New', monospace;}
 ._4cs .imp {font-weight: bold; color: red;}
 ._4cs li, ._4cs .li1 {font-weight: normal; vertical-align:top;}
 ._4cs .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -66,8 +66,8 @@
 ._4cs .ln-xtra, ._4cs li.ln-xtra, ._4cs div.ln-xtra {background-color: #ffc;}
 ._4cs span.xtra { display:block; }
 
-._6502acme .de1, ._6502acme .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-._6502acme  {font-family:monospace;}
+._6502acme .de1, ._6502acme .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+._6502acme  {font-family:Consolas, 'Courier New', monospace;}
 ._6502acme .imp {font-weight: bold; color: red;}
 ._6502acme li, ._6502acme .li1 {font-weight: normal; vertical-align:top;}
 ._6502acme .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -95,8 +95,8 @@
 ._6502acme .ln-xtra, ._6502acme li.ln-xtra, ._6502acme div.ln-xtra {background-color: #ffc;}
 ._6502acme span.xtra { display:block; }
 
-._6502kickass .de1, ._6502kickass .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-._6502kickass  {font-family:monospace;}
+._6502kickass .de1, ._6502kickass .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+._6502kickass  {font-family:Consolas, 'Courier New', monospace;}
 ._6502kickass .imp {font-weight: bold; color: red;}
 ._6502kickass li, ._6502kickass .li1 {font-weight: normal; vertical-align:top;}
 ._6502kickass .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -125,8 +125,8 @@
 ._6502kickass .ln-xtra, ._6502kickass li.ln-xtra, ._6502kickass div.ln-xtra {background-color: #ffc;}
 ._6502kickass span.xtra { display:block; }
 
-._6502tasm .de1, ._6502tasm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-._6502tasm  {font-family:monospace;}
+._6502tasm .de1, ._6502tasm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+._6502tasm  {font-family:Consolas, 'Courier New', monospace;}
 ._6502tasm .imp {font-weight: bold; color: red;}
 ._6502tasm li, ._6502tasm .li1 {font-weight: normal; vertical-align:top;}
 ._6502tasm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -149,8 +149,8 @@
 ._6502tasm .ln-xtra, ._6502tasm li.ln-xtra, ._6502tasm div.ln-xtra {background-color: #ffc;}
 ._6502tasm span.xtra { display:block; }
 
-._68000devpac .de1, ._68000devpac .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-._68000devpac  {font-family:monospace;}
+._68000devpac .de1, ._68000devpac .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+._68000devpac  {font-family:Consolas, 'Courier New', monospace;}
 ._68000devpac .imp {font-weight: bold; color: red;}
 ._68000devpac li, ._68000devpac .li1 {font-weight: normal; vertical-align:top;}
 ._68000devpac .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -172,8 +172,8 @@
 ._68000devpac .ln-xtra, ._68000devpac li.ln-xtra, ._68000devpac div.ln-xtra {background-color: #ffc;}
 ._68000devpac span.xtra { display:block; }
 
-.abap .de1, .abap .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.abap  {font-family:monospace;}
+.abap .de1, .abap .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.abap  {font-family:Consolas, 'Courier New', monospace;}
 .abap .imp {font-weight: bold; color: red;}
 .abap li, .abap .li1 {font-weight: normal; vertical-align:top;}
 .abap .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -202,8 +202,8 @@
 .abap .ln-xtra, .abap li.ln-xtra, .abap div.ln-xtra {background-color: #ffc;}
 .abap span.xtra { display:block; }
 
-.actionscript .de1, .actionscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.actionscript  {font-family:monospace;}
+.actionscript .de1, .actionscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.actionscript  {font-family:Consolas, 'Courier New', monospace;}
 .actionscript .imp {font-weight: bold; color: red;}
 .actionscript li, .actionscript .li1 {font-weight: normal; vertical-align:top;}
 .actionscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -223,8 +223,8 @@
 .actionscript .ln-xtra, .actionscript li.ln-xtra, .actionscript div.ln-xtra {background-color: #ffc;}
 .actionscript span.xtra { display:block; }
 
-.actionscript3 .de1, .actionscript3 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.actionscript3  {font-family:monospace;}
+.actionscript3 .de1, .actionscript3 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.actionscript3  {font-family:Consolas, 'Courier New', monospace;}
 .actionscript3 .imp {font-weight: bold; color: red;}
 .actionscript3 li, .actionscript3 .li1 {font-weight: normal; vertical-align:top;}
 .actionscript3 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -248,8 +248,8 @@
 .actionscript3 .ln-xtra, .actionscript3 li.ln-xtra, .actionscript3 div.ln-xtra {background-color: #ffc;}
 .actionscript3 span.xtra { display:block; }
 
-.ada .de1, .ada .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ada  {font-family:monospace;}
+.ada .de1, .ada .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ada  {font-family:Consolas, 'Courier New', monospace;}
 .ada .imp {font-weight: bold; color: red;}
 .ada li, .ada .li1 {font-weight: normal; vertical-align:top;}
 .ada .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -268,8 +268,8 @@
 .ada .ln-xtra, .ada li.ln-xtra, .ada div.ln-xtra {background-color: #ffc;}
 .ada span.xtra { display:block; }
 
-.algol68 .de1, .algol68 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.algol68  {font-family:monospace;}
+.algol68 .de1, .algol68 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.algol68  {font-family:Consolas, 'Courier New', monospace;}
 .algol68 .imp {font-weight: bold; color: red;}
 .algol68 li, .algol68 .li1 {font-weight: normal; vertical-align:top;}
 .algol68 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -318,8 +318,8 @@
 .algol68 .ln-xtra, .algol68 li.ln-xtra, .algol68 div.ln-xtra {background-color: #ffc;}
 .algol68 span.xtra { display:block; }
 
-.apache .de1, .apache .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.apache  {font-family:monospace;}
+.apache .de1, .apache .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.apache  {font-family:Consolas, 'Courier New', monospace;}
 .apache .imp {font-weight: bold; color: red;}
 .apache li, .apache .li1 {font-weight: normal; vertical-align:top;}
 .apache .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -336,8 +336,8 @@
 .apache .ln-xtra, .apache li.ln-xtra, .apache div.ln-xtra {background-color: #ffc;}
 .apache span.xtra { display:block; }
 
-.applescript .de1, .applescript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.applescript  {font-family:monospace;}
+.applescript .de1, .applescript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.applescript  {font-family:Consolas, 'Courier New', monospace;}
 .applescript .imp {font-weight: bold; color: red;}
 .applescript li, .applescript .li1 {font-weight: normal; vertical-align:top;}
 .applescript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -360,8 +360,8 @@
 .applescript .ln-xtra, .applescript li.ln-xtra, .applescript div.ln-xtra {background-color: #ffc;}
 .applescript span.xtra { display:block; }
 
-.apt_sources .de1, .apt_sources .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.apt_sources  {font-family:monospace;}
+.apt_sources .de1, .apt_sources .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.apt_sources  {font-family:Consolas, 'Courier New', monospace;}
 .apt_sources .imp {font-weight: bold; color: red;}
 .apt_sources li, .apt_sources .li1 {font-weight: normal; vertical-align:top;}
 .apt_sources .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -374,8 +374,8 @@
 .apt_sources .ln-xtra, .apt_sources li.ln-xtra, .apt_sources div.ln-xtra {background-color: #ffc;}
 .apt_sources span.xtra { display:block; }
 
-.asm .de1, .asm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.asm  {font-family:monospace;}
+.asm .de1, .asm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.asm  {font-family:Consolas, 'Courier New', monospace;}
 .asm .imp {font-weight: bold; color: red;}
 .asm li, .asm .li1 {font-weight: normal; vertical-align:top;}
 .asm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -395,8 +395,8 @@
 .asm .ln-xtra, .asm li.ln-xtra, .asm div.ln-xtra {background-color: #ffc;}
 .asm span.xtra { display:block; }
 
-.asp .de1, .asp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.asp  {font-family:monospace;}
+.asp .de1, .asp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.asp  {font-family:Consolas, 'Courier New', monospace;}
 .asp .imp {font-weight: bold; color: red;}
 .asp li, .asp .li1 {font-weight: normal; vertical-align:top;}
 .asp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -417,8 +417,8 @@
 .asp .ln-xtra, .asp li.ln-xtra, .asp div.ln-xtra {background-color: #ffc;}
 .asp span.xtra { display:block; }
 
-.autoconf .de1, .autoconf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.autoconf  {font-family:monospace;}
+.autoconf .de1, .autoconf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.autoconf  {font-family:Consolas, 'Courier New', monospace;}
 .autoconf .imp {font-weight: bold; color: red;}
 .autoconf li, .autoconf .li1 {font-weight: normal; vertical-align:top;}
 .autoconf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -454,8 +454,8 @@
 .autoconf .ln-xtra, .autoconf li.ln-xtra, .autoconf div.ln-xtra {background-color: #ffc;}
 .autoconf span.xtra { display:block; }
 
-.autohotkey .de1, .autohotkey .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.autohotkey  {font-family:monospace;}
+.autohotkey .de1, .autohotkey .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.autohotkey  {font-family:Consolas, 'Courier New', monospace;}
 .autohotkey .imp {font-weight: bold; color: red;}
 .autohotkey li, .autohotkey .li1 {font-weight: normal; vertical-align:top;}
 .autohotkey .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -482,8 +482,8 @@
 .autohotkey .ln-xtra, .autohotkey li.ln-xtra, .autohotkey div.ln-xtra {background-color: #ffc;}
 .autohotkey span.xtra { display:block; }
 
-.autoit .de1, .autoit .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.autoit  {font-family:monospace;}
+.autoit .de1, .autoit .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.autoit  {font-family:Consolas, 'Courier New', monospace;}
 .autoit .imp {font-weight: bold; color: red;}
 .autoit li, .autoit .li1 {font-weight: normal; vertical-align:top;}
 .autoit .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -506,8 +506,8 @@
 .autoit .ln-xtra, .autoit li.ln-xtra, .autoit div.ln-xtra {background-color: #ffc;}
 .autoit span.xtra { display:block; }
 
-.avisynth .de1, .avisynth .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.avisynth  {font-family:monospace;}
+.avisynth .de1, .avisynth .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.avisynth  {font-family:Consolas, 'Courier New', monospace;}
 .avisynth .imp {font-weight: bold; color: red;}
 .avisynth li, .avisynth .li1 {font-weight: normal; vertical-align:top;}
 .avisynth .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -527,8 +527,8 @@
 .avisynth .ln-xtra, .avisynth li.ln-xtra, .avisynth div.ln-xtra {background-color: #ffc;}
 .avisynth span.xtra { display:block; }
 
-.awk .de1, .awk .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.awk  {font-family:monospace;}
+.awk .de1, .awk .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.awk  {font-family:Consolas, 'Courier New', monospace;}
 .awk .imp {font-weight: bold; color: red;}
 .awk li, .awk .li1 {font-weight: normal; vertical-align:top;}
 .awk .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -554,8 +554,8 @@
 .awk .ln-xtra, .awk li.ln-xtra, .awk div.ln-xtra {background-color: #ffc;}
 .awk span.xtra { display:block; }
 
-.bascomavr .de1, .bascomavr .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.bascomavr  {font-family:monospace;}
+.bascomavr .de1, .bascomavr .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.bascomavr  {font-family:Consolas, 'Courier New', monospace;}
 .bascomavr .imp {font-weight: bold; color: red;}
 .bascomavr li, .bascomavr .li1 {font-weight: normal; vertical-align:top;}
 .bascomavr .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -572,8 +572,8 @@
 .bascomavr .ln-xtra, .bascomavr li.ln-xtra, .bascomavr div.ln-xtra {background-color: #ffc;}
 .bascomavr span.xtra { display:block; }
 
-.bash .de1, .bash .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.bash  {font-family:monospace;}
+.bash .de1, .bash .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.bash  {font-family:Consolas, 'Courier New', monospace;}
 .bash .imp {font-weight: bold; color: red;}
 .bash li, .bash .li1 {font-weight: normal; vertical-align:top;}
 .bash .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -605,8 +605,8 @@
 .bash .ln-xtra, .bash li.ln-xtra, .bash div.ln-xtra {background-color: #ffc;}
 .bash span.xtra { display:block; }
 
-.basic4gl .de1, .basic4gl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.basic4gl  {font-family:monospace;}
+.basic4gl .de1, .basic4gl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.basic4gl  {font-family:Consolas, 'Courier New', monospace;}
 .basic4gl .imp {font-weight: bold; color: red;}
 .basic4gl li, .basic4gl .li1 {font-weight: normal; vertical-align:top;}
 .basic4gl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -622,8 +622,8 @@
 .basic4gl .ln-xtra, .basic4gl li.ln-xtra, .basic4gl div.ln-xtra {background-color: #ffc;}
 .basic4gl span.xtra { display:block; }
 
-.bf .de1, .bf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.bf  {font-family:monospace;}
+.bf .de1, .bf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.bf  {font-family:Consolas, 'Courier New', monospace;}
 .bf .imp {font-weight: bold; color: red;}
 .bf li, .bf .li1 {font-weight: normal; vertical-align:top;}
 .bf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -639,8 +639,8 @@
 .bf .ln-xtra, .bf li.ln-xtra, .bf div.ln-xtra {background-color: #ffc;}
 .bf span.xtra { display:block; }
 
-.bibtex .de1, .bibtex .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.bibtex  {font-family:monospace;}
+.bibtex .de1, .bibtex .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.bibtex  {font-family:Consolas, 'Courier New', monospace;}
 .bibtex .imp {font-weight: bold; color: red;}
 .bibtex li, .bibtex .li1 {font-weight: normal; vertical-align:top;}
 .bibtex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -660,8 +660,8 @@
 .bibtex .ln-xtra, .bibtex li.ln-xtra, .bibtex div.ln-xtra {background-color: #ffc;}
 .bibtex span.xtra { display:block; }
 
-.blitzbasic .de1, .blitzbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.blitzbasic  {font-family:monospace;}
+.blitzbasic .de1, .blitzbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.blitzbasic  {font-family:Consolas, 'Courier New', monospace;}
 .blitzbasic .imp {font-weight: bold; color: red;}
 .blitzbasic li, .blitzbasic .li1 {font-weight: normal; vertical-align:top;}
 .blitzbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -678,8 +678,8 @@
 .blitzbasic .ln-xtra, .blitzbasic li.ln-xtra, .blitzbasic div.ln-xtra {background-color: #ffc;}
 .blitzbasic span.xtra { display:block; }
 
-.bnf .de1, .bnf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.bnf  {font-family:monospace;}
+.bnf .de1, .bnf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.bnf  {font-family:Consolas, 'Courier New', monospace;}
 .bnf .imp {font-weight: bold; color: red;}
 .bnf li, .bnf .li1 {font-weight: normal; vertical-align:top;}
 .bnf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -696,8 +696,8 @@
 .bnf .ln-xtra, .bnf li.ln-xtra, .bnf div.ln-xtra {background-color: #ffc;}
 .bnf span.xtra { display:block; }
 
-.boo .de1, .boo .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.boo  {font-family:monospace;}
+.boo .de1, .boo .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.boo  {font-family:Consolas, 'Courier New', monospace;}
 .boo .imp {font-weight: bold; color: red;}
 .boo li, .boo .li1 {font-weight: normal; vertical-align:top;}
 .boo .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -734,8 +734,8 @@
 .boo .ln-xtra, .boo li.ln-xtra, .boo div.ln-xtra {background-color: #ffc;}
 .boo span.xtra { display:block; }
 
-.c .de1, .c .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.c  {font-family:monospace;}
+.c .de1, .c .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.c  {font-family:Consolas, 'Courier New', monospace;}
 .c .imp {font-weight: bold; color: red;}
 .c li, .c .li1 {font-weight: normal; vertical-align:top;}
 .c .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -769,8 +769,8 @@
 .c .ln-xtra, .c li.ln-xtra, .c div.ln-xtra {background-color: #ffc;}
 .c span.xtra { display:block; }
 
-.c_loadrunner .de1, .c_loadrunner .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.c_loadrunner  {font-family:monospace;}
+.c_loadrunner .de1, .c_loadrunner .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.c_loadrunner  {font-family:Consolas, 'Courier New', monospace;}
 .c_loadrunner .imp {font-weight: bold; color: red;}
 .c_loadrunner li, .c_loadrunner .li1 {font-weight: normal; vertical-align:top;}
 .c_loadrunner .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -803,8 +803,8 @@
 .c_loadrunner .ln-xtra, .c_loadrunner li.ln-xtra, .c_loadrunner div.ln-xtra {background-color: #ffc;}
 .c_loadrunner span.xtra { display:block; }
 
-.c_mac .de1, .c_mac .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.c_mac  {font-family:monospace;}
+.c_mac .de1, .c_mac .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.c_mac  {font-family:Consolas, 'Courier New', monospace;}
 .c_mac .imp {font-weight: bold; color: red;}
 .c_mac li, .c_mac .li1 {font-weight: normal; vertical-align:top;}
 .c_mac .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -838,8 +838,8 @@
 .c_mac .ln-xtra, .c_mac li.ln-xtra, .c_mac div.ln-xtra {background-color: #ffc;}
 .c_mac span.xtra { display:block; }
 
-.caddcl .de1, .caddcl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.caddcl  {font-family:monospace;}
+.caddcl .de1, .caddcl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.caddcl  {font-family:Consolas, 'Courier New', monospace;}
 .caddcl .imp {font-weight: bold; color: red;}
 .caddcl li, .caddcl .li1 {font-weight: normal; vertical-align:top;}
 .caddcl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -855,8 +855,8 @@
 .caddcl .ln-xtra, .caddcl li.ln-xtra, .caddcl div.ln-xtra {background-color: #ffc;}
 .caddcl span.xtra { display:block; }
 
-.cadlisp .de1, .cadlisp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cadlisp  {font-family:monospace;}
+.cadlisp .de1, .cadlisp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cadlisp  {font-family:Consolas, 'Courier New', monospace;}
 .cadlisp .imp {font-weight: bold; color: red;}
 .cadlisp li, .cadlisp .li1 {font-weight: normal; vertical-align:top;}
 .cadlisp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -872,8 +872,8 @@
 .cadlisp .ln-xtra, .cadlisp li.ln-xtra, .cadlisp div.ln-xtra {background-color: #ffc;}
 .cadlisp span.xtra { display:block; }
 
-.cfdg .de1, .cfdg .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cfdg  {font-family:monospace;}
+.cfdg .de1, .cfdg .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cfdg  {font-family:Consolas, 'Courier New', monospace;}
 .cfdg .imp {font-weight: bold; color: red;}
 .cfdg li, .cfdg .li1 {font-weight: normal; vertical-align:top;}
 .cfdg .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -894,8 +894,8 @@
 .cfdg .ln-xtra, .cfdg li.ln-xtra, .cfdg div.ln-xtra {background-color: #ffc;}
 .cfdg span.xtra { display:block; }
 
-.cfm .de1, .cfm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cfm  {font-family:monospace;}
+.cfm .de1, .cfm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cfm  {font-family:Consolas, 'Courier New', monospace;}
 .cfm .imp {font-weight: bold; color: red;}
 .cfm li, .cfm .li1 {font-weight: normal; vertical-align:top;}
 .cfm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -923,8 +923,8 @@
 .cfm .ln-xtra, .cfm li.ln-xtra, .cfm div.ln-xtra {background-color: #ffc;}
 .cfm span.xtra { display:block; }
 
-.chaiscript .de1, .chaiscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.chaiscript  {font-family:monospace;}
+.chaiscript .de1, .chaiscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.chaiscript  {font-family:Consolas, 'Courier New', monospace;}
 .chaiscript .imp {font-weight: bold; color: red;}
 .chaiscript li, .chaiscript .li1 {font-weight: normal; vertical-align:top;}
 .chaiscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -944,8 +944,8 @@
 .chaiscript .ln-xtra, .chaiscript li.ln-xtra, .chaiscript div.ln-xtra {background-color: #ffc;}
 .chaiscript span.xtra { display:block; }
 
-.cil .de1, .cil .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cil  {font-family:monospace;}
+.cil .de1, .cil .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cil  {font-family:Consolas, 'Courier New', monospace;}
 .cil .imp {font-weight: bold; color: red;}
 .cil li, .cil .li1 {font-weight: normal; vertical-align:top;}
 .cil .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -971,8 +971,8 @@
 .cil .ln-xtra, .cil li.ln-xtra, .cil div.ln-xtra {background-color: #ffc;}
 .cil span.xtra { display:block; }
 
-.clojure .de1, .clojure .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.clojure  {font-family:monospace;}
+.clojure .de1, .clojure .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.clojure  {font-family:Consolas, 'Courier New', monospace;}
 .clojure .imp {font-weight: bold; color: red;}
 .clojure li, .clojure .li1 {font-weight: normal; vertical-align:top;}
 .clojure .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -990,8 +990,8 @@
 .clojure .ln-xtra, .clojure li.ln-xtra, .clojure div.ln-xtra {background-color: #ffc;}
 .clojure span.xtra { display:block; }
 
-.cmake .de1, .cmake .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cmake  {font-family:monospace;}
+.cmake .de1, .cmake .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cmake  {font-family:Consolas, 'Courier New', monospace;}
 .cmake .imp {font-weight: bold; color: red;}
 .cmake li, .cmake .li1 {font-weight: normal; vertical-align:top;}
 .cmake .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1010,8 +1010,8 @@
 .cmake .ln-xtra, .cmake li.ln-xtra, .cmake div.ln-xtra {background-color: #ffc;}
 .cmake span.xtra { display:block; }
 
-.cobol .de1, .cobol .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cobol  {font-family:monospace;}
+.cobol .de1, .cobol .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cobol  {font-family:Consolas, 'Courier New', monospace;}
 .cobol .imp {font-weight: bold; color: red;}
 .cobol li, .cobol .li1 {font-weight: normal; vertical-align:top;}
 .cobol .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1032,8 +1032,8 @@
 .cobol .ln-xtra, .cobol li.ln-xtra, .cobol div.ln-xtra {background-color: #ffc;}
 .cobol span.xtra { display:block; }
 
-.coffeescript .de1, .coffeescript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.coffeescript  {font-family:monospace;}
+.coffeescript .de1, .coffeescript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.coffeescript  {font-family:Consolas, 'Courier New', monospace;}
 .coffeescript .imp {font-weight: bold; color: red;}
 .coffeescript li, .coffeescript .li1 {font-weight: normal; vertical-align:top;}
 .coffeescript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1053,8 +1053,8 @@
 .coffeescript .ln-xtra, .coffeescript li.ln-xtra, .coffeescript div.ln-xtra {background-color: #ffc;}
 .coffeescript span.xtra { display:block; }
 
-.cpp .de1, .cpp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cpp  {font-family:monospace;}
+.cpp .de1, .cpp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cpp  {font-family:Consolas, 'Courier New', monospace;}
 .cpp .imp {font-weight: bold; color: red;}
 .cpp li, .cpp .li1 {font-weight: normal; vertical-align:top;}
 .cpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1092,8 +1092,8 @@
 .cpp .ln-xtra, .cpp li.ln-xtra, .cpp div.ln-xtra {background-color: #ffc;}
 .cpp span.xtra { display:block; }
 
-.cpp-qt .de1, .cpp-qt .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cpp-qt  {font-family:monospace;}
+.cpp-qt .de1, .cpp-qt .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cpp-qt  {font-family:Consolas, 'Courier New', monospace;}
 .cpp-qt .imp {font-weight: bold; color: red;}
 .cpp-qt li, .cpp-qt .li1 {font-weight: normal; vertical-align:top;}
 .cpp-qt .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1129,8 +1129,8 @@
 .cpp-qt .ln-xtra, .cpp-qt li.ln-xtra, .cpp-qt div.ln-xtra {background-color: #ffc;}
 .cpp-qt span.xtra { display:block; }
 
-.csharp .de1, .csharp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.csharp  {font-family:monospace;}
+.csharp .de1, .csharp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.csharp  {font-family:Consolas, 'Courier New', monospace;}
 .csharp .imp {font-weight: bold; color: red;}
 .csharp li, .csharp .li1 {font-weight: normal; vertical-align:top;}
 .csharp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1156,8 +1156,8 @@
 .csharp .ln-xtra, .csharp li.ln-xtra, .csharp div.ln-xtra {background-color: #ffc;}
 .csharp span.xtra { display:block; }
 
-.css .de1, .css .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.css  {font-family:monospace;}
+.css .de1, .css .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.css  {font-family:Consolas, 'Courier New', monospace;}
 .css .imp {font-weight: bold; color: red;}
 .css li, .css .li1 {font-weight: normal; vertical-align:top;}
 .css .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1180,8 +1180,8 @@
 .css .ln-xtra, .css li.ln-xtra, .css div.ln-xtra {background-color: #ffc;}
 .css span.xtra { display:block; }
 
-.cuesheet .de1, .cuesheet .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.cuesheet  {font-family:monospace;}
+.cuesheet .de1, .cuesheet .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.cuesheet  {font-family:Consolas, 'Courier New', monospace;}
 .cuesheet .imp {font-weight: bold; color: red;}
 .cuesheet li, .cuesheet .li1 {font-weight: normal; vertical-align:top;}
 .cuesheet .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1201,8 +1201,8 @@
 .cuesheet .ln-xtra, .cuesheet li.ln-xtra, .cuesheet div.ln-xtra {background-color: #ffc;}
 .cuesheet span.xtra { display:block; }
 
-.d .de1, .d .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.d  {font-family:monospace;}
+.d .de1, .d .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.d  {font-family:Consolas, 'Courier New', monospace;}
 .d .imp {font-weight: bold; color: red;}
 .d li, .d .li1 {font-weight: normal; vertical-align:top;}
 .d .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1241,8 +1241,8 @@
 .d .ln-xtra, .d li.ln-xtra, .d div.ln-xtra {background-color: #ffc;}
 .d span.xtra { display:block; }
 
-.dcs .de1, .dcs .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.dcs  {font-family:monospace;}
+.dcs .de1, .dcs .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.dcs  {font-family:Consolas, 'Courier New', monospace;}
 .dcs .imp {font-weight: bold; color: red;}
 .dcs li, .dcs .li1 {font-weight: normal; vertical-align:top;}
 .dcs .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1259,8 +1259,8 @@
 .dcs .ln-xtra, .dcs li.ln-xtra, .dcs div.ln-xtra {background-color: #ffc;}
 .dcs span.xtra { display:block; }
 
-.delphi .de1, .delphi .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.delphi  {font-family:monospace;}
+.delphi .de1, .delphi .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.delphi  {font-family:Consolas, 'Courier New', monospace;}
 .delphi .imp {font-weight: bold; color: red;}
 .delphi li, .delphi .li1 {font-weight: normal; vertical-align:top;}
 .delphi .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1286,8 +1286,8 @@
 .delphi .ln-xtra, .delphi li.ln-xtra, .delphi div.ln-xtra {background-color: #ffc;}
 .delphi span.xtra { display:block; }
 
-.diff .de1, .diff .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.diff  {font-family:monospace;}
+.diff .de1, .diff .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.diff  {font-family:Consolas, 'Courier New', monospace;}
 .diff .imp {font-weight: bold; color: red;}
 .diff li, .diff .li1 {font-weight: normal; vertical-align:top;}
 .diff .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1306,8 +1306,8 @@
 .diff .ln-xtra, .diff li.ln-xtra, .diff div.ln-xtra {background-color: #ffc;}
 .diff span.xtra { display:block; }
 
-.div .de1, .div .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.div  {font-family:monospace;}
+.div .de1, .div .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.div  {font-family:Consolas, 'Courier New', monospace;}
 .div .imp {font-weight: bold; color: red;}
 .div li, .div .li1 {font-weight: normal; vertical-align:top;}
 .div .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1326,8 +1326,8 @@
 .div .ln-xtra, .div li.ln-xtra, .div div.ln-xtra {background-color: #ffc;}
 .div span.xtra { display:block; }
 
-.dos .de1, .dos .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.dos  {font-family:monospace;}
+.dos .de1, .dos .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.dos  {font-family:Consolas, 'Courier New', monospace;}
 .dos .imp {font-weight: bold; color: red;}
 .dos li, .dos .li1 {font-weight: normal; vertical-align:top;}
 .dos .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1352,8 +1352,8 @@
 .dos .ln-xtra, .dos li.ln-xtra, .dos div.ln-xtra {background-color: #ffc;}
 .dos span.xtra { display:block; }
 
-.dot .de1, .dot .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.dot  {font-family:monospace;}
+.dot .de1, .dot .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.dot  {font-family:Consolas, 'Courier New', monospace;}
 .dot .imp {font-weight: bold; color: red;}
 .dot li, .dot .li1 {font-weight: normal; vertical-align:top;}
 .dot .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1373,8 +1373,8 @@
 .dot .ln-xtra, .dot li.ln-xtra, .dot div.ln-xtra {background-color: #ffc;}
 .dot span.xtra { display:block; }
 
-.e .de1, .e .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.e  {font-family:monospace;}
+.e .de1, .e .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.e  {font-family:Consolas, 'Courier New', monospace;}
 .e .imp {font-weight: bold; color: red;}
 .e li, .e .li1 {font-weight: normal; vertical-align:top;}
 .e .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1398,8 +1398,8 @@
 .e .ln-xtra, .e li.ln-xtra, .e div.ln-xtra {background-color: #ffc;}
 .e span.xtra { display:block; }
 
-.ecmascript .de1, .ecmascript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ecmascript  {font-family:monospace;}
+.ecmascript .de1, .ecmascript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ecmascript  {font-family:Consolas, 'Courier New', monospace;}
 .ecmascript .imp {font-weight: bold; color: red;}
 .ecmascript li, .ecmascript .li1 {font-weight: normal; vertical-align:top;}
 .ecmascript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1436,8 +1436,8 @@
 .ecmascript .ln-xtra, .ecmascript li.ln-xtra, .ecmascript div.ln-xtra {background-color: #ffc;}
 .ecmascript span.xtra { display:block; }
 
-.eiffel .de1, .eiffel .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.eiffel  {font-family:monospace;}
+.eiffel .de1, .eiffel .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.eiffel  {font-family:Consolas, 'Courier New', monospace;}
 .eiffel .imp {font-weight: bold; color: red;}
 .eiffel li, .eiffel .li1 {font-weight: normal; vertical-align:top;}
 .eiffel .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1458,8 +1458,8 @@
 .eiffel .ln-xtra, .eiffel li.ln-xtra, .eiffel div.ln-xtra {background-color: #ffc;}
 .eiffel span.xtra { display:block; }
 
-.email .de1, .email .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.email  {font-family:monospace;}
+.email .de1, .email .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.email  {font-family:Consolas, 'Courier New', monospace;}
 .email .imp {font-weight: bold; color: red;}
 .email li, .email .li1 {font-weight: normal; vertical-align:top;}
 .email .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1483,8 +1483,8 @@
 .email .ln-xtra, .email li.ln-xtra, .email div.ln-xtra {background-color: #ffc;}
 .email span.xtra { display:block; }
 
-.epc .de1, .epc .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.epc  {font-family:monospace;}
+.epc .de1, .epc .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.epc  {font-family:Consolas, 'Courier New', monospace;}
 .epc .imp {font-weight: bold; color: red;}
 .epc li, .epc .li1 {font-weight: normal; vertical-align:top;}
 .epc .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1503,8 +1503,8 @@
 .epc .ln-xtra, .epc li.ln-xtra, .epc div.ln-xtra {background-color: #ffc;}
 .epc span.xtra { display:block; }
 
-.erlang .de1, .erlang .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.erlang  {font-family:monospace;}
+.erlang .de1, .erlang .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.erlang  {font-family:Consolas, 'Courier New', monospace;}
 .erlang .imp {font-weight: bold; color: red;}
 .erlang li, .erlang .li1 {font-weight: normal; vertical-align:top;}
 .erlang .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1540,8 +1540,8 @@
 .erlang .ln-xtra, .erlang li.ln-xtra, .erlang div.ln-xtra {background-color: #ffc;}
 .erlang span.xtra { display:block; }
 
-.euphoria .de1, .euphoria .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.euphoria  {font-family:monospace;}
+.euphoria .de1, .euphoria .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.euphoria  {font-family:Consolas, 'Courier New', monospace;}
 .euphoria .imp {font-weight: bold; color: red;}
 .euphoria li, .euphoria .li1 {font-weight: normal; vertical-align:top;}
 .euphoria .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1559,8 +1559,8 @@
 .euphoria .ln-xtra, .euphoria li.ln-xtra, .euphoria div.ln-xtra {background-color: #ffc;}
 .euphoria span.xtra { display:block; }
 
-.f1 .de1, .f1 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.f1  {font-family:monospace;}
+.f1 .de1, .f1 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.f1  {font-family:Consolas, 'Courier New', monospace;}
 .f1 .imp {font-weight: bold; color: red;}
 .f1 li, .f1 .li1 {font-weight: normal; vertical-align:top;}
 .f1 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1586,8 +1586,8 @@
 .f1 .ln-xtra, .f1 li.ln-xtra, .f1 div.ln-xtra {background-color: #ffc;}
 .f1 span.xtra { display:block; }
 
-.falcon .de1, .falcon .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.falcon  {font-family:monospace;}
+.falcon .de1, .falcon .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.falcon  {font-family:Consolas, 'Courier New', monospace;}
 .falcon .imp {font-weight: bold; color: red;}
 .falcon li, .falcon .li1 {font-weight: normal; vertical-align:top;}
 .falcon .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1612,8 +1612,8 @@
 .falcon .ln-xtra, .falcon li.ln-xtra, .falcon div.ln-xtra {background-color: #ffc;}
 .falcon span.xtra { display:block; }
 
-.fo .de1, .fo .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.fo  {font-family:monospace;}
+.fo .de1, .fo .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.fo  {font-family:Consolas, 'Courier New', monospace;}
 .fo .imp {font-weight: bold; color: red;}
 .fo li, .fo .li1 {font-weight: normal; vertical-align:top;}
 .fo .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1643,8 +1643,8 @@
 .fo .ln-xtra, .fo li.ln-xtra, .fo div.ln-xtra {background-color: #ffc;}
 .fo span.xtra { display:block; }
 
-.fortran .de1, .fortran .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.fortran  {font-family:monospace;}
+.fortran .de1, .fortran .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.fortran  {font-family:Consolas, 'Courier New', monospace;}
 .fortran .imp {font-weight: bold; color: red;}
 .fortran li, .fortran .li1 {font-weight: normal; vertical-align:top;}
 .fortran .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1666,8 +1666,8 @@
 .fortran .ln-xtra, .fortran li.ln-xtra, .fortran div.ln-xtra {background-color: #ffc;}
 .fortran span.xtra { display:block; }
 
-.freebasic .de1, .freebasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.freebasic  {font-family:monospace;}
+.freebasic .de1, .freebasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.freebasic  {font-family:Consolas, 'Courier New', monospace;}
 .freebasic .imp {font-weight: bold; color: red;}
 .freebasic li, .freebasic .li1 {font-weight: normal; vertical-align:top;}
 .freebasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1684,8 +1684,8 @@
 .freebasic .ln-xtra, .freebasic li.ln-xtra, .freebasic div.ln-xtra {background-color: #ffc;}
 .freebasic span.xtra { display:block; }
 
-.fsharp .de1, .fsharp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.fsharp  {font-family:monospace;}
+.fsharp .de1, .fsharp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.fsharp  {font-family:Consolas, 'Courier New', monospace;}
 .fsharp .imp {font-weight: bold; color: red;}
 .fsharp li, .fsharp .li1 {font-weight: normal; vertical-align:top;}
 .fsharp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1710,8 +1710,8 @@
 .fsharp .ln-xtra, .fsharp li.ln-xtra, .fsharp div.ln-xtra {background-color: #ffc;}
 .fsharp span.xtra { display:block; }
 
-.gambas .de1, .gambas .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gambas  {font-family:monospace;}
+.gambas .de1, .gambas .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gambas  {font-family:Consolas, 'Courier New', monospace;}
 .gambas .imp {font-weight: bold; color: red;}
 .gambas li, .gambas .li1 {font-weight: normal; vertical-align:top;}
 .gambas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1734,8 +1734,8 @@
 .gambas .ln-xtra, .gambas li.ln-xtra, .gambas div.ln-xtra {background-color: #ffc;}
 .gambas span.xtra { display:block; }
 
-.gdb .de1, .gdb .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gdb  {font-family:monospace;}
+.gdb .de1, .gdb .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gdb  {font-family:Consolas, 'Courier New', monospace;}
 .gdb .imp {font-weight: bold; color: red;}
 .gdb li, .gdb .li1 {font-weight: normal; vertical-align:top;}
 .gdb .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1757,8 +1757,8 @@
 .gdb .ln-xtra, .gdb li.ln-xtra, .gdb div.ln-xtra {background-color: #ffc;}
 .gdb span.xtra { display:block; }
 
-.genero .de1, .genero .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.genero  {font-family:monospace;}
+.genero .de1, .genero .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.genero  {font-family:Consolas, 'Courier New', monospace;}
 .genero .imp {font-weight: bold; color: red;}
 .genero li, .genero .li1 {font-weight: normal; vertical-align:top;}
 .genero .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1780,8 +1780,8 @@
 .genero .ln-xtra, .genero li.ln-xtra, .genero div.ln-xtra {background-color: #ffc;}
 .genero span.xtra { display:block; }
 
-.genie .de1, .genie .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.genie  {font-family:monospace;}
+.genie .de1, .genie .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.genie  {font-family:Consolas, 'Courier New', monospace;}
 .genie .imp {font-weight: bold; color: red;}
 .genie li, .genie .li1 {font-weight: normal; vertical-align:top;}
 .genie .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1804,8 +1804,8 @@
 .genie .ln-xtra, .genie li.ln-xtra, .genie div.ln-xtra {background-color: #ffc;}
 .genie span.xtra { display:block; }
 
-.gettext .de1, .gettext .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gettext  {font-family:monospace;}
+.gettext .de1, .gettext .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gettext  {font-family:Consolas, 'Courier New', monospace;}
 .gettext .imp {font-weight: bold; color: red;}
 .gettext li, .gettext .li1 {font-weight: normal; vertical-align:top;}
 .gettext .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1823,8 +1823,8 @@
 .gettext .ln-xtra, .gettext li.ln-xtra, .gettext div.ln-xtra {background-color: #ffc;}
 .gettext span.xtra { display:block; }
 
-.glsl .de1, .glsl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.glsl  {font-family:monospace;}
+.glsl .de1, .glsl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.glsl  {font-family:Consolas, 'Courier New', monospace;}
 .glsl .imp {font-weight: bold; color: red;}
 .glsl li, .glsl .li1 {font-weight: normal; vertical-align:top;}
 .glsl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1847,8 +1847,8 @@
 .glsl .ln-xtra, .glsl li.ln-xtra, .glsl div.ln-xtra {background-color: #ffc;}
 .glsl span.xtra { display:block; }
 
-.gml .de1, .gml .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gml  {font-family:monospace;}
+.gml .de1, .gml .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gml  {font-family:Consolas, 'Courier New', monospace;}
 .gml .imp {font-weight: bold; color: red;}
 .gml li, .gml .li1 {font-weight: normal; vertical-align:top;}
 .gml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1868,8 +1868,8 @@
 .gml .ln-xtra, .gml li.ln-xtra, .gml div.ln-xtra {background-color: #ffc;}
 .gml span.xtra { display:block; }
 
-.gnuplot .de1, .gnuplot .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gnuplot  {font-family:monospace;}
+.gnuplot .de1, .gnuplot .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gnuplot  {font-family:Consolas, 'Courier New', monospace;}
 .gnuplot .imp {font-weight: bold; color: red;}
 .gnuplot li, .gnuplot .li1 {font-weight: normal; vertical-align:top;}
 .gnuplot .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1890,8 +1890,8 @@
 .gnuplot .ln-xtra, .gnuplot li.ln-xtra, .gnuplot div.ln-xtra {background-color: #ffc;}
 .gnuplot span.xtra { display:block; }
 
-.go .de1, .go .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.go  {font-family:monospace;}
+.go .de1, .go .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.go  {font-family:Consolas, 'Courier New', monospace;}
 .go .imp {font-weight: bold; color: red;}
 .go li, .go .li1 {font-weight: normal; vertical-align:top;}
 .go .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1919,8 +1919,8 @@
 .go .ln-xtra, .go li.ln-xtra, .go div.ln-xtra {background-color: #ffc;}
 .go span.xtra { display:block; }
 
-.groovy .de1, .groovy .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.groovy  {font-family:monospace;}
+.groovy .de1, .groovy .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.groovy  {font-family:Consolas, 'Courier New', monospace;}
 .groovy .imp {font-weight: bold; color: red;}
 .groovy li, .groovy .li1 {font-weight: normal; vertical-align:top;}
 .groovy .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1949,8 +1949,8 @@
 .groovy .ln-xtra, .groovy li.ln-xtra, .groovy div.ln-xtra {background-color: #ffc;}
 .groovy span.xtra { display:block; }
 
-.gwbasic .de1, .gwbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.gwbasic  {font-family:monospace;}
+.gwbasic .de1, .gwbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.gwbasic  {font-family:Consolas, 'Courier New', monospace;}
 .gwbasic .imp {font-weight: bold; color: red;}
 .gwbasic li, .gwbasic .li1 {font-weight: normal; vertical-align:top;}
 .gwbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1971,8 +1971,8 @@
 .gwbasic .ln-xtra, .gwbasic li.ln-xtra, .gwbasic div.ln-xtra {background-color: #ffc;}
 .gwbasic span.xtra { display:block; }
 
-.haskell .de1, .haskell .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.haskell  {font-family:monospace;}
+.haskell .de1, .haskell .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.haskell  {font-family:Consolas, 'Courier New', monospace;}
 .haskell .imp {font-weight: bold; color: red;}
 .haskell li, .haskell .li1 {font-weight: normal; vertical-align:top;}
 .haskell .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -1995,8 +1995,8 @@
 .haskell .ln-xtra, .haskell li.ln-xtra, .haskell div.ln-xtra {background-color: #ffc;}
 .haskell span.xtra { display:block; }
 
-.hicest .de1, .hicest .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.hicest  {font-family:monospace;}
+.hicest .de1, .hicest .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.hicest  {font-family:Consolas, 'Courier New', monospace;}
 .hicest .imp {font-weight: bold; color: red;}
 .hicest li, .hicest .li1 {font-weight: normal; vertical-align:top;}
 .hicest .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2014,8 +2014,8 @@
 .hicest .ln-xtra, .hicest li.ln-xtra, .hicest div.ln-xtra {background-color: #ffc;}
 .hicest span.xtra { display:block; }
 
-.hq9plus .de1, .hq9plus .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.hq9plus  {font-family:monospace;}
+.hq9plus .de1, .hq9plus .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.hq9plus  {font-family:Consolas, 'Courier New', monospace;}
 .hq9plus .imp {font-weight: bold; color: red;}
 .hq9plus li, .hq9plus .li1 {font-weight: normal; vertical-align:top;}
 .hq9plus .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2026,8 +2026,8 @@
 .hq9plus .ln-xtra, .hq9plus li.ln-xtra, .hq9plus div.ln-xtra {background-color: #ffc;}
 .hq9plus span.xtra { display:block; }
 
-.html4strict .de1, .html4strict .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.html4strict  {font-family:monospace;}
+.html4strict .de1, .html4strict .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.html4strict  {font-family:Consolas, 'Courier New', monospace;}
 .html4strict .imp {font-weight: bold; color: red;}
 .html4strict li, .html4strict .li1 {font-weight: normal; vertical-align:top;}
 .html4strict .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2047,8 +2047,8 @@
 .html4strict .ln-xtra, .html4strict li.ln-xtra, .html4strict div.ln-xtra {background-color: #ffc;}
 .html4strict span.xtra { display:block; }
 
-.html5 .de1, .html5 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.html5  {font-family:monospace;}
+.html5 .de1, .html5 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.html5  {font-family:Consolas, 'Courier New', monospace;}
 .html5 .imp {font-weight: bold; color: red;}
 .html5 li, .html5 .li1 {font-weight: normal; vertical-align:top;}
 .html5 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2068,8 +2068,8 @@
 .html5 .ln-xtra, .html5 li.ln-xtra, .html5 div.ln-xtra {background-color: #ffc;}
 .html5 span.xtra { display:block; }
 
-.icon .de1, .icon .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.icon  {font-family:monospace;}
+.icon .de1, .icon .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.icon  {font-family:Consolas, 'Courier New', monospace;}
 .icon .imp {font-weight: bold; color: red;}
 .icon li, .icon .li1 {font-weight: normal; vertical-align:top;}
 .icon .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2094,8 +2094,8 @@
 .icon .ln-xtra, .icon li.ln-xtra, .icon div.ln-xtra {background-color: #ffc;}
 .icon span.xtra { display:block; }
 
-.idl .de1, .idl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.idl  {font-family:monospace;}
+.idl .de1, .idl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.idl  {font-family:Consolas, 'Courier New', monospace;}
 .idl .imp {font-weight: bold; color: red;}
 .idl li, .idl .li1 {font-weight: normal; vertical-align:top;}
 .idl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2115,8 +2115,8 @@
 .idl .ln-xtra, .idl li.ln-xtra, .idl div.ln-xtra {background-color: #ffc;}
 .idl span.xtra { display:block; }
 
-.ini .de1, .ini .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ini  {font-family:monospace;}
+.ini .de1, .ini .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ini  {font-family:Consolas, 'Courier New', monospace;}
 .ini .imp {font-weight: bold; color: red;}
 .ini li, .ini .li1 {font-weight: normal; vertical-align:top;}
 .ini .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2130,8 +2130,8 @@
 .ini .ln-xtra, .ini li.ln-xtra, .ini div.ln-xtra {background-color: #ffc;}
 .ini span.xtra { display:block; }
 
-.inno .de1, .inno .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.inno  {font-family:monospace;}
+.inno .de1, .inno .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.inno  {font-family:Consolas, 'Courier New', monospace;}
 .inno .imp {font-weight: bold; color: red;}
 .inno li, .inno .li1 {font-weight: normal; vertical-align:top;}
 .inno .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2150,8 +2150,8 @@
 .inno .ln-xtra, .inno li.ln-xtra, .inno div.ln-xtra {background-color: #ffc;}
 .inno span.xtra { display:block; }
 
-.intercal .de1, .intercal .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.intercal  {font-family:monospace;}
+.intercal .de1, .intercal .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.intercal  {font-family:Consolas, 'Courier New', monospace;}
 .intercal .imp {font-weight: bold; color: red;}
 .intercal li, .intercal .li1 {font-weight: normal; vertical-align:top;}
 .intercal .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2165,8 +2165,8 @@
 .intercal .ln-xtra, .intercal li.ln-xtra, .intercal div.ln-xtra {background-color: #ffc;}
 .intercal span.xtra { display:block; }
 
-.io .de1, .io .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.io  {font-family:monospace;}
+.io .de1, .io .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.io  {font-family:Consolas, 'Courier New', monospace;}
 .io .imp {font-weight: bold; color: red;}
 .io li, .io .li1 {font-weight: normal; vertical-align:top;}
 .io .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2187,8 +2187,8 @@
 .io .ln-xtra, .io li.ln-xtra, .io div.ln-xtra {background-color: #ffc;}
 .io span.xtra { display:block; }
 
-.j .de1, .j .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.j  {font-family:monospace;}
+.j .de1, .j .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.j  {font-family:Consolas, 'Courier New', monospace;}
 .j .imp {font-weight: bold; color: red;}
 .j li, .j .li1 {font-weight: normal; vertical-align:top;}
 .j .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2209,8 +2209,8 @@
 .j .ln-xtra, .j li.ln-xtra, .j div.ln-xtra {background-color: #ffc;}
 .j span.xtra { display:block; }
 
-.java .de1, .java .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.java  {font-family:monospace;}
+.java .de1, .java .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.java  {font-family:Consolas, 'Courier New', monospace;}
 .java .imp {font-weight: bold; color: red;}
 .java li, .java .li1 {font-weight: normal; vertical-align:top;}
 .java .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2233,8 +2233,8 @@
 .java .ln-xtra, .java li.ln-xtra, .java div.ln-xtra {background-color: #ffc;}
 .java span.xtra { display:block; }
 
-.java5 .de1, .java5 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.java5  {font-family:monospace;}
+.java5 .de1, .java5 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.java5  {font-family:Consolas, 'Courier New', monospace;}
 .java5 .imp {font-weight: bold; color: red;}
 .java5 li, .java5 .li1 {font-weight: normal; vertical-align:top;}
 .java5 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2419,8 +2419,8 @@
 .java5 .ln-xtra, .java5 li.ln-xtra, .java5 div.ln-xtra {background-color: #ffc;}
 .java5 span.xtra { display:block; }
 
-.javascript .de1, .javascript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.javascript  {font-family:monospace;}
+.javascript .de1, .javascript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.javascript  {font-family:Consolas, 'Courier New', monospace;}
 .javascript .imp {font-weight: bold; color: red;}
 .javascript li, .javascript .li1 {font-weight: normal; vertical-align:top;}
 .javascript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2440,8 +2440,8 @@
 .javascript .ln-xtra, .javascript li.ln-xtra, .javascript div.ln-xtra {background-color: #ffc;}
 .javascript span.xtra { display:block; }
 
-.jquery .de1, .jquery .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.jquery  {font-family:monospace;}
+.jquery .de1, .jquery .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.jquery  {font-family:Consolas, 'Courier New', monospace;}
 .jquery .imp {font-weight: bold; color: red;}
 .jquery li, .jquery .li1 {font-weight: normal; vertical-align:top;}
 .jquery .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2471,8 +2471,8 @@
 .jquery .ln-xtra, .jquery li.ln-xtra, .jquery div.ln-xtra {background-color: #ffc;}
 .jquery span.xtra { display:block; }
 
-.kixtart .de1, .kixtart .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.kixtart  {font-family:monospace;}
+.kixtart .de1, .kixtart .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.kixtart  {font-family:Consolas, 'Courier New', monospace;}
 .kixtart .imp {font-weight: bold; color: red;}
 .kixtart li, .kixtart .li1 {font-weight: normal; vertical-align:top;}
 .kixtart .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2492,8 +2492,8 @@
 .kixtart .ln-xtra, .kixtart li.ln-xtra, .kixtart div.ln-xtra {background-color: #ffc;}
 .kixtart span.xtra { display:block; }
 
-.klonec .de1, .klonec .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.klonec  {font-family:monospace;}
+.klonec .de1, .klonec .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.klonec  {font-family:Consolas, 'Courier New', monospace;}
 .klonec .imp {font-weight: bold; color: red;}
 .klonec li, .klonec .li1 {font-weight: normal; vertical-align:top;}
 .klonec .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2523,8 +2523,8 @@
 .klonec .ln-xtra, .klonec li.ln-xtra, .klonec div.ln-xtra {background-color: #ffc;}
 .klonec span.xtra { display:block; }
 
-.klonecpp .de1, .klonecpp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.klonecpp  {font-family:monospace;}
+.klonecpp .de1, .klonecpp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.klonecpp  {font-family:Consolas, 'Courier New', monospace;}
 .klonecpp .imp {font-weight: bold; color: red;}
 .klonecpp li, .klonecpp .li1 {font-weight: normal; vertical-align:top;}
 .klonecpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2554,8 +2554,8 @@
 .klonecpp .ln-xtra, .klonecpp li.ln-xtra, .klonecpp div.ln-xtra {background-color: #ffc;}
 .klonecpp span.xtra { display:block; }
 
-.latex .de1, .latex .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.latex  {font-family:monospace;}
+.latex .de1, .latex .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.latex  {font-family:Consolas, 'Courier New', monospace;}
 .latex .imp {font-weight: bold; color: red;}
 .latex li, .latex .li1 {font-weight: normal; vertical-align:top;}
 .latex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2580,8 +2580,8 @@
 .latex .ln-xtra, .latex li.ln-xtra, .latex div.ln-xtra {background-color: #ffc;}
 .latex span.xtra { display:block; }
 
-.lb .de1, .lb .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lb  {font-family:monospace;}
+.lb .de1, .lb .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lb  {font-family:Consolas, 'Courier New', monospace;}
 .lb .imp {font-weight: bold; color: red;}
 .lb li, .lb .li1 {font-weight: normal; vertical-align:top;}
 .lb .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2600,8 +2600,8 @@
 .lb .ln-xtra, .lb li.ln-xtra, .lb div.ln-xtra {background-color: #ffc;}
 .lb span.xtra { display:block; }
 
-.lisp .de1, .lisp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lisp  {font-family:monospace;}
+.lisp .de1, .lisp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lisp  {font-family:Consolas, 'Courier New', monospace;}
 .lisp .imp {font-weight: bold; color: red;}
 .lisp li, .lisp .li1 {font-weight: normal; vertical-align:top;}
 .lisp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2619,8 +2619,8 @@
 .lisp .ln-xtra, .lisp li.ln-xtra, .lisp div.ln-xtra {background-color: #ffc;}
 .lisp span.xtra { display:block; }
 
-.llvm .de1, .llvm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.llvm  {font-family:monospace;}
+.llvm .de1, .llvm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.llvm  {font-family:Consolas, 'Courier New', monospace;}
 .llvm .imp {font-weight: bold; color: red;}
 .llvm li, .llvm .li1 {font-weight: normal; vertical-align:top;}
 .llvm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2680,8 +2680,8 @@
 .llvm .ln-xtra, .llvm li.ln-xtra, .llvm div.ln-xtra {background-color: #ffc;}
 .llvm span.xtra { display:block; }
 
-.locobasic .de1, .locobasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.locobasic  {font-family:monospace;}
+.locobasic .de1, .locobasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.locobasic  {font-family:Consolas, 'Courier New', monospace;}
 .locobasic .imp {font-weight: bold; color: red;}
 .locobasic li, .locobasic .li1 {font-weight: normal; vertical-align:top;}
 .locobasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2699,8 +2699,8 @@
 .locobasic .ln-xtra, .locobasic li.ln-xtra, .locobasic div.ln-xtra {background-color: #ffc;}
 .locobasic span.xtra { display:block; }
 
-.logtalk .de1, .logtalk .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.logtalk  {font-family:monospace;}
+.logtalk .de1, .logtalk .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.logtalk  {font-family:Consolas, 'Courier New', monospace;}
 .logtalk .imp {font-weight: bold; color: red;}
 .logtalk li, .logtalk .li1 {font-weight: normal; vertical-align:top;}
 .logtalk .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2730,8 +2730,8 @@
 .logtalk .ln-xtra, .logtalk li.ln-xtra, .logtalk div.ln-xtra {background-color: #ffc;}
 .logtalk span.xtra { display:block; }
 
-.lolcode .de1, .lolcode .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lolcode  {font-family:monospace;}
+.lolcode .de1, .lolcode .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lolcode  {font-family:Consolas, 'Courier New', monospace;}
 .lolcode .imp {font-weight: bold; color: red;}
 .lolcode li, .lolcode .li1 {font-weight: normal; vertical-align:top;}
 .lolcode .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2748,8 +2748,8 @@
 .lolcode .ln-xtra, .lolcode li.ln-xtra, .lolcode div.ln-xtra {background-color: #ffc;}
 .lolcode span.xtra { display:block; }
 
-.lotusformulas .de1, .lotusformulas .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lotusformulas  {font-family:monospace;}
+.lotusformulas .de1, .lotusformulas .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lotusformulas  {font-family:Consolas, 'Courier New', monospace;}
 .lotusformulas .imp {font-weight: bold; color: red;}
 .lotusformulas li, .lotusformulas .li1 {font-weight: normal; vertical-align:top;}
 .lotusformulas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2766,8 +2766,8 @@
 .lotusformulas .ln-xtra, .lotusformulas li.ln-xtra, .lotusformulas div.ln-xtra {background-color: #ffc;}
 .lotusformulas span.xtra { display:block; }
 
-.lotusscript .de1, .lotusscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lotusscript  {font-family:monospace;}
+.lotusscript .de1, .lotusscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lotusscript  {font-family:Consolas, 'Courier New', monospace;}
 .lotusscript .imp {font-weight: bold; color: red;}
 .lotusscript li, .lotusscript .li1 {font-weight: normal; vertical-align:top;}
 .lotusscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2784,8 +2784,8 @@
 .lotusscript .ln-xtra, .lotusscript li.ln-xtra, .lotusscript div.ln-xtra {background-color: #ffc;}
 .lotusscript span.xtra { display:block; }
 
-.lscript .de1, .lscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lscript  {font-family:monospace;}
+.lscript .de1, .lscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lscript  {font-family:Consolas, 'Courier New', monospace;}
 .lscript .imp {font-weight: bold; color: red;}
 .lscript li, .lscript .li1 {font-weight: normal; vertical-align:top;}
 .lscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2806,8 +2806,8 @@
 .lscript .ln-xtra, .lscript li.ln-xtra, .lscript div.ln-xtra {background-color: #ffc;}
 .lscript span.xtra { display:block; }
 
-.lsl2 .de1, .lsl2 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lsl2  {font-family:monospace;}
+.lsl2 .de1, .lsl2 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lsl2  {font-family:Consolas, 'Courier New', monospace;}
 .lsl2 .imp {font-weight: bold; color: red;}
 .lsl2 li, .lsl2 .li1 {font-weight: normal; vertical-align:top;}
 .lsl2 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2829,8 +2829,8 @@
 .lsl2 .ln-xtra, .lsl2 li.ln-xtra, .lsl2 div.ln-xtra {background-color: #ffc;}
 .lsl2 span.xtra { display:block; }
 
-.lua .de1, .lua .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.lua  {font-family:monospace;}
+.lua .de1, .lua .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.lua  {font-family:Consolas, 'Courier New', monospace;}
 .lua .imp {font-weight: bold; color: red;}
 .lua li, .lua .li1 {font-weight: normal; vertical-align:top;}
 .lua .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2854,8 +2854,8 @@
 .lua .ln-xtra, .lua li.ln-xtra, .lua div.ln-xtra {background-color: #ffc;}
 .lua span.xtra { display:block; }
 
-.m68k .de1, .m68k .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.m68k  {font-family:monospace;}
+.m68k .de1, .m68k .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.m68k  {font-family:Consolas, 'Courier New', monospace;}
 .m68k .imp {font-weight: bold; color: red;}
 .m68k li, .m68k .li1 {font-weight: normal; vertical-align:top;}
 .m68k .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2875,8 +2875,8 @@
 .m68k .ln-xtra, .m68k li.ln-xtra, .m68k div.ln-xtra {background-color: #ffc;}
 .m68k span.xtra { display:block; }
 
-.magiksf .de1, .magiksf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.magiksf  {font-family:monospace;}
+.magiksf .de1, .magiksf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.magiksf  {font-family:Consolas, 'Courier New', monospace;}
 .magiksf .imp {font-weight: bold; color: red;}
 .magiksf li, .magiksf .li1 {font-weight: normal; vertical-align:top;}
 .magiksf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2905,8 +2905,8 @@
 .magiksf .ln-xtra, .magiksf li.ln-xtra, .magiksf div.ln-xtra {background-color: #ffc;}
 .magiksf span.xtra { display:block; }
 
-.make .de1, .make .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.make  {font-family:monospace;}
+.make .de1, .make .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.make  {font-family:Consolas, 'Courier New', monospace;}
 .make .imp {font-weight: bold; color: red;}
 .make li, .make .li1 {font-weight: normal; vertical-align:top;}
 .make .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2926,8 +2926,8 @@
 .make .ln-xtra, .make li.ln-xtra, .make div.ln-xtra {background-color: #ffc;}
 .make span.xtra { display:block; }
 
-.mapbasic .de1, .mapbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mapbasic  {font-family:monospace;}
+.mapbasic .de1, .mapbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mapbasic  {font-family:Consolas, 'Courier New', monospace;}
 .mapbasic .imp {font-weight: bold; color: red;}
 .mapbasic li, .mapbasic .li1 {font-weight: normal; vertical-align:top;}
 .mapbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2948,8 +2948,8 @@
 .mapbasic .ln-xtra, .mapbasic li.ln-xtra, .mapbasic div.ln-xtra {background-color: #ffc;}
 .mapbasic span.xtra { display:block; }
 
-.matlab .de1, .matlab .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.matlab  {font-family:monospace;}
+.matlab .de1, .matlab .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.matlab  {font-family:Consolas, 'Courier New', monospace;}
 .matlab .imp {font-weight: bold; color: red;}
 .matlab li, .matlab .li1 {font-weight: normal; vertical-align:top;}
 .matlab .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2965,8 +2965,8 @@
 .matlab .ln-xtra, .matlab li.ln-xtra, .matlab div.ln-xtra {background-color: #ffc;}
 .matlab span.xtra { display:block; }
 
-.mirc .de1, .mirc .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mirc  {font-family:monospace;}
+.mirc .de1, .mirc .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mirc  {font-family:Consolas, 'Courier New', monospace;}
 .mirc .imp {font-weight: bold; color: red;}
 .mirc li, .mirc .li1 {font-weight: normal; vertical-align:top;}
 .mirc .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -2989,8 +2989,8 @@
 .mirc .ln-xtra, .mirc li.ln-xtra, .mirc div.ln-xtra {background-color: #ffc;}
 .mirc span.xtra { display:block; }
 
-.mmix .de1, .mmix .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mmix  {font-family:monospace;}
+.mmix .de1, .mmix .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mmix  {font-family:Consolas, 'Courier New', monospace;}
 .mmix .imp {font-weight: bold; color: red;}
 .mmix li, .mmix .li1 {font-weight: normal; vertical-align:top;}
 .mmix .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3010,8 +3010,8 @@
 .mmix .ln-xtra, .mmix li.ln-xtra, .mmix div.ln-xtra {background-color: #ffc;}
 .mmix span.xtra { display:block; }
 
-.modula2 .de1, .modula2 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.modula2  {font-family:monospace;}
+.modula2 .de1, .modula2 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.modula2  {font-family:Consolas, 'Courier New', monospace;}
 .modula2 .imp {font-weight: bold; color: red;}
 .modula2 li, .modula2 .li1 {font-weight: normal; vertical-align:top;}
 .modula2 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3032,8 +3032,8 @@
 .modula2 .ln-xtra, .modula2 li.ln-xtra, .modula2 div.ln-xtra {background-color: #ffc;}
 .modula2 span.xtra { display:block; }
 
-.modula3 .de1, .modula3 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.modula3  {font-family:monospace;}
+.modula3 .de1, .modula3 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.modula3  {font-family:Consolas, 'Courier New', monospace;}
 .modula3 .imp {font-weight: bold; color: red;}
 .modula3 li, .modula3 .li1 {font-weight: normal; vertical-align:top;}
 .modula3 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3054,8 +3054,8 @@
 .modula3 .ln-xtra, .modula3 li.ln-xtra, .modula3 div.ln-xtra {background-color: #ffc;}
 .modula3 span.xtra { display:block; }
 
-.mpasm .de1, .mpasm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mpasm  {font-family:monospace;}
+.mpasm .de1, .mpasm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mpasm  {font-family:Consolas, 'Courier New', monospace;}
 .mpasm .imp {font-weight: bold; color: red;}
 .mpasm li, .mpasm .li1 {font-weight: normal; vertical-align:top;}
 .mpasm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3076,8 +3076,8 @@
 .mpasm .ln-xtra, .mpasm li.ln-xtra, .mpasm div.ln-xtra {background-color: #ffc;}
 .mpasm span.xtra { display:block; }
 
-.mxml .de1, .mxml .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mxml  {font-family:monospace;}
+.mxml .de1, .mxml .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mxml  {font-family:Consolas, 'Courier New', monospace;}
 .mxml .imp {font-weight: bold; color: red;}
 .mxml li, .mxml .li1 {font-weight: normal; vertical-align:top;}
 .mxml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3098,8 +3098,8 @@
 .mxml .ln-xtra, .mxml li.ln-xtra, .mxml div.ln-xtra {background-color: #ffc;}
 .mxml span.xtra { display:block; }
 
-.mysql .de1, .mysql .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.mysql  {font-family:monospace;}
+.mysql .de1, .mysql .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.mysql  {font-family:Consolas, 'Courier New', monospace;}
 .mysql .imp {font-weight: bold; color: red;}
 .mysql li, .mysql .li1 {font-weight: normal; vertical-align:top;}
 .mysql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3144,8 +3144,8 @@
 .mysql .ln-xtra, .mysql li.ln-xtra, .mysql div.ln-xtra {background-color: #ffc;}
 .mysql span.xtra { display:block; }
 
-.newlisp .de1, .newlisp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.newlisp  {font-family:monospace;}
+.newlisp .de1, .newlisp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.newlisp  {font-family:Consolas, 'Courier New', monospace;}
 .newlisp .imp {font-weight: bold; color: red;}
 .newlisp li, .newlisp .li1 {font-weight: normal; vertical-align:top;}
 .newlisp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3170,8 +3170,8 @@
 .newlisp .ln-xtra, .newlisp li.ln-xtra, .newlisp div.ln-xtra {background-color: #ffc;}
 .newlisp span.xtra { display:block; }
 
-.nsis .de1, .nsis .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.nsis  {font-family:monospace;}
+.nsis .de1, .nsis .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.nsis  {font-family:Consolas, 'Courier New', monospace;}
 .nsis .imp {font-weight: bold; color: red;}
 .nsis li, .nsis .li1 {font-weight: normal; vertical-align:top;}
 .nsis .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3209,8 +3209,8 @@
 .nsis .ln-xtra, .nsis li.ln-xtra, .nsis div.ln-xtra {background-color: #ffc;}
 .nsis span.xtra { display:block; }
 
-.oberon2 .de1, .oberon2 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oberon2  {font-family:monospace;}
+.oberon2 .de1, .oberon2 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oberon2  {font-family:Consolas, 'Courier New', monospace;}
 .oberon2 .imp {font-weight: bold; color: red;}
 .oberon2 li, .oberon2 .li1 {font-weight: normal; vertical-align:top;}
 .oberon2 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3231,8 +3231,8 @@
 .oberon2 .ln-xtra, .oberon2 li.ln-xtra, .oberon2 div.ln-xtra {background-color: #ffc;}
 .oberon2 span.xtra { display:block; }
 
-.objc .de1, .objc .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.objc  {font-family:monospace;}
+.objc .de1, .objc .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.objc  {font-family:Consolas, 'Courier New', monospace;}
 .objc .imp {font-weight: bold; color: red;}
 .objc li, .objc .li1 {font-weight: normal; vertical-align:top;}
 .objc .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3258,8 +3258,8 @@
 .objc .ln-xtra, .objc li.ln-xtra, .objc div.ln-xtra {background-color: #ffc;}
 .objc span.xtra { display:block; }
 
-.objeck .de1, .objeck .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.objeck  {font-family:monospace;}
+.objeck .de1, .objeck .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.objeck  {font-family:Consolas, 'Courier New', monospace;}
 .objeck .imp {font-weight: bold; color: red;}
 .objeck li, .objeck .li1 {font-weight: normal; vertical-align:top;}
 .objeck .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3278,8 +3278,8 @@
 .objeck .ln-xtra, .objeck li.ln-xtra, .objeck div.ln-xtra {background-color: #ffc;}
 .objeck span.xtra { display:block; }
 
-.ocaml .de1, .ocaml .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ocaml  {font-family:monospace;}
+.ocaml .de1, .ocaml .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ocaml  {font-family:Consolas, 'Courier New', monospace;}
 .ocaml .imp {font-weight: bold; color: red;}
 .ocaml li, .ocaml .li1 {font-weight: normal; vertical-align:top;}
 .ocaml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3301,8 +3301,8 @@
 .ocaml .ln-xtra, .ocaml li.ln-xtra, .ocaml div.ln-xtra {background-color: #ffc;}
 .ocaml span.xtra { display:block; }
 
-.ocaml-brief .de1, .ocaml-brief .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ocaml-brief  {font-family:monospace;}
+.ocaml-brief .de1, .ocaml-brief .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ocaml-brief  {font-family:Consolas, 'Courier New', monospace;}
 .ocaml-brief .imp {font-weight: bold; color: red;}
 .ocaml-brief li, .ocaml-brief .li1 {font-weight: normal; vertical-align:top;}
 .ocaml-brief .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3317,8 +3317,8 @@
 .ocaml-brief .ln-xtra, .ocaml-brief li.ln-xtra, .ocaml-brief div.ln-xtra {background-color: #ffc;}
 .ocaml-brief span.xtra { display:block; }
 
-.oobas .de1, .oobas .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oobas  {font-family:monospace;}
+.oobas .de1, .oobas .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oobas  {font-family:Consolas, 'Courier New', monospace;}
 .oobas .imp {font-weight: bold; color: red;}
 .oobas li, .oobas .li1 {font-weight: normal; vertical-align:top;}
 .oobas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3335,8 +3335,8 @@
 .oobas .ln-xtra, .oobas li.ln-xtra, .oobas div.ln-xtra {background-color: #ffc;}
 .oobas span.xtra { display:block; }
 
-.oracle11 .de1, .oracle11 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oracle11  {font-family:monospace;}
+.oracle11 .de1, .oracle11 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oracle11  {font-family:Consolas, 'Courier New', monospace;}
 .oracle11 .imp {font-weight: bold; color: red;}
 .oracle11 li, .oracle11 .li1 {font-weight: normal; vertical-align:top;}
 .oracle11 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3352,8 +3352,8 @@
 .oracle11 .ln-xtra, .oracle11 li.ln-xtra, .oracle11 div.ln-xtra {background-color: #ffc;}
 .oracle11 span.xtra { display:block; }
 
-.oracle8 .de1, .oracle8 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oracle8  {font-family:monospace;}
+.oracle8 .de1, .oracle8 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oracle8  {font-family:Consolas, 'Courier New', monospace;}
 .oracle8 .imp {font-weight: bold; color: red;}
 .oracle8 li, .oracle8 .li1 {font-weight: normal; vertical-align:top;}
 .oracle8 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3369,8 +3369,8 @@
 .oracle8 .ln-xtra, .oracle8 li.ln-xtra, .oracle8 div.ln-xtra {background-color: #ffc;}
 .oracle8 span.xtra { display:block; }
 
-.oxygene .de1, .oxygene .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oxygene  {font-family:monospace;}
+.oxygene .de1, .oxygene .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oxygene  {font-family:Consolas, 'Courier New', monospace;}
 .oxygene .imp {font-weight: bold; color: red;}
 .oxygene li, .oxygene .li1 {font-weight: normal; vertical-align:top;}
 .oxygene .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3395,8 +3395,8 @@
 .oxygene .ln-xtra, .oxygene li.ln-xtra, .oxygene div.ln-xtra {background-color: #ffc;}
 .oxygene span.xtra { display:block; }
 
-.oz .de1, .oz .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.oz  {font-family:monospace;}
+.oz .de1, .oz .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.oz  {font-family:Consolas, 'Courier New', monospace;}
 .oz .imp {font-weight: bold; color: red;}
 .oz li, .oz .li1 {font-weight: normal; vertical-align:top;}
 .oz .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3415,8 +3415,8 @@
 .oz .ln-xtra, .oz li.ln-xtra, .oz div.ln-xtra {background-color: #ffc;}
 .oz span.xtra { display:block; }
 
-.pascal .de1, .pascal .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pascal  {font-family:monospace;}
+.pascal .de1, .pascal .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pascal  {font-family:Consolas, 'Courier New', monospace;}
 .pascal .imp {font-weight: bold; color: red;}
 .pascal li, .pascal .li1 {font-weight: normal; vertical-align:top;}
 .pascal .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3438,8 +3438,8 @@
 .pascal .ln-xtra, .pascal li.ln-xtra, .pascal div.ln-xtra {background-color: #ffc;}
 .pascal span.xtra { display:block; }
 
-.pcre .de1, .pcre .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pcre  {font-family:monospace;}
+.pcre .de1, .pcre .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pcre  {font-family:Consolas, 'Courier New', monospace;}
 .pcre .imp {font-weight: bold; color: red;}
 .pcre li, .pcre .li1 {font-weight: normal; vertical-align:top;}
 .pcre .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3477,8 +3477,8 @@
 .pcre .ln-xtra, .pcre li.ln-xtra, .pcre div.ln-xtra {background-color: #ffc;}
 .pcre span.xtra { display:block; }
 
-.per .de1, .per .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.per  {font-family:monospace;}
+.per .de1, .per .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.per  {font-family:Consolas, 'Courier New', monospace;}
 .per .imp {font-weight: bold; color: red;}
 .per li, .per .li1 {font-weight: normal; vertical-align:top;}
 .per .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3498,8 +3498,8 @@
 .per .ln-xtra, .per li.ln-xtra, .per div.ln-xtra {background-color: #ffc;}
 .per span.xtra { display:block; }
 
-.perl .de1, .perl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.perl  {font-family:monospace;}
+.perl .de1, .perl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.perl  {font-family:Consolas, 'Courier New', monospace;}
 .perl .imp {font-weight: bold; color: red;}
 .perl li, .perl .li1 {font-weight: normal; vertical-align:top;}
 .perl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3527,8 +3527,8 @@
 .perl .ln-xtra, .perl li.ln-xtra, .perl div.ln-xtra {background-color: #ffc;}
 .perl span.xtra { display:block; }
 
-.perl6 .de1, .perl6 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.perl6  {font-family:monospace;}
+.perl6 .de1, .perl6 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.perl6  {font-family:Consolas, 'Courier New', monospace;}
 .perl6 .imp {font-weight: bold; color: red;}
 .perl6 li, .perl6 .li1 {font-weight: normal; vertical-align:top;}
 .perl6 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3555,8 +3555,8 @@
 .perl6 .ln-xtra, .perl6 li.ln-xtra, .perl6 div.ln-xtra {background-color: #ffc;}
 .perl6 span.xtra { display:block; }
 
-.pf .de1, .pf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pf  {font-family:monospace;}
+.pf .de1, .pf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pf  {font-family:Consolas, 'Courier New', monospace;}
 .pf .imp {font-weight: bold; color: red;}
 .pf li, .pf .li1 {font-weight: normal; vertical-align:top;}
 .pf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3590,8 +3590,8 @@
 .pf .ln-xtra, .pf li.ln-xtra, .pf div.ln-xtra {background-color: #ffc;}
 .pf span.xtra { display:block; }
 
-.php .de1, .php .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.php  {font-family:monospace;}
+.php .de1, .php .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.php  {font-family:Consolas, 'Courier New', monospace;}
 .php .imp {font-weight: bold; color: red;}
 .php li, .php .li1 {font-weight: normal; vertical-align:top;}
 .php .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3628,8 +3628,8 @@
 .php .ln-xtra, .php li.ln-xtra, .php div.ln-xtra {background-color: #ffc;}
 .php span.xtra { display:block; }
 
-.php-brief .de1, .php-brief .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.php-brief  {font-family:monospace;}
+.php-brief .de1, .php-brief .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.php-brief  {font-family:Consolas, 'Courier New', monospace;}
 .php-brief .imp {font-weight: bold; color: red;}
 .php-brief li, .php-brief .li1 {font-weight: normal; vertical-align:top;}
 .php-brief .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3658,8 +3658,8 @@
 .php-brief .ln-xtra, .php-brief li.ln-xtra, .php-brief div.ln-xtra {background-color: #ffc;}
 .php-brief span.xtra { display:block; }
 
-.pic16 .de1, .pic16 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pic16  {font-family:monospace;}
+.pic16 .de1, .pic16 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pic16  {font-family:Consolas, 'Courier New', monospace;}
 .pic16 .imp {font-weight: bold; color: red;}
 .pic16 li, .pic16 .li1 {font-weight: normal; vertical-align:top;}
 .pic16 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3676,8 +3676,8 @@
 .pic16 .ln-xtra, .pic16 li.ln-xtra, .pic16 div.ln-xtra {background-color: #ffc;}
 .pic16 span.xtra { display:block; }
 
-.pike .de1, .pike .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pike  {font-family:monospace;}
+.pike .de1, .pike .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pike  {font-family:Consolas, 'Courier New', monospace;}
 .pike .imp {font-weight: bold; color: red;}
 .pike li, .pike .li1 {font-weight: normal; vertical-align:top;}
 .pike .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3694,8 +3694,8 @@
 .pike .ln-xtra, .pike li.ln-xtra, .pike div.ln-xtra {background-color: #ffc;}
 .pike span.xtra { display:block; }
 
-.pixelbender .de1, .pixelbender .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pixelbender  {font-family:monospace;}
+.pixelbender .de1, .pixelbender .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pixelbender  {font-family:Consolas, 'Courier New', monospace;}
 .pixelbender .imp {font-weight: bold; color: red;}
 .pixelbender li, .pixelbender .li1 {font-weight: normal; vertical-align:top;}
 .pixelbender .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3717,8 +3717,8 @@
 .pixelbender .ln-xtra, .pixelbender li.ln-xtra, .pixelbender div.ln-xtra {background-color: #ffc;}
 .pixelbender span.xtra { display:block; }
 
-.pli .de1, .pli .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pli  {font-family:monospace;}
+.pli .de1, .pli .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pli  {font-family:Consolas, 'Courier New', monospace;}
 .pli .imp {font-weight: bold; color: red;}
 .pli li, .pli .li1 {font-weight: normal; vertical-align:top;}
 .pli .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3734,8 +3734,8 @@
 .pli .ln-xtra, .pli li.ln-xtra, .pli div.ln-xtra {background-color: #ffc;}
 .pli span.xtra { display:block; }
 
-.plsql .de1, .plsql .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.plsql  {font-family:monospace;}
+.plsql .de1, .plsql .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.plsql  {font-family:Consolas, 'Courier New', monospace;}
 .plsql .imp {font-weight: bold; color: red;}
 .plsql li, .plsql .li1 {font-weight: normal; vertical-align:top;}
 .plsql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3757,8 +3757,8 @@
 .plsql .ln-xtra, .plsql li.ln-xtra, .plsql div.ln-xtra {background-color: #ffc;}
 .plsql span.xtra { display:block; }
 
-.postgresql .de1, .postgresql .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.postgresql  {font-family:monospace;}
+.postgresql .de1, .postgresql .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.postgresql  {font-family:Consolas, 'Courier New', monospace;}
 .postgresql .imp {font-weight: bold; color: red;}
 .postgresql li, .postgresql .li1 {font-weight: normal; vertical-align:top;}
 .postgresql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3777,8 +3777,8 @@
 .postgresql .ln-xtra, .postgresql li.ln-xtra, .postgresql div.ln-xtra {background-color: #ffc;}
 .postgresql span.xtra { display:block; }
 
-.povray .de1, .povray .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.povray  {font-family:monospace;}
+.povray .de1, .povray .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.povray  {font-family:Consolas, 'Courier New', monospace;}
 .povray .imp {font-weight: bold; color: red;}
 .povray li, .povray .li1 {font-weight: normal; vertical-align:top;}
 .povray .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3802,8 +3802,8 @@
 .povray .ln-xtra, .povray li.ln-xtra, .povray div.ln-xtra {background-color: #ffc;}
 .povray span.xtra { display:block; }
 
-.powerbuilder .de1, .powerbuilder .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.powerbuilder  {font-family:monospace;}
+.powerbuilder .de1, .powerbuilder .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.powerbuilder  {font-family:Consolas, 'Courier New', monospace;}
 .powerbuilder .imp {font-weight: bold; color: red;}
 .powerbuilder li, .powerbuilder .li1 {font-weight: normal; vertical-align:top;}
 .powerbuilder .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3824,8 +3824,8 @@
 .powerbuilder .ln-xtra, .powerbuilder li.ln-xtra, .powerbuilder div.ln-xtra {background-color: #ffc;}
 .powerbuilder span.xtra { display:block; }
 
-.powershell .de1, .powershell .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.powershell  {font-family:monospace;}
+.powershell .de1, .powershell .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.powershell  {font-family:Consolas, 'Courier New', monospace;}
 .powershell .imp {font-weight: bold; color: red;}
 .powershell li, .powershell .li1 {font-weight: normal; vertical-align:top;}
 .powershell .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3852,8 +3852,8 @@
 .powershell .ln-xtra, .powershell li.ln-xtra, .powershell div.ln-xtra {background-color: #ffc;}
 .powershell span.xtra { display:block; }
 
-.proftpd .de1, .proftpd .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.proftpd  {font-family:monospace;}
+.proftpd .de1, .proftpd .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.proftpd  {font-family:Consolas, 'Courier New', monospace;}
 .proftpd .imp {font-weight: bold; color: red;}
 .proftpd li, .proftpd .li1 {font-weight: normal; vertical-align:top;}
 .proftpd .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3871,8 +3871,8 @@
 .proftpd .ln-xtra, .proftpd li.ln-xtra, .proftpd div.ln-xtra {background-color: #ffc;}
 .proftpd span.xtra { display:block; }
 
-.progress .de1, .progress .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.progress  {font-family:monospace;}
+.progress .de1, .progress .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.progress  {font-family:Consolas, 'Courier New', monospace;}
 .progress .imp {font-weight: bold; color: red;}
 .progress li, .progress .li1 {font-weight: normal; vertical-align:top;}
 .progress .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3891,8 +3891,8 @@
 .progress .ln-xtra, .progress li.ln-xtra, .progress div.ln-xtra {background-color: #ffc;}
 .progress span.xtra { display:block; }
 
-.prolog .de1, .prolog .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.prolog  {font-family:monospace;}
+.prolog .de1, .prolog .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.prolog  {font-family:Consolas, 'Courier New', monospace;}
 .prolog .imp {font-weight: bold; color: red;}
 .prolog li, .prolog .li1 {font-weight: normal; vertical-align:top;}
 .prolog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3917,8 +3917,8 @@
 .prolog .ln-xtra, .prolog li.ln-xtra, .prolog div.ln-xtra {background-color: #ffc;}
 .prolog span.xtra { display:block; }
 
-.properties .de1, .properties .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.properties  {font-family:monospace;}
+.properties .de1, .properties .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.properties  {font-family:Consolas, 'Courier New', monospace;}
 .properties .imp {font-weight: bold; color: red;}
 .properties li, .properties .li1 {font-weight: normal; vertical-align:top;}
 .properties .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3932,8 +3932,8 @@
 .properties .ln-xtra, .properties li.ln-xtra, .properties div.ln-xtra {background-color: #ffc;}
 .properties span.xtra { display:block; }
 
-.providex .de1, .providex .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.providex  {font-family:monospace;}
+.providex .de1, .providex .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.providex  {font-family:Consolas, 'Courier New', monospace;}
 .providex .imp {font-weight: bold; color: red;}
 .providex li, .providex .li1 {font-weight: normal; vertical-align:top;}
 .providex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3960,8 +3960,8 @@
 .providex .ln-xtra, .providex li.ln-xtra, .providex div.ln-xtra {background-color: #ffc;}
 .providex span.xtra { display:block; }
 
-.purebasic .de1, .purebasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.purebasic  {font-family:monospace;}
+.purebasic .de1, .purebasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.purebasic  {font-family:Consolas, 'Courier New', monospace;}
 .purebasic .imp {font-weight: bold; color: red;}
 .purebasic li, .purebasic .li1 {font-weight: normal; vertical-align:top;}
 .purebasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -3980,8 +3980,8 @@
 .purebasic .ln-xtra, .purebasic li.ln-xtra, .purebasic div.ln-xtra {background-color: #ffc;}
 .purebasic span.xtra { display:block; }
 
-.pycon .de1, .pycon .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.pycon  {font-family:monospace;}
+.pycon .de1, .pycon .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.pycon  {font-family:Consolas, 'Courier New', monospace;}
 .pycon .imp {font-weight: bold; color: red;}
 .pycon li, .pycon .li1 {font-weight: normal; vertical-align:top;}
 .pycon .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4003,8 +4003,8 @@
 .pycon .ln-xtra, .pycon li.ln-xtra, .pycon div.ln-xtra {background-color: #ffc;}
 .pycon span.xtra { display:block; }
 
-.python .de1, .python .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.python  {font-family:monospace;}
+.python .de1, .python .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.python  {font-family:Consolas, 'Courier New', monospace;}
 .python .imp {font-weight: bold; color: red;}
 .python li, .python .li1 {font-weight: normal; vertical-align:top;}
 .python .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4024,8 +4024,8 @@
 .python .ln-xtra, .python li.ln-xtra, .python div.ln-xtra {background-color: #ffc;}
 .python span.xtra { display:block; }
 
-.q .de1, .q .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.q  {font-family:monospace;}
+.q .de1, .q .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.q  {font-family:Consolas, 'Courier New', monospace;}
 .q .imp {font-weight: bold; color: red;}
 .q li, .q .li1 {font-weight: normal; vertical-align:top;}
 .q .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4059,8 +4059,8 @@
 .q .ln-xtra, .q li.ln-xtra, .q div.ln-xtra {background-color: #ffc;}
 .q span.xtra { display:block; }
 
-.qbasic .de1, .qbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.qbasic  {font-family:monospace;}
+.qbasic .de1, .qbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.qbasic  {font-family:Consolas, 'Courier New', monospace;}
 .qbasic .imp {font-weight: bold; color: red;}
 .qbasic li, .qbasic .li1 {font-weight: normal; vertical-align:top;}
 .qbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4080,8 +4080,8 @@
 .qbasic .ln-xtra, .qbasic li.ln-xtra, .qbasic div.ln-xtra {background-color: #ffc;}
 .qbasic span.xtra { display:block; }
 
-.rails .de1, .rails .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.rails  {font-family:monospace;}
+.rails .de1, .rails .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.rails  {font-family:Consolas, 'Courier New', monospace;}
 .rails .imp {font-weight: bold; color: red;}
 .rails li, .rails .li1 {font-weight: normal; vertical-align:top;}
 .rails .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4106,8 +4106,8 @@
 .rails .ln-xtra, .rails li.ln-xtra, .rails div.ln-xtra {background-color: #ffc;}
 .rails span.xtra { display:block; }
 
-.rebol .de1, .rebol .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.rebol  {font-family:monospace;}
+.rebol .de1, .rebol .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.rebol  {font-family:Consolas, 'Courier New', monospace;}
 .rebol .imp {font-weight: bold; color: red;}
 .rebol li, .rebol .li1 {font-weight: normal; vertical-align:top;}
 .rebol .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4128,8 +4128,8 @@
 .rebol .ln-xtra, .rebol li.ln-xtra, .rebol div.ln-xtra {background-color: #ffc;}
 .rebol span.xtra { display:block; }
 
-.reg .de1, .reg .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.reg  {font-family:monospace;}
+.reg .de1, .reg .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.reg  {font-family:Consolas, 'Courier New', monospace;}
 .reg .imp {font-weight: bold; color: red;}
 .reg li, .reg .li1 {font-weight: normal; vertical-align:top;}
 .reg .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4147,8 +4147,8 @@
 .reg .ln-xtra, .reg li.ln-xtra, .reg div.ln-xtra {background-color: #ffc;}
 .reg span.xtra { display:block; }
 
-.robots .de1, .robots .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.robots  {font-family:monospace;}
+.robots .de1, .robots .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.robots  {font-family:Consolas, 'Courier New', monospace;}
 .robots .imp {font-weight: bold; color: red;}
 .robots li, .robots .li1 {font-weight: normal; vertical-align:top;}
 .robots .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4163,8 +4163,8 @@
 .robots .ln-xtra, .robots li.ln-xtra, .robots div.ln-xtra {background-color: #ffc;}
 .robots span.xtra { display:block; }
 
-.rpmspec .de1, .rpmspec .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.rpmspec  {font-family:monospace;}
+.rpmspec .de1, .rpmspec .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.rpmspec  {font-family:Consolas, 'Courier New', monospace;}
 .rpmspec .imp {font-weight: bold; color: red;}
 .rpmspec li, .rpmspec .li1 {font-weight: normal; vertical-align:top;}
 .rpmspec .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4186,8 +4186,8 @@
 .rpmspec .ln-xtra, .rpmspec li.ln-xtra, .rpmspec div.ln-xtra {background-color: #ffc;}
 .rpmspec span.xtra { display:block; }
 
-.rsplus .de1, .rsplus .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.rsplus  {font-family:monospace;}
+.rsplus .de1, .rsplus .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.rsplus  {font-family:Consolas, 'Courier New', monospace;}
 .rsplus .imp {font-weight: bold; color: red;}
 .rsplus li, .rsplus .li1 {font-weight: normal; vertical-align:top;}
 .rsplus .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4210,8 +4210,8 @@
 .rsplus .ln-xtra, .rsplus li.ln-xtra, .rsplus div.ln-xtra {background-color: #ffc;}
 .rsplus span.xtra { display:block; }
 
-.ruby .de1, .ruby .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.ruby  {font-family:monospace;}
+.ruby .de1, .ruby .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.ruby  {font-family:Consolas, 'Courier New', monospace;}
 .ruby .imp {font-weight: bold; color: red;}
 .ruby li, .ruby .li1 {font-weight: normal; vertical-align:top;}
 .ruby .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4236,8 +4236,8 @@
 .ruby .ln-xtra, .ruby li.ln-xtra, .ruby div.ln-xtra {background-color: #ffc;}
 .ruby span.xtra { display:block; }
 
-.sas .de1, .sas .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.sas  {font-family:monospace;}
+.sas .de1, .sas .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.sas  {font-family:Consolas, 'Courier New', monospace;}
 .sas .imp {font-weight: bold; color: red;}
 .sas li, .sas .li1 {font-weight: normal; vertical-align:top;}
 .sas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4270,8 +4270,8 @@
 .sas .ln-xtra, .sas li.ln-xtra, .sas div.ln-xtra {background-color: #ffc;}
 .sas span.xtra { display:block; }
 
-.scala .de1, .scala .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.scala  {font-family:monospace;}
+.scala .de1, .scala .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.scala  {font-family:Consolas, 'Courier New', monospace;}
 .scala .imp {font-weight: bold; color: red;}
 .scala li, .scala .li1 {font-weight: normal; vertical-align:top;}
 .scala .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4290,8 +4290,8 @@
 .scala .ln-xtra, .scala li.ln-xtra, .scala div.ln-xtra {background-color: #ffc;}
 .scala span.xtra { display:block; }
 
-.scheme .de1, .scheme .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.scheme  {font-family:monospace;}
+.scheme .de1, .scheme .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.scheme  {font-family:Consolas, 'Courier New', monospace;}
 .scheme .imp {font-weight: bold; color: red;}
 .scheme li, .scheme .li1 {font-weight: normal; vertical-align:top;}
 .scheme .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4308,8 +4308,8 @@
 .scheme .ln-xtra, .scheme li.ln-xtra, .scheme div.ln-xtra {background-color: #ffc;}
 .scheme span.xtra { display:block; }
 
-.scilab .de1, .scilab .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.scilab  {font-family:monospace;}
+.scilab .de1, .scilab .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.scilab  {font-family:Consolas, 'Courier New', monospace;}
 .scilab .imp {font-weight: bold; color: red;}
 .scilab li, .scilab .li1 {font-weight: normal; vertical-align:top;}
 .scilab .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4333,8 +4333,8 @@
 .scilab .ln-xtra, .scilab li.ln-xtra, .scilab div.ln-xtra {background-color: #ffc;}
 .scilab span.xtra { display:block; }
 
-.sdlbasic .de1, .sdlbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.sdlbasic  {font-family:monospace;}
+.sdlbasic .de1, .sdlbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.sdlbasic  {font-family:Consolas, 'Courier New', monospace;}
 .sdlbasic .imp {font-weight: bold; color: red;}
 .sdlbasic li, .sdlbasic .li1 {font-weight: normal; vertical-align:top;}
 .sdlbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4353,8 +4353,8 @@
 .sdlbasic .ln-xtra, .sdlbasic li.ln-xtra, .sdlbasic div.ln-xtra {background-color: #ffc;}
 .sdlbasic span.xtra { display:block; }
 
-.smalltalk .de1, .smalltalk .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.smalltalk  {font-family:monospace;}
+.smalltalk .de1, .smalltalk .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.smalltalk  {font-family:Consolas, 'Courier New', monospace;}
 .smalltalk .imp {font-weight: bold; color: red;}
 .smalltalk li, .smalltalk .li1 {font-weight: normal; vertical-align:top;}
 .smalltalk .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4373,8 +4373,8 @@
 .smalltalk .ln-xtra, .smalltalk li.ln-xtra, .smalltalk div.ln-xtra {background-color: #ffc;}
 .smalltalk span.xtra { display:block; }
 
-.smarty .de1, .smarty .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.smarty  {font-family:monospace;}
+.smarty .de1, .smarty .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.smarty  {font-family:Consolas, 'Courier New', monospace;}
 .smarty .imp {font-weight: bold; color: red;}
 .smarty li, .smarty .li1 {font-weight: normal; vertical-align:top;}
 .smarty .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4400,8 +4400,8 @@
 .smarty .ln-xtra, .smarty li.ln-xtra, .smarty div.ln-xtra {background-color: #ffc;}
 .smarty span.xtra { display:block; }
 
-.sql .de1, .sql .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.sql  {font-family:monospace;}
+.sql .de1, .sql .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.sql  {font-family:Consolas, 'Courier New', monospace;}
 .sql .imp {font-weight: bold; color: red;}
 .sql li, .sql .li1 {font-weight: normal; vertical-align:top;}
 .sql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4417,8 +4417,8 @@
 .sql .ln-xtra, .sql li.ln-xtra, .sql div.ln-xtra {background-color: #ffc;}
 .sql span.xtra { display:block; }
 
-.systemverilog .de1, .systemverilog .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.systemverilog  {font-family:monospace;}
+.systemverilog .de1, .systemverilog .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.systemverilog  {font-family:Consolas, 'Courier New', monospace;}
 .systemverilog .imp {font-weight: bold; color: red;}
 .systemverilog li, .systemverilog .li1 {font-weight: normal; vertical-align:top;}
 .systemverilog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4447,8 +4447,8 @@
 .systemverilog .ln-xtra, .systemverilog li.ln-xtra, .systemverilog div.ln-xtra {background-color: #ffc;}
 .systemverilog span.xtra { display:block; }
 
-.tcl .de1, .tcl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.tcl  {font-family:monospace;}
+.tcl .de1, .tcl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.tcl  {font-family:Consolas, 'Courier New', monospace;}
 .tcl .imp {font-weight: bold; color: red;}
 .tcl li, .tcl .li1 {font-weight: normal; vertical-align:top;}
 .tcl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4468,8 +4468,8 @@
 .tcl .ln-xtra, .tcl li.ln-xtra, .tcl div.ln-xtra {background-color: #ffc;}
 .tcl span.xtra { display:block; }
 
-.teraterm .de1, .teraterm .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.teraterm  {font-family:monospace;}
+.teraterm .de1, .teraterm .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.teraterm  {font-family:Consolas, 'Courier New', monospace;}
 .teraterm .imp {font-weight: bold; color: red;}
 .teraterm li, .teraterm .li1 {font-weight: normal; vertical-align:top;}
 .teraterm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4487,8 +4487,8 @@
 .teraterm .ln-xtra, .teraterm li.ln-xtra, .teraterm div.ln-xtra {background-color: #ffc;}
 .teraterm span.xtra { display:block; }
 
-.text .de1, .text .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.text  {font-family:monospace;}
+.text .de1, .text .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.text  {font-family:Consolas, 'Courier New', monospace;}
 .text .imp {font-weight: bold; color: red;}
 .text li, .text .li1 {font-weight: normal; vertical-align:top;}
 .text .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4496,8 +4496,8 @@
 .text .ln-xtra, .text li.ln-xtra, .text div.ln-xtra {background-color: #ffc;}
 .text span.xtra { display:block; }
 
-.thinbasic .de1, .thinbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.thinbasic  {font-family:monospace;}
+.thinbasic .de1, .thinbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.thinbasic  {font-family:Consolas, 'Courier New', monospace;}
 .thinbasic .imp {font-weight: bold; color: red;}
 .thinbasic li, .thinbasic .li1 {font-weight: normal; vertical-align:top;}
 .thinbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4514,8 +4514,8 @@
 .thinbasic .ln-xtra, .thinbasic li.ln-xtra, .thinbasic div.ln-xtra {background-color: #ffc;}
 .thinbasic span.xtra { display:block; }
 
-.tsql .de1, .tsql .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.tsql  {font-family:monospace;}
+.tsql .de1, .tsql .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.tsql  {font-family:Consolas, 'Courier New', monospace;}
 .tsql .imp {font-weight: bold; color: red;}
 .tsql li, .tsql .li1 {font-weight: normal; vertical-align:top;}
 .tsql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4536,8 +4536,8 @@
 .tsql .ln-xtra, .tsql li.ln-xtra, .tsql div.ln-xtra {background-color: #ffc;}
 .tsql span.xtra { display:block; }
 
-.typoscript .de1, .typoscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.typoscript  {font-family:monospace;}
+.typoscript .de1, .typoscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.typoscript  {font-family:Consolas, 'Courier New', monospace;}
 .typoscript .imp {font-weight: bold; color: red;}
 .typoscript li, .typoscript .li1 {font-weight: normal; vertical-align:top;}
 .typoscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4572,8 +4572,8 @@
 .typoscript .ln-xtra, .typoscript li.ln-xtra, .typoscript div.ln-xtra {background-color: #ffc;}
 .typoscript span.xtra { display:block; }
 
-.unicon .de1, .unicon .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.unicon  {font-family:monospace;}
+.unicon .de1, .unicon .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.unicon  {font-family:Consolas, 'Courier New', monospace;}
 .unicon .imp {font-weight: bold; color: red;}
 .unicon li, .unicon .li1 {font-weight: normal; vertical-align:top;}
 .unicon .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4597,8 +4597,8 @@
 .unicon .ln-xtra, .unicon li.ln-xtra, .unicon div.ln-xtra {background-color: #ffc;}
 .unicon span.xtra { display:block; }
 
-.uscript .de1, .uscript .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.uscript  {font-family:monospace;}
+.uscript .de1, .uscript .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.uscript  {font-family:Consolas, 'Courier New', monospace;}
 .uscript .imp {font-weight: bold; color: red;}
 .uscript li, .uscript .li1 {font-weight: normal; vertical-align:top;}
 .uscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4626,8 +4626,8 @@
 .uscript .ln-xtra, .uscript li.ln-xtra, .uscript div.ln-xtra {background-color: #ffc;}
 .uscript span.xtra { display:block; }
 
-.vala .de1, .vala .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.vala  {font-family:monospace;}
+.vala .de1, .vala .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.vala  {font-family:Consolas, 'Courier New', monospace;}
 .vala .imp {font-weight: bold; color: red;}
 .vala li, .vala .li1 {font-weight: normal; vertical-align:top;}
 .vala .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4651,8 +4651,8 @@
 .vala .ln-xtra, .vala li.ln-xtra, .vala div.ln-xtra {background-color: #ffc;}
 .vala span.xtra { display:block; }
 
-.vb .de1, .vb .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.vb  {font-family:monospace;}
+.vb .de1, .vb .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.vb  {font-family:Consolas, 'Courier New', monospace;}
 .vb .imp {font-weight: bold; color: red;}
 .vb li, .vb .li1 {font-weight: normal; vertical-align:top;}
 .vb .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4669,8 +4669,8 @@
 .vb .ln-xtra, .vb li.ln-xtra, .vb div.ln-xtra {background-color: #ffc;}
 .vb span.xtra { display:block; }
 
-.vbnet .de1, .vbnet .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.vbnet  {font-family:monospace;}
+.vbnet .de1, .vbnet .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.vbnet  {font-family:Consolas, 'Courier New', monospace;}
 .vbnet .imp {font-weight: bold; color: red;}
 .vbnet li, .vbnet .li1 {font-weight: normal; vertical-align:top;}
 .vbnet .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4694,8 +4694,8 @@
 .vbnet .ln-xtra, .vbnet li.ln-xtra, .vbnet div.ln-xtra {background-color: #ffc;}
 .vbnet span.xtra { display:block; }
 
-.verilog .de1, .verilog .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.verilog  {font-family:monospace;}
+.verilog .de1, .verilog .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.verilog  {font-family:Consolas, 'Courier New', monospace;}
 .verilog .imp {font-weight: bold; color: red;}
 .verilog li, .verilog .li1 {font-weight: normal; vertical-align:top;}
 .verilog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4717,8 +4717,8 @@
 .verilog .ln-xtra, .verilog li.ln-xtra, .verilog div.ln-xtra {background-color: #ffc;}
 .verilog span.xtra { display:block; }
 
-.vhdl .de1, .vhdl .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.vhdl  {font-family:monospace;}
+.vhdl .de1, .vhdl .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.vhdl  {font-family:Consolas, 'Courier New', monospace;}
 .vhdl .imp {font-weight: bold; color: red;}
 .vhdl li, .vhdl .li1 {font-weight: normal; vertical-align:top;}
 .vhdl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4737,8 +4737,8 @@
 .vhdl .ln-xtra, .vhdl li.ln-xtra, .vhdl div.ln-xtra {background-color: #ffc;}
 .vhdl span.xtra { display:block; }
 
-.vim .de1, .vim .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.vim  {font-family:monospace;}
+.vim .de1, .vim .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.vim  {font-family:Consolas, 'Courier New', monospace;}
 .vim .imp {font-weight: bold; color: red;}
 .vim li, .vim .li1 {font-weight: normal; vertical-align:top;}
 .vim .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4755,8 +4755,8 @@
 .vim .ln-xtra, .vim li.ln-xtra, .vim div.ln-xtra {background-color: #ffc;}
 .vim span.xtra { display:block; }
 
-.visualfoxpro .de1, .visualfoxpro .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.visualfoxpro  {font-family:monospace;}
+.visualfoxpro .de1, .visualfoxpro .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.visualfoxpro  {font-family:Consolas, 'Courier New', monospace;}
 .visualfoxpro .imp {font-weight: bold; color: red;}
 .visualfoxpro li, .visualfoxpro .li1 {font-weight: normal; vertical-align:top;}
 .visualfoxpro .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4777,8 +4777,8 @@
 .visualfoxpro .ln-xtra, .visualfoxpro li.ln-xtra, .visualfoxpro div.ln-xtra {background-color: #ffc;}
 .visualfoxpro span.xtra { display:block; }
 
-.visualprolog .de1, .visualprolog .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.visualprolog  {font-family:monospace;}
+.visualprolog .de1, .visualprolog .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.visualprolog  {font-family:Consolas, 'Courier New', monospace;}
 .visualprolog .imp {font-weight: bold; color: red;}
 .visualprolog li, .visualprolog .li1 {font-weight: normal; vertical-align:top;}
 .visualprolog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4799,8 +4799,8 @@
 .visualprolog .ln-xtra, .visualprolog li.ln-xtra, .visualprolog div.ln-xtra {background-color: #ffc;}
 .visualprolog span.xtra { display:block; }
 
-.whitespace .de1, .whitespace .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.whitespace  {font-family:monospace;}
+.whitespace .de1, .whitespace .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.whitespace  {font-family:Consolas, 'Courier New', monospace;}
 .whitespace .imp {font-weight: bold; color: red;}
 .whitespace li, .whitespace .li1 {font-weight: normal; vertical-align:top;}
 .whitespace .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4813,8 +4813,8 @@
 .whitespace .ln-xtra, .whitespace li.ln-xtra, .whitespace div.ln-xtra {background-color: #ffc;}
 .whitespace span.xtra { display:block; }
 
-.whois .de1, .whois .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.whois  {font-family:monospace;}
+.whois .de1, .whois .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.whois  {font-family:Consolas, 'Courier New', monospace;}
 .whois .imp {font-weight: bold; color: red;}
 .whois li, .whois .li1 {font-weight: normal; vertical-align:top;}
 .whois .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4840,8 +4840,8 @@
 .whois .ln-xtra, .whois li.ln-xtra, .whois div.ln-xtra {background-color: #ffc;}
 .whois span.xtra { display:block; }
 
-.winbatch .de1, .winbatch .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.winbatch  {font-family:monospace;}
+.winbatch .de1, .winbatch .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.winbatch  {font-family:Consolas, 'Courier New', monospace;}
 .winbatch .imp {font-weight: bold; color: red;}
 .winbatch li, .winbatch .li1 {font-weight: normal; vertical-align:top;}
 .winbatch .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4864,8 +4864,8 @@
 .winbatch .ln-xtra, .winbatch li.ln-xtra, .winbatch div.ln-xtra {background-color: #ffc;}
 .winbatch span.xtra { display:block; }
 
-.xbasic .de1, .xbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.xbasic  {font-family:monospace;}
+.xbasic .de1, .xbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.xbasic  {font-family:Consolas, 'Courier New', monospace;}
 .xbasic .imp {font-weight: bold; color: red;}
 .xbasic li, .xbasic .li1 {font-weight: normal; vertical-align:top;}
 .xbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4883,8 +4883,8 @@
 .xbasic .ln-xtra, .xbasic li.ln-xtra, .xbasic div.ln-xtra {background-color: #ffc;}
 .xbasic span.xtra { display:block; }
 
-.xml .de1, .xml .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.xml  {font-family:monospace;}
+.xml .de1, .xml .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.xml  {font-family:Consolas, 'Courier New', monospace;}
 .xml .imp {font-weight: bold; color: red;}
 .xml li, .xml .li1 {font-weight: normal; vertical-align:top;}
 .xml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4905,8 +4905,8 @@
 .xml .ln-xtra, .xml li.ln-xtra, .xml div.ln-xtra {background-color: #ffc;}
 .xml span.xtra { display:block; }
 
-.xorg_conf .de1, .xorg_conf .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.xorg_conf  {font-family:monospace;}
+.xorg_conf .de1, .xorg_conf .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.xorg_conf  {font-family:Consolas, 'Courier New', monospace;}
 .xorg_conf .imp {font-weight: bold; color: red;}
 .xorg_conf li, .xorg_conf .li1 {font-weight: normal; vertical-align:top;}
 .xorg_conf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4920,8 +4920,8 @@
 .xorg_conf .ln-xtra, .xorg_conf li.ln-xtra, .xorg_conf div.ln-xtra {background-color: #ffc;}
 .xorg_conf span.xtra { display:block; }
 
-.xpp .de1, .xpp .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.xpp  {font-family:monospace;}
+.xpp .de1, .xpp .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.xpp  {font-family:Consolas, 'Courier New', monospace;}
 .xpp .imp {font-weight: bold; color: red;}
 .xpp li, .xpp .li1 {font-weight: normal; vertical-align:top;}
 .xpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4942,8 +4942,8 @@
 .xpp .ln-xtra, .xpp li.ln-xtra, .xpp div.ln-xtra {background-color: #ffc;}
 .xpp span.xtra { display:block; }
 
-.yaml .de1, .yaml .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.yaml  {font-family:monospace;}
+.yaml .de1, .yaml .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.yaml  {font-family:Consolas, 'Courier New', monospace;}
 .yaml .imp {font-weight: bold; color: red;}
 .yaml li, .yaml .li1 {font-weight: normal; vertical-align:top;}
 .yaml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4964,8 +4964,8 @@
 .yaml .ln-xtra, .yaml li.ln-xtra, .yaml div.ln-xtra {background-color: #ffc;}
 .yaml span.xtra { display:block; }
 
-.z80 .de1, .z80 .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.z80  {font-family:monospace;}
+.z80 .de1, .z80 .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.z80  {font-family:Consolas, 'Courier New', monospace;}
 .z80 .imp {font-weight: bold; color: red;}
 .z80 li, .z80 .li1 {font-weight: normal; vertical-align:top;}
 .z80 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
@@ -4985,8 +4985,8 @@
 .z80 .ln-xtra, .z80 li.ln-xtra, .z80 div.ln-xtra {background-color: #ffc;}
 .z80 span.xtra { display:block; }
 
-.zxbasic .de1, .zxbasic .de2 {font: normal normal Consolas, 'Courier New', monospace; margin:0; padding:0; background:none; vertical-align:top;}
-.zxbasic  {font-family:monospace;}
+.zxbasic .de1, .zxbasic .de2 { margin:0; padding:0; background:none; vertical-align:top;}
+.zxbasic  {font-family:Consolas, 'Courier New', monospace;}
 .zxbasic .imp {font-weight: bold; color: red;}
 .zxbasic li, .zxbasic .li1 {font-weight: normal; vertical-align:top;}
 .zxbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
