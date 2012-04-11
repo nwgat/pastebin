@@ -11,11 +11,11 @@ pre#code {
 	padding-top: 10px;
 	padding-left: 25px;
 	font-family: Consolas, "Courier New", monospace !important;
+	display: inline-block;	
 }
 
 pre li {
 	line-height: 5px !important;
-	display: inline-block;	
 }
 
 .mycode {
