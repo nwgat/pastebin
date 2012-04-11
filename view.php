@@ -88,7 +88,8 @@
 			</p>
 			</span>
 			
-			<article id="code" class="well">
+			<article class="well">
+				<pre id="code">
 <?php
 
 	$geshi =& new GeSHi( $result["code"], $lang );
@@ -98,6 +99,7 @@
 	$geshi->set_overall_class('mycode');
 	echo $geshi->parse_code();
 ?>
+				</pre>
 			</article>
 			
 			<?php if( count( $alterations ) > 0 ) { ?>
