@@ -14,7 +14,7 @@
 	if( $result[ "alter" ] > -1 )
 	{
 		$altres = $db->SelectFirst( "snippets", "id = '$result[alter]'" );
-		  if empty ($altres["sname"])
+		  if (empty($altres["sname"]))
   		  {
     		$altres["sname"] = "Untitled";
  		  }

@@ -17,7 +17,7 @@ $orig = array();
 if( !empty( $alter ) )
 {
   $orig = $db->SelectFirst( "snippets", "id = '$alter'" );
-  if empty ($orig["sname"])
+  if (empty($orig["sname"]))
   {
     $orig["sname"] = "Untitled";
   }
@@ -25,7 +25,7 @@ if( !empty( $alter ) )
 if( !empty( $edit ) )
 {
   $orig = $db->SelectFirst( "snippets", "id = '$edit'" );
-    if empty ($orig["sname"])
+    if (empty($orig["sname"]))
   {
     $orig["sname"] = "Untitled";
   }
