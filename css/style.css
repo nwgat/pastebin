@@ -22,6 +22,10 @@ pre li {
 	line-height: 10px !important;	
 }
 
+pre#mycode {
+	margin-top: 5px;
+}
+
 #loginbuttons {
 	display: inline-block;
 	margin-right: 20px;
