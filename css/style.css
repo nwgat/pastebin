@@ -14,7 +14,8 @@ pre#code {
 }
 
 pre li {
-	line-height: 11px !important;	
+	line-height: 5px !important;
+	display: inline-block;	
 }
 
 .mycode {
