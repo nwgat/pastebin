@@ -14,7 +14,7 @@ pre#code {
 }
 
 pre li {
-	line-height: normal !important;	
+	line-height: 5px !important;	
 }
 
 .mycode {
