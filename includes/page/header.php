@@ -16,7 +16,7 @@
 
   <!-- pastebin styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="css/geshi.css" />
+  <link rel="stylesheet" type="text/css" href="css/geshi.min.css" />
   <link rel="stylesheet" type="text/css" href="css/diffview.css"/>
   
   <!-- javascript -->
