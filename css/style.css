@@ -17,6 +17,10 @@ pre li {
 	line-height: 5px !important;	
 }
 
+ol {
+	font-weight: bold;
+}
+
 .mycode {
 	margin-top: 10px;
 }
