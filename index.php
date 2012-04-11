@@ -17,10 +17,18 @@ $orig = array();
 if( !empty( $alter ) )
 {
   $orig = $db->SelectFirst( "snippets", "id = '$alter'" );
+  if empty ($orig["sname"])
+  {
+    $orig["sname"] = "Untitled";
+  }
 }
 if( !empty( $edit ) )
 {
   $orig = $db->SelectFirst( "snippets", "id = '$edit'" );
+    if empty ($orig["sname"])
+  {
+    $orig["sname"] = "Untitled";
+  }
 }
 ?>
 <div id="pastearea" class="container-fluid">
