@@ -25,7 +25,7 @@
 			$nname = htmlentities( $v["nname" ] );
 			
 			if( $sname == "" )
-				$sname = "<em>Untitled</em>";
+				$sname = "<em>Untitled </em>";
 			if( $nname == "" )
 				$nname = "Anonymous Coward";
 				
