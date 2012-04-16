@@ -80,10 +80,8 @@
 		}
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
-<div class="btn-group navbar-text pull-right" id='loginbuttons'>
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-    Login
-    <span class="caret"></span>
+<div class="nav pull-right btn-group" id='loginbuttons'>
+  <a class="btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Login<span class="caret"></span>
   </a>
   <ul class="dropdown-menu">
   <a href='./index.php?login'><img src='img/google.png' alt='Google'/>Login Via Google</a>
