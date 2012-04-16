@@ -86,7 +86,7 @@
 else{ ?>
 <ul class="nav pull-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo htmlentities($remembered_name);?>Login<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo (htmlentities($remembered_name));?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href='./user'>Your Pastes</a></li>
   <li><a href='./logout'>Logout</a></li>
