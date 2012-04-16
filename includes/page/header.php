@@ -72,13 +72,6 @@
 			</form>
 			 
 			 <?php
-
-        if( !empty( $_SESSION["user_login"] ) ) // we're logged in
-		{
-			$remembered_name = findUserHandle();
-			echo ("<p class='navbar-text pull-right'>Logged in as <a href='./user' class='navTooltip' title='Your Pastes'>".htmlentities($remembered_name)."</a></p>");
-		}
-		
 		if( empty( $_SESSION["user_login"] ) ) {?>
 <ul class="nav pull-right">
             <li class="dropdown">
@@ -89,8 +82,17 @@
               </ul>
             </li>
           </ul>
-
-
+<?php }
+else{ ?>
+<ul class="nav pull-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo htmlentities($remembered_name);?>Login<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href='./user'>Your Pastes</a></li>
+  <li><a href='./logout'>Logout</a></li>
+              </ul>
+            </li>
+          </ul>
 <?php } ?>
 </div><!--/.nav-collapse -->
 </div>
