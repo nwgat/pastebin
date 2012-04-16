@@ -80,10 +80,18 @@
 		}
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
-<p class='navbar-text pull-right' id='loginbuttons'>
-  <a href='./index.php?login' class='navTooltip' title='Login via Google'><img src='img/google.png' alt='Google'/></a>
-  <a href='./index.php?login&amp;provider=steam' class='navTooltip' title='Login via Steam'><img src='img/steam.png' alt='Steam Community'/></a>
-</p>
+<div class="btn-group navbar-text pull-right" id='loginbuttons'>
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Login
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+  <a href='./index.php?login'><img src='img/google.png' alt='Google'/>Login Via Google</a>
+  <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/>Login Via Steam</a>
+  </ul>
+</div>
+
+
 <?php } ?>
 </div><!--/.nav-collapse -->
 </div>
