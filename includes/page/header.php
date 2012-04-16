@@ -80,21 +80,12 @@
 		}
 		
 		if( empty( $_SESSION["user_login"] ) ) {?>
-<div class="nav pull-right btn-group" id='loginbuttons'>
-  <a class="btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Login<span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu">
-  <a href='./index.php?login'><img src='img/google.png' alt='Google'/>Login Via Google</a>
-  <a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/>Login Via Steam</a>
-  </ul>
-</div>
-
 <ul class="nav pull-right">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href='./index.php?login'><img src='img/google.png' alt='Google'/>Login Via Google</a></li>
-  <li><a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/>Login Via Steam</a></li>
+                <li><a href='./index.php?login'><img src='img/google.png' alt='Google'/> Login Via Google</a></li>
+  <li><a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/> Login Via Steam</a></li>
               </ul>
             </li>
           </ul>
