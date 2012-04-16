@@ -75,7 +75,7 @@
 		if( empty( $_SESSION["user_login"] ) ) {?>
 <ul class="nav pull-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href='./index.php?login'><img src='img/google.png' alt='Google'/> Login Via Google</a></li>
   <li><a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/> Login Via Steam</a></li>
@@ -86,7 +86,7 @@
 else{ ?>
 <ul class="nav pull-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php $remembered_name = findUserHandle(); echo (htmlentities($remembered_name));?><b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php $remembered_name = findUserHandle(); echo (htmlentities($remembered_name));?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href='./user'>Your Pastes</a></li>
   <li><a href='./logout'>Logout</a></li>
