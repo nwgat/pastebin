@@ -78,6 +78,21 @@ if( !empty( $edit ) )
       ?>
     </select>
     <select name="keepfor" id="keepfor" title="Keep Duration" class="showTooltip">
+      <?php if (!empty($edit))
+      {
+        $delname = "Forever";
+        switch ($orig["delteafter"])
+        {
+            case "-1": $delname = "Forever"; break;
+            case "12": $delname = "12 Hours"; break;
+            case "24": $delname = "1 Day"; break;
+            case "168": $delname = "1 Week"; break;
+            case "672": $delname = "4 Weeks"; break;
+
+        }
+        echo ('<option value=".'$orig["deleteafter"]'.">'.$delname.'</option>');
+      }
+      ?>
       <option value="-1">Forever</option>
       <option value="12">12 hours</option>
       <option value="24">1 day</option>
