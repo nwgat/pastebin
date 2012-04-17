@@ -97,10 +97,10 @@
 <?php
 
 	$geshi =& new GeSHi( $result["code"], $lang );
-	$geshi->set_header_type( GESHI_HEADER_DIV );
-	$geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 1 );
 	$geshi->enable_classes();
 	$geshi->set_overall_class('mycode');
+	$geshi->set_header_type( GESHI_HEADER_PRE_TABLE);
+	$geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 1 );
 	echo $geshi->parse_code();
 ?>
 				</pre>
