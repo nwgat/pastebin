@@ -90,7 +90,7 @@ if( !empty( $edit ) )
             case "672": $delname = "4 Weeks"; break;
 
         }
-        echo ('<option value=".'$orig["deleteafter"]'.">'.$delname.'</option>');
+        echo ('<option value="'.$orig["deleteafter"].'">'.$delname.'</option>');
       }
       ?>
       <option value="-1">Forever</option>
