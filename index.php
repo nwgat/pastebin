@@ -81,7 +81,7 @@ if( !empty( $edit ) )
       <?php if (!empty($edit))
       {
         $delname = "Forever";
-        switch ($orig["delteafter"])
+        switch ($orig["deleteafter"])
         {
             case "-1": $delname = "Forever"; break;
             case "12": $delname = "12 Hours"; break;
