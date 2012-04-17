@@ -1627,7 +1627,7 @@
 .abap .imp {font-weight: bold; color: red;}
 .abap li, .abap .li1 {font-weight: normal; vertical-align:top;}
 .abap .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.abap .li2 {background: #f2f2f2;}
+.abap .li2 {background: #FCFCFC;}
 .abap .kw1 {color: #000066; text-transform: uppercase; font-weight: bold; zzz:control;}
 .abap .kw2 {color: #cc4050; text-transform: uppercase; font-weight: bold; zzz:data;}
 .abap .kw3 {color: #005066; text-transform: uppercase; font-weight: bold; zzz:statement;}
@@ -1657,7 +1657,7 @@
 .actionscript .imp {font-weight: bold; color: red;}
 .actionscript li, .actionscript .li1 {font-weight: normal; vertical-align:top;}
 .actionscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.actionscript .li2 {background: #f2f2f2;}
+.actionscript .li2 {background: #FCFCFC;}
 .actionscript .kw1 {color: #b1b100;}
 .actionscript .kw2 {color: #000000; font-weight: bold;}
 .actionscript .kw3 {color: #0066CC;}
@@ -1678,7 +1678,7 @@
 .actionscript3 .imp {font-weight: bold; color: red;}
 .actionscript3 li, .actionscript3 .li1 {font-weight: normal; vertical-align:top;}
 .actionscript3 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.actionscript3 .li2 {background: #f2f2f2;}
+.actionscript3 .li2 {background: #FCFCFC;}
 .actionscript3 .kw1 {color: #0033ff; font-weight: bold;}
 .actionscript3 .kw2 {color: #6699cc; font-weight: bold;}
 .actionscript3 .kw3 {color: #339966; font-weight: bold;}
@@ -1703,7 +1703,7 @@
 .ada .imp {font-weight: bold; color: red;}
 .ada li, .ada .li1 {font-weight: normal; vertical-align:top;}
 .ada .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.ada .li2 {background: #f2f2f2;}
+.ada .li2 {background: #FCFCFC;}
 .ada .kw1 {color: #00007f;}
 .ada .kw2 {color: #0000ff;}
 .ada .kw3 {color: #46aa03; font-weight:bold;}
@@ -1723,7 +1723,7 @@
 .apache .imp {font-weight: bold; color: red;}
 .apache li, .apache .li1 {font-weight: normal; vertical-align:top;}
 .apache .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.apache .li2 {background: #f2f2f2;}
+.apache .li2 {background: #FCFCFC;}
 .apache .kw1 {color: #00007f;}
 .apache .kw2 {color: #0000ff;}
 .apache .kw3 {color: #000000; font-weight:bold;}
@@ -1741,7 +1741,7 @@
 .applescript .imp {font-weight: bold; color: red;}
 .applescript li, .applescript .li1 {font-weight: normal; vertical-align:top;}
 .applescript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.applescript .li2 {background: #f2f2f2;}
+.applescript .li2 {background: #FCFCFC;}
 .applescript .kw1 {color: #0066ff;}
 .applescript .kw2 {color: #ff0033;}
 .applescript .kw3 {color: #ff0033; font-weight: bold;}
@@ -1765,7 +1765,7 @@
 .apt_sources .imp {font-weight: bold; color: red;}
 .apt_sources li, .apt_sources .li1 {font-weight: normal; vertical-align:top;}
 .apt_sources .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.apt_sources .li2 {background: #f2f2f2;}
+.apt_sources .li2 {background: #FCFCFC;}
 .apt_sources .kw1 {color: #00007f;}
 .apt_sources .kw2 {color: #b1b100;}
 .apt_sources .kw3 {color: #b16000;}
@@ -1779,7 +1779,7 @@
 .asm .imp {font-weight: bold; color: red;}
 .asm li, .asm .li1 {font-weight: normal; vertical-align:top;}
 .asm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.asm .li2 {background: #f2f2f2;}
+.asm .li2 {background: #FCFCFC;}
 .asm .kw1 {color: #00007f; font-weight: bold;}
 .asm .kw2 {color: #0000ff; font-weight: bold;}
 .asm .kw3 {color: #00007f;}
@@ -1800,7 +1800,7 @@
 .asp .imp {font-weight: bold; color: red;}
 .asp li, .asp .li1 {font-weight: normal; vertical-align:top;}
 .asp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.asp .li2 {background: #f2f2f2;}
+.asp .li2 {background: #FCFCFC;}
 .asp .kw1 {color: #990099; font-weight: bold;}
 .asp .kw2 {color: #0000ff; font-weight: bold;}
 .asp .kw3 {color: #330066;}
@@ -1822,7 +1822,7 @@
 .autoit .imp {font-weight: bold; color: red;}
 .autoit li, .autoit .li1 {font-weight: normal; vertical-align:top;}
 .autoit .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.autoit .li2 {background: #f2f2f2;}
+.autoit .li2 {background: #FCFCFC;}
 .autoit .kw1 {color: #0000FF; font-weight: bold;}
 .autoit .kw2 {color: #800000; font-weight: bold;}
 .autoit .kw3 {color: #000080; font-style: italic; font-weight: bold;}
@@ -1845,7 +1845,7 @@
 .avisynth .imp {font-weight: bold; color: red;}
 .avisynth li, .avisynth .li1 {font-weight: normal; vertical-align:top;}
 .avisynth .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.avisynth .li2 {background: #f2f2f2;}
+.avisynth .li2 {background: #FCFCFC;}
 .avisynth .kw1 {color:#9966CC; font-weight:bold;}
 .avisynth .kw2 {color:#0000FF; font-weight:bold;}
 .avisynth .kw3 {color:#CC3300; font-weight:bold;}
@@ -1866,7 +1866,7 @@
 .bash .imp {font-weight: bold; color: red;}
 .bash li, .bash .li1 {font-weight: normal; vertical-align:top;}
 .bash .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.bash .li2 {background: #f2f2f2;}
+.bash .li2 {background: #FCFCFC;}
 .bash .kw1 {color: #000000; font-weight: bold;}
 .bash .kw2 {color: #c20cb9; font-weight: bold;}
 .bash .kw3 {color: #7a0874; font-weight: bold;}
@@ -1898,7 +1898,7 @@
 .basic4gl .imp {font-weight: bold; color: red;}
 .basic4gl li, .basic4gl .li1 {font-weight: normal; vertical-align:top;}
 .basic4gl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.basic4gl .li2 {background: #f2f2f2;}
+.basic4gl .li2 {background: #FCFCFC;}
 .basic4gl .kw1 {color: #000080; font-weight: bold;}
 .basic4gl .kw2 {color: #FF0000;}
 .basic4gl .kw3 {color: #0000FF;}
@@ -1915,7 +1915,7 @@
 .bf .imp {font-weight: bold; color: red;}
 .bf li, .bf .li1 {font-weight: normal; vertical-align:top;}
 .bf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.bf .li2 {background: #f2f2f2;}
+.bf .li2 {background: #FCFCFC;}
 .bf .co1 {color: #666666; font-style: italic;}
 .bf .br0 {color: #66cc66;}
 .bf .sy0 {color: #006600;}
@@ -1932,7 +1932,7 @@
 .bibtex .imp {font-weight: bold; color: red;}
 .bibtex li, .bibtex .li1 {font-weight: normal; vertical-align:top;}
 .bibtex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.bibtex .li2 {background: #f2f2f2;}
+.bibtex .li2 {background: #FCFCFC;}
 .bibtex .kw1 {color: #C02020;}
 .bibtex .kw2 {color: #C02020;}
 .bibtex .kw3 {color: #C08020;}
@@ -1953,7 +1953,7 @@
 .blitzbasic .imp {font-weight: bold; color: red;}
 .blitzbasic li, .blitzbasic .li1 {font-weight: normal; vertical-align:top;}
 .blitzbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.blitzbasic .li2 {background: #f2f2f2;}
+.blitzbasic .li2 {background: #FCFCFC;}
 .blitzbasic .kw1 {color: #000066; font-weight: bold;}
 .blitzbasic .kw2 {color: #0000ff;}
 .blitzbasic .co1 {color: #D9D100; font-style: italic;}
@@ -1971,7 +1971,7 @@
 .bnf .imp {font-weight: bold; color: red;}
 .bnf li, .bnf .li1 {font-weight: normal; vertical-align:top;}
 .bnf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.bnf .li2 {background: #f2f2f2;}
+.bnf .li2 {background: #FCFCFC;}
 .bnf .sy0 {color: #000066; font-weight: bold;}
 .bnf .st0 {color: #a00;}
 .bnf .st1 {color: #a00;}
@@ -1984,7 +1984,7 @@
 .boo .imp {font-weight: bold; color: red;}
 .boo li, .boo .li1 {font-weight: normal; vertical-align:top;}
 .boo .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.boo .li2 {background: #f2f2f2;}
+.boo .li2 {background: #FCFCFC;}
 .boo .kw1 {color:green;font-weight:bold;}
 .boo .kw2 {color:navy;}
 .boo .kw3 {color:blue;font-weight:bold;}
@@ -2022,7 +2022,7 @@
 .c .imp {font-weight: bold; color: red;}
 .c li, .c .li1 {font-weight: normal; vertical-align:top;}
 .c .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.c .li2 {background: #f2f2f2;}
+.c .li2 {background: #FCFCFC;}
 .c .kw1 {color: #b1b100;}
 .c .kw2 {color: #000000; font-weight: bold;}
 .c .kw3 {color: #000066;}
@@ -2057,7 +2057,7 @@
 .c_mac .imp {font-weight: bold; color: red;}
 .c_mac li, .c_mac .li1 {font-weight: normal; vertical-align:top;}
 .c_mac .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.c_mac .li2 {background: #f2f2f2;}
+.c_mac .li2 {background: #FCFCFC;}
 .c_mac .kw1 {color: #0000ff;}
 .c_mac .kw2 {color: #0000ff;}
 .c_mac .kw3 {color: #0000dd;}
@@ -2092,7 +2092,7 @@
 .caddcl .imp {font-weight: bold; color: red;}
 .caddcl li, .caddcl .li1 {font-weight: normal; vertical-align:top;}
 .caddcl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.caddcl .li2 {background: #f2f2f2;}
+.caddcl .li2 {background: #FCFCFC;}
 .caddcl .kw1 {color: #b1b100;}
 .caddcl .co1 {color: #808080; font-style: italic;}
 .caddcl .coMULTI {color: #808080; font-style: italic;}
@@ -2109,7 +2109,7 @@
 .cadlisp .imp {font-weight: bold; color: red;}
 .cadlisp li, .cadlisp .li1 {font-weight: normal; vertical-align:top;}
 .cadlisp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cadlisp .li2 {background: #f2f2f2;}
+.cadlisp .li2 {background: #FCFCFC;}
 .cadlisp .kw1 {color: #b1b100;}
 .cadlisp .co1 {color: #808080; font-style: italic;}
 .cadlisp .coMULTI {color: #808080; font-style: italic;}
@@ -2126,7 +2126,7 @@
 .cfdg .imp {font-weight: bold; color: red;}
 .cfdg li, .cfdg .li1 {font-weight: normal; vertical-align:top;}
 .cfdg .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cfdg .li2 {background: #f2f2f2;}
+.cfdg .li2 {background: #FCFCFC;}
 .cfdg .kw1 {color: #717100;}
 .cfdg .kw2 {color: #000000; font-weight: bold;}
 .cfdg .kw3 {color: #006666;}
@@ -2148,7 +2148,7 @@
 .cfm .imp {font-weight: bold; color: red;}
 .cfm li, .cfm .li1 {font-weight: normal; vertical-align:top;}
 .cfm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cfm .li2 {background: #f2f2f2;}
+.cfm .li2 {background: #FCFCFC;}
 .cfm .kw1 {color: #990000; font-weight: bold;}
 .cfm .kw2 {color: #000000; font-weight: bold;}
 .cfm .kw3 {color: #0000FF;}
@@ -2177,7 +2177,7 @@
 .cil .imp {font-weight: bold; color: red;}
 .cil li, .cil .li1 {font-weight: normal; vertical-align:top;}
 .cil .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cil .li2 {background: #f2f2f2;}
+.cil .li2 {background: #FCFCFC;}
 .cil .kw1 {color:maroon;font-weight:bold;}
 .cil .kw2 {color:blue;font-weight:bold;}
 .cil .kw3 {color:purple;font-weight:bold;}
@@ -2204,7 +2204,7 @@
 .cmake .imp {font-weight: bold; color: red;}
 .cmake li, .cmake .li1 {font-weight: normal; vertical-align:top;}
 .cmake .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cmake .li2 {background: #f2f2f2;}
+.cmake .li2 {background: #FCFCFC;}
 .cmake .kw1 {color: #1f3f81; font-style: bold;}
 .cmake .kw2 {color: #1f3f81;}
 .cmake .kw3 {color: #077807; font-sytle: italic;}
@@ -2224,7 +2224,7 @@
 .cobol .imp {font-weight: bold; color: red;}
 .cobol li, .cobol .li1 {font-weight: normal; vertical-align:top;}
 .cobol .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cobol .li2 {background: #f2f2f2;}
+.cobol .li2 {background: #FCFCFC;}
 .cobol .kw1 {color: #000080; font-weight: bold;}
 .cobol .kw2 {color: #000000; font-weight: bold;}
 .cobol .kw3 {color: #008000; font-weight: bold;}
@@ -2246,7 +2246,7 @@
 .cpp .imp {font-weight: bold; color: red;}
 .cpp li, .cpp .li1 {font-weight: normal; vertical-align:top;}
 .cpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cpp .li2 {background: #f2f2f2;}
+.cpp .li2 {background: #FCFCFC;}
 .cpp .kw1 {color: #0000ff;}
 .cpp .kw2 {color: #0000ff;}
 .cpp .kw3 {color: #0000dd;}
@@ -2285,7 +2285,7 @@
 .cpp-qt .imp {font-weight: bold; color: red;}
 .cpp-qt li, .cpp-qt .li1 {font-weight: normal; vertical-align:top;}
 .cpp-qt .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.cpp-qt .li2 {background: #f2f2f2;}
+.cpp-qt .li2 {background: #FCFCFC;}
 .cpp-qt .kw1 {color: #000000; font-weight:bold;}
 .cpp-qt .kw2 {color: #0057AE;}
 .cpp-qt .kw3 {color: #2B74C7;}
@@ -2322,7 +2322,7 @@
 .csharp .imp {font-weight: bold; color: red;}
 .csharp li, .csharp .li1 {font-weight: normal; vertical-align:top;}
 .csharp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.csharp .li2 {background: #f2f2f2;}
+.csharp .li2 {background: #FCFCFC;}
 .csharp .kw1 {color: #0600FF;}
 .csharp .kw2 {color: #FF8000; font-weight: bold;}
 .csharp .kw3 {color: #008000;}
@@ -2349,7 +2349,7 @@
 .css .imp {font-weight: bold; color: red;}
 .css li, .css .li1 {font-weight: normal; vertical-align:top;}
 .css .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.css .li2 {background: #f2f2f2;}
+.css .li2 {background: #FCFCFC;}
 .css .kw1 {color: #000000; font-weight: bold;}
 .css .kw2 {color: #993333;}
 .css .co1 {color: #a1a100;}
@@ -2372,7 +2372,7 @@
 .d .imp {font-weight: bold; color: red;}
 .d li, .d .li1 {font-weight: normal; vertical-align:top;}
 .d .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.d .li2 {background: #f2f2f2;}
+.d .li2 {background: #FCFCFC;}
 .d .kw1 {color: #b1b100;}
 .d .kw2 {color: #000000; font-weight: bold;}
 .d .kw3 {color: #aaaadd; font-weight: bold;}
@@ -2412,7 +2412,7 @@
 .dcs .imp {font-weight: bold; color: red;}
 .dcs li, .dcs .li1 {font-weight: normal; vertical-align:top;}
 .dcs .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.dcs .li2 {background: #f2f2f2;}
+.dcs .li2 {background: #FCFCFC;}
 .dcs .kw1 {color: red;}
 .dcs .kw2 {color: blue;}
 .dcs .kw3 {color: black;}
@@ -2430,7 +2430,7 @@
 .delphi .imp {font-weight: bold; color: red;}
 .delphi li, .delphi .li1 {font-weight: normal; vertical-align:top;}
 .delphi .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.delphi .li2 {background: #f2f2f2;}
+.delphi .li2 {background: #FCFCFC;}
 .delphi .kw1 {color: #000000; font-weight: bold;}
 .delphi .kw2 {color: #000000; font-weight: bold;}
 .delphi .kw3 {color: #000066;}
@@ -2457,7 +2457,7 @@
 .diff .imp {font-weight: bold; color: red;}
 .diff li, .diff .li1 {font-weight: normal; vertical-align:top;}
 .diff .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.diff .li2 {background: #f2f2f2;}
+.diff .li2 {background: #FCFCFC;}
 .diff .kw1 {color: #aaaaaa; font-style: italic;}
 .diff .re0 {color: #440088;}
 .diff .re1 {color: #991111;}
@@ -2477,7 +2477,7 @@
 .div .imp {font-weight: bold; color: red;}
 .div li, .div .li1 {font-weight: normal; vertical-align:top;}
 .div .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.div .li2 {background: #f2f2f2;}
+.div .li2 {background: #FCFCFC;}
 .div .kw1 {color: #0040b1;}
 .div .kw2 {color: #000000;}
 .div .kw3 {color: #000066; font-weight: bold;}
@@ -2497,7 +2497,7 @@
 .dos .imp {font-weight: bold; color: red;}
 .dos li, .dos .li1 {font-weight: normal; vertical-align:top;}
 .dos .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.dos .li2 {background: #f2f2f2;}
+.dos .li2 {background: #FCFCFC;}
 .dos .kw1 {color: #00b100; font-weight: bold;}
 .dos .kw2 {color: #000000; font-weight: bold;}
 .dos .kw3 {color: #b1b100; font-weight: bold;}
@@ -2520,7 +2520,7 @@
 .dot .imp {font-weight: bold; color: red;}
 .dot li, .dot .li1 {font-weight: normal; vertical-align:top;}
 .dot .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.dot .li2 {background: #f2f2f2;}
+.dot .li2 {background: #FCFCFC;}
 .dot .kw1 {color: #000066;}
 .dot .kw2 {color: #000000; font-weight: bold;}
 .dot .kw3 {color: #993333;}
@@ -2541,7 +2541,7 @@
 .eiffel .imp {font-weight: bold; color: red;}
 .eiffel li, .eiffel .li1 {font-weight: normal; vertical-align:top;}
 .eiffel .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.eiffel .li2 {background: #f2f2f2;}
+.eiffel .li2 {background: #FCFCFC;}
 .eiffel .kw1 {color: #0600FF; font-weight: bold;}
 .eiffel .kw2 {color: #0600FF; font-weight: bold;}
 .eiffel .kw3 {color: #800080;}
@@ -2563,7 +2563,7 @@
 .email .imp {font-weight: bold; color: red;}
 .email li, .email .li1 {font-weight: normal; vertical-align:top;}
 .email .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.email .li2 {background: #f2f2f2;}
+.email .li2 {background: #FCFCFC;}
 .email .kw1 {color: #0000FF; font-weight: bold;}
 .email .kw2 {color: #000000; font-weight: bold;}
 .email .kw3 {color: #800000; font-weight: bold;}
@@ -2588,7 +2588,7 @@
 .erlang .imp {font-weight: bold; color: red;}
 .erlang li, .erlang .li1 {font-weight: normal; vertical-align:top;}
 .erlang .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.erlang .li2 {background: #f2f2f2;}
+.erlang .li2 {background: #FCFCFC;}
 .erlang .kw1 {color: #186895;}
 .erlang .kw2 {color: #014ea4;}
 .erlang .kw3 {color: #fa6fff;}
@@ -2625,7 +2625,7 @@
 .fo .imp {font-weight: bold; color: red;}
 .fo li, .fo .li1 {font-weight: normal; vertical-align:top;}
 .fo .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.fo .li2 {background: #f2f2f2;}
+.fo .li2 {background: #FCFCFC;}
 .fo .kw1 {color: #000000; font-weight: bold;}
 .fo .kw2 {color: #000000; font-weight: bold;}
 .fo .kw3 {color: #006600; font-weight: bold;}
@@ -2656,7 +2656,7 @@
 .fortran .imp {font-weight: bold; color: red;}
 .fortran li, .fortran .li1 {font-weight: normal; vertical-align:top;}
 .fortran .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.fortran .li2 {background: #f2f2f2;}
+.fortran .li2 {background: #FCFCFC;}
 .fortran .kw1 {color: #b1b100;}
 .fortran .kw2 {color: #000000; font-weight: bold;}
 .fortran .kw3 {color: #000066;}
@@ -2679,7 +2679,7 @@
 .freebasic .imp {font-weight: bold; color: red;}
 .freebasic li, .freebasic .li1 {font-weight: normal; vertical-align:top;}
 .freebasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.freebasic .li2 {background: #f2f2f2;}
+.freebasic .li2 {background: #FCFCFC;}
 .freebasic .kw1 {color: #b1b100;}
 .freebasic .co1 {color: #808080;}
 .freebasic .co2 {color: #339933;}
@@ -2697,7 +2697,7 @@
 .genero .imp {font-weight: bold; color: red;}
 .genero li, .genero .li1 {font-weight: normal; vertical-align:top;}
 .genero .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.genero .li2 {background: #f2f2f2;}
+.genero .li2 {background: #FCFCFC;}
 .genero .kw1 {color: #0600FF;}
 .genero .kw2 {color: #0000FF; font-weight: bold;}
 .genero .kw3 {color: #008000;}
@@ -2720,7 +2720,7 @@
 .gettext .imp {font-weight: bold; color: red;}
 .gettext li, .gettext .li1 {font-weight: normal; vertical-align:top;}
 .gettext .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.gettext .li2 {background: #f2f2f2;}
+.gettext .li2 {background: #FCFCFC;}
 .gettext .kw1 {color: #000000; font-weight: bold;}
 .gettext .co0 {color: #000099;}
 .gettext .co1 {color: #000099;}
@@ -2739,7 +2739,7 @@
 .glsl .imp {font-weight: bold; color: red;}
 .glsl li, .glsl .li1 {font-weight: normal; vertical-align:top;}
 .glsl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.glsl .li2 {background: #f2f2f2;}
+.glsl .li2 {background: #FCFCFC;}
 .glsl .kw1 {color: #000000; font-weight: bold;}
 .glsl .kw2 {color: #333399; font-weight: bold;}
 .glsl .kw3 {color: #000066; font-weight: bold;}
@@ -2763,7 +2763,7 @@
 .gml .imp {font-weight: bold; color: red;}
 .gml li, .gml .li1 {font-weight: normal; vertical-align:top;}
 .gml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.gml .li2 {background: #f2f2f2;}
+.gml .li2 {background: #FCFCFC;}
 .gml .kw1 {font-weight: bold; color: #000000;}
 .gml .kw2 {font-weight: bold; color: #000000;}
 .gml .kw3 {color: navy;}
@@ -2784,7 +2784,7 @@
 .gnuplot .imp {font-weight: bold; color: red;}
 .gnuplot li, .gnuplot .li1 {font-weight: normal; vertical-align:top;}
 .gnuplot .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.gnuplot .li2 {background: #f2f2f2;}
+.gnuplot .li2 {background: #FCFCFC;}
 .gnuplot .kw1 {color: #b1b100;}
 .gnuplot .kw2 {color: #990000;}
 .gnuplot .kw3 {color: #550000;}
@@ -2806,7 +2806,7 @@
 .groovy .imp {font-weight: bold; color: red;}
 .groovy li, .groovy .li1 {font-weight: normal; vertical-align:top;}
 .groovy .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.groovy .li2 {background: #f2f2f2;}
+.groovy .li2 {background: #FCFCFC;}
 .groovy .kw1 {color: #b1b100;}
 .groovy .kw2 {color: #000000; font-weight: bold;}
 .groovy .kw3 {color: #aaaadd; font-weight: bold;}
@@ -2836,7 +2836,7 @@
 .haskell .imp {font-weight: bold; color: red;}
 .haskell li, .haskell .li1 {font-weight: normal; vertical-align:top;}
 .haskell .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.haskell .li2 {background: #f2f2f2;}
+.haskell .li2 {background: #FCFCFC;}
 .haskell .kw1 {color: #06c; font-weight: bold;}
 .haskell .kw2 {color: #06c; font-weight: bold;}
 .haskell .kw3 {font-weight: bold;}
@@ -2859,7 +2859,7 @@
 .hq9plus .imp {font-weight: bold; color: red;}
 .hq9plus li, .hq9plus .li1 {font-weight: normal; vertical-align:top;}
 .hq9plus .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.hq9plus .li2 {background: #f2f2f2;}
+.hq9plus .li2 {background: #FCFCFC;}
 .hq9plus .br0 {color: #66cc66;}
 .hq9plus .sy0 {color: #a16000;}
 .hq9plus .st0 {color: #ff0000;}
@@ -2871,7 +2871,7 @@
 .html4strict .imp {font-weight: bold; color: red;}
 .html4strict li, .html4strict .li1 {font-weight: normal; vertical-align:top;}
 .html4strict .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.html4strict .li2 {background: #f2f2f2;}
+.html4strict .li2 {background: #FCFCFC;}
 .html4strict .kw2 {color: #000000; font-weight: bold;}
 .html4strict .kw3 {color: #000066;}
 .html4strict .es0 {color: #000099; font-weight: bold;}
@@ -2891,7 +2891,7 @@
 .idl .imp {font-weight: bold; color: red;}
 .idl li, .idl .li1 {font-weight: normal; vertical-align:top;}
 .idl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.idl .li2 {background: #f2f2f2;}
+.idl .li2 {background: #FCFCFC;}
 .idl .kw1 {color: #990078; font-weight: bold}
 .idl .kw2 {color: #36dd1c;}
 .idl .kw3 {color: #990078; font-weight: bold}
@@ -2912,7 +2912,7 @@
 .ini .imp {font-weight: bold; color: red;}
 .ini li, .ini .li1 {font-weight: normal; vertical-align:top;}
 .ini .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.ini .li2 {background: #f2f2f2;}
+.ini .li2 {background: #FCFCFC;}
 .ini .co0 {color: #666666; font-style: italic;}
 .ini .sy0 {color: #000066; font-weight:bold;}
 .ini .st0 {color: #933;}
@@ -2927,7 +2927,7 @@
 .inno .imp {font-weight: bold; color: red;}
 .inno li, .inno .li1 {font-weight: normal; vertical-align:top;}
 .inno .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.inno .li2 {background: #f2f2f2;}
+.inno .li2 {background: #FCFCFC;}
 .inno .kw1 {color: #000000; font-weight: bold;}
 .inno .kw2 {color: #000000;font-style: italic;}
 .inno .kw3 {color: #0000FF;}
@@ -2947,7 +2947,7 @@
 .intercal .imp {font-weight: bold; color: red;}
 .intercal li, .intercal .li1 {font-weight: normal; vertical-align:top;}
 .intercal .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.intercal .li2 {background: #f2f2f2;}
+.intercal .li2 {background: #FCFCFC;}
 .intercal .kw1 {color: #000080; font-weight: bold;}
 .intercal .kw2 {color: #000080; font-weight: bold;}
 .intercal .br0 {color: #66cc66;}
@@ -2962,7 +2962,7 @@
 .io .imp {font-weight: bold; color: red;}
 .io li, .io .li1 {font-weight: normal; vertical-align:top;}
 .io .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.io .li2 {background: #f2f2f2;}
+.io .li2 {background: #FCFCFC;}
 .io .kw1 {color: #b1b100;}
 .io .kw2 {color: #000000; font-weight: bold;}
 .io .kw3 {color: #000066;}
@@ -2984,7 +2984,7 @@
 .java .imp {font-weight: bold; color: red;}
 .java li, .java .li1 {font-weight: normal; vertical-align:top;}
 .java .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.java .li2 {background: #f2f2f2;}
+.java .li2 {background: #FCFCFC;}
 .java .kw1 {color: #000000; font-weight: bold;}
 .java .kw2 {color: #000066; font-weight: bold;}
 .java .kw3 {color: #003399;}
@@ -3008,7 +3008,7 @@
 .java5 .imp {font-weight: bold; color: red;}
 .java5 li, .java5 .li1 {font-weight: normal; vertical-align:top;}
 .java5 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.java5 .li2 {background: #f2f2f2;}
+.java5 .li2 {background: #FCFCFC;}
 .java5 .kw1 {color: #000000;  font-weight: bold;}
 .java5 .kw2 {color: #000000; font-weight: bold;}
 .java5 .kw3 {color: #006600; font-weight: bold;}
@@ -3194,7 +3194,7 @@
 .javascript .imp {font-weight: bold; color: red;}
 .javascript li, .javascript .li1 {font-weight: normal; vertical-align:top;}
 .javascript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.javascript .li2 {background: #f2f2f2;}
+.javascript .li2 {background: #FCFCFC;}
 .javascript .kw1 {color: #000066; font-weight: bold;}
 .javascript .kw2 {color: #003366; font-weight: bold;}
 .javascript .kw3 {color: #000066;}
@@ -3215,7 +3215,7 @@
 .kixtart .imp {font-weight: bold; color: red;}
 .kixtart li, .kixtart .li1 {font-weight: normal; vertical-align:top;}
 .kixtart .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.kixtart .li2 {background: #f2f2f2;}
+.kixtart .li2 {background: #FCFCFC;}
 .kixtart .kw1 {color: #b1b100;}
 .kixtart .kw2 {color: #000000; font-weight: bold;}
 .kixtart .kw3 {color: #000066;}
@@ -3236,7 +3236,7 @@
 .klonec .imp {font-weight: bold; color: red;}
 .klonec li, .klonec .li1 {font-weight: normal; vertical-align:top;}
 .klonec .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.klonec .li2 {background: #f2f2f2;}
+.klonec .li2 {background: #FCFCFC;}
 .klonec .kw1 {color: #b1b100; font-weight: bold;}
 .klonec .kw2 {color: #000000; font-weight: bold;}
 .klonec .kw3 {color: #6600FF;}
@@ -3267,7 +3267,7 @@
 .klonecpp .imp {font-weight: bold; color: red;}
 .klonecpp li, .klonecpp .li1 {font-weight: normal; vertical-align:top;}
 .klonecpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.klonecpp .li2 {background: #f2f2f2;}
+.klonecpp .li2 {background: #FCFCFC;}
 .klonecpp .kw1 {color: #b1b100; font-weight: bold;}
 .klonecpp .kw2 {color: #000000; font-weight: bold;}
 .klonecpp .kw3 {color: #6600FF;}
@@ -3298,7 +3298,7 @@
 .latex .imp {font-weight: bold; color: red;}
 .latex li, .latex .li1 {font-weight: normal; vertical-align:top;}
 .latex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.latex .li2 {background: #f2f2f2;}
+.latex .li2 {background: #FCFCFC;}
 .latex .kw1 {color: #800000;}
 .latex .co1 {color: #2C922C; font-style: italic;}
 .latex .es0 {color: #000000; font-weight: bold;}
@@ -3324,7 +3324,7 @@
 .lisp .imp {font-weight: bold; color: red;}
 .lisp li, .lisp .li1 {font-weight: normal; vertical-align:top;}
 .lisp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lisp .li2 {background: #f2f2f2;}
+.lisp .li2 {background: #FCFCFC;}
 .lisp .kw1 {color: #b1b100;}
 .lisp .co1 {color: #808080; font-style: italic;}
 .lisp .coMULTI {color: #808080; font-style: italic;}
@@ -3343,7 +3343,7 @@
 .locobasic .imp {font-weight: bold; color: red;}
 .locobasic li, .locobasic .li1 {font-weight: normal; vertical-align:top;}
 .locobasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.locobasic .li2 {background: #f2f2f2;}
+.locobasic .li2 {background: #FCFCFC;}
 .locobasic .kw1 {color: #0000ff; font-weight: bold;}
 .locobasic .kw2 {color: #008888; font-weight: bold;}
 .locobasic .co1 {color: #808080;}
@@ -3362,7 +3362,7 @@
 .lolcode .imp {font-weight: bold; color: red;}
 .lolcode li, .lolcode .li1 {font-weight: normal; vertical-align:top;}
 .lolcode .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lolcode .li2 {background: #f2f2f2;}
+.lolcode .li2 {background: #FCFCFC;}
 .lolcode .kw1 {color: #008000;}
 .lolcode .kw2 {color: #000080;}
 .lolcode .kw3 {color: #000080;}
@@ -3380,7 +3380,7 @@
 .lotusformulas .imp {font-weight: bold; color: red;}
 .lotusformulas li, .lotusformulas .li1 {font-weight: normal; vertical-align:top;}
 .lotusformulas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lotusformulas .li2 {background: #f2f2f2;}
+.lotusformulas .li2 {background: #FCFCFC;}
 .lotusformulas .kw1 {color: #800000;}
 .lotusformulas .kw2 {color: #0000FF;}
 .lotusformulas .co1 {color: #008000;}
@@ -3398,7 +3398,7 @@
 .lotusscript .imp {font-weight: bold; color: red;}
 .lotusscript li, .lotusscript .li1 {font-weight: normal; vertical-align:top;}
 .lotusscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lotusscript .li2 {background: #f2f2f2;}
+.lotusscript .li2 {background: #FCFCFC;}
 .lotusscript .kw1 {color: #0000FF;}
 .lotusscript .kw2 {color: #0000EE;}
 .lotusscript .co1 {color: #008000;}
@@ -3416,7 +3416,7 @@
 .lscript .imp {font-weight: bold; color: red;}
 .lscript li, .lscript .li1 {font-weight: normal; vertical-align:top;}
 .lscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lscript .li2 {background: #f2f2f2;}
+.lscript .li2 {background: #FCFCFC;}
 .lscript .kw1 {color: #000000; font-weight: bold;}
 .lscript .kw2 {color: #FF6820; font-weight: bold;}
 .lscript .kw3 {color: #007F7F; font-weight: bold;}
@@ -3438,7 +3438,7 @@
 .lsl2 .imp {font-weight: bold; color: red;}
 .lsl2 li, .lsl2 .li1 {font-weight: normal; vertical-align:top;}
 .lsl2 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lsl2 .li2 {background: #f2f2f2;}
+.lsl2 .li2 {background: #FCFCFC;}
 .lsl2 .kw1 {color: #0000ff;}
 .lsl2 .kw2 {color: #000080;}
 .lsl2 .kw3 {color: #008080;}
@@ -3461,7 +3461,7 @@
 .lua .imp {font-weight: bold; color: red;}
 .lua li, .lua .li1 {font-weight: normal; vertical-align:top;}
 .lua .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.lua .li2 {background: #f2f2f2;}
+.lua .li2 {background: #FCFCFC;}
 .lua .kw1 {color: #b1b100;}
 .lua .co1 {color: #808080; font-style: italic;}
 .lua .coMULTI {color: #808080; font-style: italic;}
@@ -3479,7 +3479,7 @@
 .glua .imp {font-weight: bold; color: red;}
 .glua li, .glua .li1 {font-weight: normal; vertical-align:top;background: #FcFcFc;}
 .glua .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.glua .li2 {font-weight: bold; vertical-align:top;background: #f2f2f2;}
+.glua .li2 {font-weight: bold; vertical-align:top;background: #FCFCFC;}
 .glua .kw1 {color: #0000FF; font-weight: bold;}
 .glua .kw2 {color: #0080C0; font-weight: bold;}
 .glua .kw3 {color: #8000FF;}
@@ -3542,7 +3542,7 @@
 .m68k .imp {font-weight: bold; color: red;}
 .m68k li, .m68k .li1 {font-weight: normal; vertical-align:top;}
 .m68k .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.m68k .li2 {background: #f2f2f2;}
+.m68k .li2 {background: #FCFCFC;}
 .m68k .kw1 {color: #0000ff; font-weight:bold;}
 .m68k .kw2 {color: #0000ff;}
 .m68k .kw3 {color: #46aa03; font-weight:bold;}
@@ -3563,7 +3563,7 @@
 .make .imp {font-weight: bold; color: red;}
 .make li, .make .li1 {font-weight: normal; vertical-align:top;}
 .make .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.make .li2 {background: #f2f2f2;}
+.make .li2 {background: #FCFCFC;}
 .make .kw1 {color: #666622; font-weight: bold;}
 .make .kw2 {color: #990000;}
 .make .co1 {color: #339900; font-style: italic;}
@@ -3584,7 +3584,7 @@
 .matlab .imp {font-weight: bold; color: red;}
 .matlab li, .matlab .li1 {font-weight: normal; vertical-align:top;}
 .matlab .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.matlab .li2 {background: #f2f2f2;}
+.matlab .li2 {background: #FCFCFC;}
 .matlab .kw1 {color: #0000FF;}
 .matlab .kw2 {color: #0000FF;}
 .matlab .co1 {color: #228B22;}
@@ -3601,7 +3601,7 @@
 .mirc .imp {font-weight: bold; color: red;}
 .mirc li, .mirc .li1 {font-weight: normal; vertical-align:top;}
 .mirc .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.mirc .li2 {background: #f2f2f2;}
+.mirc .li2 {background: #FCFCFC;}
 .mirc .kw1 {color: #994444;}
 .mirc .kw2 {color: #000000; font-weight: bold;}
 .mirc .kw3 {color: #990000; font-weight: bold;}
@@ -3625,7 +3625,7 @@
 .modula3 .imp {font-weight: bold; color: red;}
 .modula3 li, .modula3 .li1 {font-weight: normal; vertical-align:top;}
 .modula3 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.modula3 .li2 {background: #f2f2f2;}
+.modula3 .li2 {background: #FCFCFC;}
 .modula3 .kw1 {color: #000000; font-weight: bold;}
 .modula3 .kw2 {color: #000000; font-weight: bold;}
 .modula3 .kw3 {color: #000066;}
@@ -3647,7 +3647,7 @@
 .mpasm .imp {font-weight: bold; color: red;}
 .mpasm li, .mpasm .li1 {font-weight: normal; vertical-align:top;}
 .mpasm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.mpasm .li2 {background: #f2f2f2;}
+.mpasm .li2 {background: #FCFCFC;}
 .mpasm .kw1 {color: #00007f;}
 .mpasm .kw2 {color: #0000ff;}
 .mpasm .kw3 {color: #007f00;}
@@ -3669,7 +3669,7 @@
 .mxml .imp {font-weight: bold; color: red;}
 .mxml li, .mxml .li1 {font-weight: normal; vertical-align:top;}
 .mxml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.mxml .li2 {background: #f2f2f2;}
+.mxml .li2 {background: #FCFCFC;}
 .mxml .coMULTI {color: #808080; font-style: italic;}
 .mxml .es0 {color: #000099; font-weight: bold;}
 .mxml .br0 {color: #66cc66;}
@@ -3691,7 +3691,7 @@
 .mysql .imp {font-weight: bold; color: red;}
 .mysql li, .mysql .li1 {font-weight: normal; vertical-align:top;}
 .mysql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.mysql .li2 {background: #f2f2f2;}
+.mysql .li2 {background: #FCFCFC;}
 .mysql .kw1 {color: #990099; font-weight: bold;}
 .mysql .kw2 {color: #990099; font-weight: bold;}
 .mysql .kw3 {color: #9900FF; font-weight: bold;}
@@ -3737,7 +3737,7 @@
 .nsis .imp {font-weight: bold; color: red;}
 .nsis li, .nsis .li1 {font-weight: normal; vertical-align:top;}
 .nsis .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.nsis .li2 {background: #f2f2f2;}
+.nsis .li2 {background: #FCFCFC;}
 .nsis .kw1 {color: #000066; font-weight:bold;}
 .nsis .kw2 {color: #000066;}
 .nsis .kw3 {color: #003366;}
@@ -3776,7 +3776,7 @@
 .oberon2 .imp {font-weight: bold; color: red;}
 .oberon2 li, .oberon2 .li1 {font-weight: normal; vertical-align:top;}
 .oberon2 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.oberon2 .li2 {background: #f2f2f2;}
+.oberon2 .li2 {background: #FCFCFC;}
 .oberon2 .kw1 {color: #000000; font-weight: bold;}
 .oberon2 .kw2 {color: #000000; font-weight: bold;}
 .oberon2 .kw3 {color: #000066;}
@@ -3798,7 +3798,7 @@
 .objc .imp {font-weight: bold; color: red;}
 .objc li, .objc .li1 {font-weight: normal; vertical-align:top;}
 .objc .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.objc .li2 {background: #f2f2f2;}
+.objc .li2 {background: #FCFCFC;}
 .objc .kw1 {color: #a61390;}
 .objc .kw2 {color: #a61390;}
 .objc .kw3 {color: #a61390;}
@@ -3825,7 +3825,7 @@
 .ocaml .imp {font-weight: bold; color: red;}
 .ocaml li, .ocaml .li1 {font-weight: normal; vertical-align:top;}
 .ocaml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.ocaml .li2 {background: #f2f2f2;}
+.ocaml .li2 {background: #FCFCFC;}
 .ocaml .kw1 {color: #06c; font-weight: bold;}
 .ocaml .kw2 {color: #06c; font-weight: bold;}
 .ocaml .kw3 {color: #06c; font-weight: bold;}
@@ -3845,7 +3845,7 @@
 .ocaml-brief .imp {font-weight: bold; color: red;}
 .ocaml-brief li, .ocaml-brief .li1 {font-weight: normal; vertical-align:top;}
 .ocaml-brief .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.ocaml-brief .li2 {background: #f2f2f2;}
+.ocaml-brief .li2 {background: #FCFCFC;}
 .ocaml-brief .kw1 {color: #06c; font-weight: bold;}
 .ocaml-brief .coMULTI {color: #5d478b; font-style: italic;}
 .ocaml-brief .br0 {color: #6c6;}
@@ -3861,7 +3861,7 @@
 .oobas .imp {font-weight: bold; color: red;}
 .oobas li, .oobas .li1 {font-weight: normal; vertical-align:top;}
 .oobas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.oobas .li2 {background: #f2f2f2;}
+.oobas .li2 {background: #FCFCFC;}
 .oobas .kw1 {color: #b1b100;}
 .oobas .co1 {color: #808080;}
 .oobas .co2 {color: #808080;}
@@ -3879,7 +3879,7 @@
 .oracle11 .imp {font-weight: bold; color: red;}
 .oracle11 li, .oracle11 .li1 {font-weight: normal; vertical-align:top;}
 .oracle11 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.oracle11 .li2 {background: #f2f2f2;}
+.oracle11 .li2 {background: #FCFCFC;}
 .oracle11 .kw1 {color: #993333; font-weight: bold; text-transform: uppercase;}
 .oracle11 .co1 {color: #808080; font-style: italic;}
 .oracle11 .es0 {color: #000099; font-weight: bold;}
@@ -3896,7 +3896,7 @@
 .oracle8 .imp {font-weight: bold; color: red;}
 .oracle8 li, .oracle8 .li1 {font-weight: normal; vertical-align:top;}
 .oracle8 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.oracle8 .li2 {background: #f2f2f2;}
+.oracle8 .li2 {background: #FCFCFC;}
 .oracle8 .kw1 {color: #993333; font-weight: bold; text-transform: uppercase;}
 .oracle8 .co1 {color: #808080; font-style: italic;}
 .oracle8 .es0 {color: #000099; font-weight: bold;}
@@ -3913,7 +3913,7 @@
 .pascal .imp {font-weight: bold; color: red;}
 .pascal li, .pascal .li1 {font-weight: normal; vertical-align:top;}
 .pascal .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.pascal .li2 {background: #f2f2f2;}
+.pascal .li2 {background: #FCFCFC;}
 .pascal .kw1 {color: #000000; font-weight: bold;}
 .pascal .kw2 {color: #000000; font-weight: bold;}
 .pascal .kw3 {color: #000066;}
@@ -3936,7 +3936,7 @@
 .per .imp {font-weight: bold; color: red;}
 .per li, .per .li1 {font-weight: normal; vertical-align:top;}
 .per .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.per .li2 {background: #f2f2f2;}
+.per .li2 {background: #FCFCFC;}
 .per .kw1 {color: #0600FF;}
 .per .kw2 {color: #0000FF; font-weight: bold;}
 .per .co1 {color: #008080; font-style: italic;}
@@ -3957,7 +3957,7 @@
 .perl .imp {font-weight: bold; color: red;}
 .perl li, .perl .li1 {font-weight: normal; vertical-align:top;}
 .perl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.perl .li2 {background: #f2f2f2;}
+.perl .li2 {background: #FCFCFC;}
 .perl .kw1 {color: #b1b100;}
 .perl .kw2 {color: #000000; font-weight: bold;}
 .perl .kw3 {color: #000066;}
@@ -3986,7 +3986,7 @@
 .php .imp {font-weight: bold; color: red;}
 .php li, .php .li1 {font-weight: normal; vertical-align:top;}
 .php .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.php .li2 {background: #f2f2f2;}
+.php .li2 {background: #FCFCFC;}
 .php .kw1 {color: #b1b100;}
 .php .kw2 {color: #000000; font-weight: bold;}
 .php .kw3 {color: #990000;}
@@ -4024,7 +4024,7 @@
 .php-brief .imp {font-weight: bold; color: red;}
 .php-brief li, .php-brief .li1 {font-weight: normal; vertical-align:top;}
 .php-brief .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.php-brief .li2 {background: #f2f2f2;}
+.php-brief .li2 {background: #FCFCFC;}
 .php-brief .kw1 {color: #b1b100;}
 .php-brief .kw2 {color: #000000; font-weight: bold;}
 .php-brief .kw3 {color: #990000;}
@@ -4054,7 +4054,7 @@
 .pic16 .imp {font-weight: bold; color: red;}
 .pic16 li, .pic16 .li1 {font-weight: normal; vertical-align:top;}
 .pic16 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.pic16 .li2 {background: #f2f2f2;}
+.pic16 .li2 {background: #FCFCFC;}
 .pic16 .kw1 {color: #0000a0; font-weight: bold;}
 .pic16 .kw2 {color: #aa3300; font-weight: bold;}
 .pic16 .kw3 {color: #0000ff;}
@@ -4072,7 +4072,7 @@
 .pixelbender .imp {font-weight: bold; color: red;}
 .pixelbender li, .pixelbender .li1 {font-weight: normal; vertical-align:top;}
 .pixelbender .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.pixelbender .li2 {background: #f2f2f2;}
+.pixelbender .li2 {background: #FCFCFC;}
 .pixelbender .kw1 {color: #0033ff;}
 .pixelbender .kw2 {color: #0033ff; font-weight: bold;}
 .pixelbender .kw3 {color: #0033ff;}
@@ -4095,7 +4095,7 @@
 .plsql .imp {font-weight: bold; color: red;}
 .plsql li, .plsql .li1 {font-weight: normal; vertical-align:top;}
 .plsql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.plsql .li2 {background: #f2f2f2;}
+.plsql .li2 {background: #FCFCFC;}
 .plsql .kw1 {color: #00F;}
 .plsql .kw2 {color: #000;}
 .plsql .kw3 {color: #00F;}
@@ -4118,7 +4118,7 @@
 .povray .imp {font-weight: bold; color: red;}
 .povray li, .povray .li1 {font-weight: normal; vertical-align:top;}
 .povray .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.povray .li2 {background: #f2f2f2;}
+.povray .li2 {background: #FCFCFC;}
 .povray .kw1 {color: #a63123;}
 .povray .kw2 {color: #2312bc;}
 .povray .kw3 {color: #cc1122; font-weight: bold;}
@@ -4143,7 +4143,7 @@
 .powershell .imp {font-weight: bold; color: red;}
 .powershell li, .powershell .li1 {font-weight: normal; vertical-align:top;}
 .powershell .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.powershell .li2 {background: #f2f2f2;}
+.powershell .li2 {background: #FCFCFC;}
 .powershell .kw1 {color: #008080; font-weight: bold;}
 .powershell .kw2 {color: #008080; font-weight: bold;}
 .powershell .kw3 {color: #0000FF;}
@@ -4171,7 +4171,7 @@
 .progress .imp {font-weight: bold; color: red;}
 .progress li, .progress .li1 {font-weight: normal; vertical-align:top;}
 .progress .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.progress .li2 {background: #f2f2f2;}
+.progress .li2 {background: #FCFCFC;}
 .progress .kw1 {color: #0000ff; font-weight: bold;}
 .progress .kw2 {color: #1D16B2;}
 .progress .kw3 {color: #993333;}
@@ -4191,7 +4191,7 @@
 .prolog .imp {font-weight: bold; color: red;}
 .prolog li, .prolog .li1 {font-weight: normal; vertical-align:top;}
 .prolog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.prolog .li2 {background: #f2f2f2;}
+.prolog .li2 {background: #FCFCFC;}
 .prolog .kw1 {color: #990000;}
 .prolog .co1 {color: #666666; font-style: italic;}
 .prolog .coMULTI {color: #666666; font-style: italic;}
@@ -4217,7 +4217,7 @@
 .properties .imp {font-weight: bold; color: red;}
 .properties li, .properties .li1 {font-weight: normal; vertical-align:top;}
 .properties .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.properties .li2 {background: #f2f2f2;}
+.properties .li2 {background: #FCFCFC;}
 .properties .kw1 {font-weight: bold;}
 .properties .co1 {color: #808080; font-style: italic;}
 .properties .sy0 {color: #000000;}
@@ -4232,7 +4232,7 @@
 .providex .imp {font-weight: bold; color: red;}
 .providex li, .providex .li1 {font-weight: normal; vertical-align:top;}
 .providex .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.providex .li2 {background: #f2f2f2;}
+.providex .li2 {background: #FCFCFC;}
 .providex .kw1 {color: navy;}
 .providex .kw2 {color: blue;}
 .providex .kw3 {color: blue;}
@@ -4260,7 +4260,7 @@
 .python .imp {font-weight: bold; color: red;}
 .python li, .python .li1 {font-weight: normal; vertical-align:top;}
 .python .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.python .li2 {background: #f2f2f2;}
+.python .li2 {background: #FCFCFC;}
 .python .kw1 {color: #ff7700;font-weight:bold;}
 .python .kw2 {color: #008000;}
 .python .kw3 {color: #dc143c;}
@@ -4281,7 +4281,7 @@
 .qbasic .imp {font-weight: bold; color: red;}
 .qbasic li, .qbasic .li1 {font-weight: normal; vertical-align:top;}
 .qbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.qbasic .li2 {background: #f2f2f2;}
+.qbasic .li2 {background: #FCFCFC;}
 .qbasic .kw1 {color: #a1a100;}
 .qbasic .kw3 {color: #000066;}
 .qbasic .co1 {color: #808080;}
@@ -4299,7 +4299,7 @@
 .rails .imp {font-weight: bold; color: red;}
 .rails li, .rails .li1 {font-weight: normal; vertical-align:top;}
 .rails .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.rails .li2 {background: #f2f2f2;}
+.rails .li2 {background: #FCFCFC;}
 .rails .kw1 {color:#9966CC; font-weight:bold;}
 .rails .kw2 {color:#0000FF; font-weight:bold;}
 .rails .kw3 {color:#CC0066; font-weight:bold;}
@@ -4325,7 +4325,7 @@
 .rebol .imp {font-weight: bold; color: red;}
 .rebol li, .rebol .li1 {font-weight: normal; vertical-align:top;}
 .rebol .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.rebol .li2 {background: #f2f2f2;}
+.rebol .li2 {background: #FCFCFC;}
 .rebol .kw1 {color: #b1b100;}
 .rebol .kw2 {color: #000000; font-weight: bold;}
 .rebol .kw3 {color: #000066;}
@@ -4347,7 +4347,7 @@
 .reg .imp {font-weight: bold; color: red;}
 .reg li, .reg .li1 {font-weight: normal; vertical-align:top;}
 .reg .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.reg .li2 {background: #f2f2f2;}
+.reg .li2 {background: #FCFCFC;}
 .reg .kw3 {color: #800000;}
 .reg .co1 {color: #009900;}
 .reg .br0 {color: #000000;}
@@ -4366,7 +4366,7 @@
 .robots .imp {font-weight: bold; color: red;}
 .robots li, .robots .li1 {font-weight: normal; vertical-align:top;}
 .robots .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.robots .li2 {background: #f2f2f2;}
+.robots .li2 {background: #FCFCFC;}
 .robots .kw1 {color: #b1b100;}
 .robots .co1 {color: #808080; font-style: italic;}
 .robots .es0 {color: #000099; font-weight: bold;}
@@ -4382,7 +4382,7 @@
 .ruby .imp {font-weight: bold; color: red;}
 .ruby li, .ruby .li1 {font-weight: normal; vertical-align:top;}
 .ruby .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.ruby .li2 {background: #f2f2f2;}
+.ruby .li2 {background: #FCFCFC;}
 .ruby .kw1 {color:#9966CC; font-weight:bold;}
 .ruby .kw2 {color:#0000FF; font-weight:bold;}
 .ruby .kw3 {color:#CC0066; font-weight:bold;}
@@ -4407,7 +4407,7 @@
 .sas .imp {font-weight: bold; color: red;}
 .sas li, .sas .li1 {font-weight: normal; vertical-align:top;}
 .sas .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.sas .li2 {background: #f2f2f2;}
+.sas .li2 {background: #FCFCFC;}
 .sas .kw1 {color: #0000ff;}
 .sas .kw2 {color: #0000ff;}
 .sas .kw3 {color: #0000ff;}
@@ -4441,7 +4441,7 @@
 .scala .imp {font-weight: bold; color: red;}
 .scala li, .scala .li1 {font-weight: normal; vertical-align:top;}
 .scala .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.scala .li2 {background: #f2f2f2;}
+.scala .li2 {background: #FCFCFC;}
 .scala .kw1 {color: #0000ff; font-weight: bold;}
 .scala .kw2 {color: #9999cc; font-weight: bold;}
 .scala .co1 {color: #008000; font-style: italic;}
@@ -4461,7 +4461,7 @@
 .scheme .imp {font-weight: bold; color: red;}
 .scheme li, .scheme .li1 {font-weight: normal; vertical-align:top;}
 .scheme .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.scheme .li2 {background: #f2f2f2;}
+.scheme .li2 {background: #FCFCFC;}
 .scheme .kw1 {color: #b1b100;}
 .scheme .co1 {color: #808080; font-style: italic;}
 .scheme .coMULTI {color: #808080; font-style: italic;}
@@ -4479,7 +4479,7 @@
 .scilab .imp {font-weight: bold; color: red;}
 .scilab li, .scilab .li1 {font-weight: normal; vertical-align:top;}
 .scilab .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.scilab .li2 {background: #f2f2f2;}
+.scilab .li2 {background: #FCFCFC;}
 .scilab .kw1 {color: #b1b100;}
 .scilab .kw2 {color: #000000; font-weight: bold;}
 .scilab .kw3 {color: #000066;}
@@ -4504,7 +4504,7 @@
 .sdlbasic .imp {font-weight: bold; color: red;}
 .sdlbasic li, .sdlbasic .li1 {font-weight: normal; vertical-align:top;}
 .sdlbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.sdlbasic .li2 {background: #f2f2f2;}
+.sdlbasic .li2 {background: #FCFCFC;}
 .sdlbasic .kw1 {color: #b1b100;}
 .sdlbasic .co1 {color: #808080;}
 .sdlbasic .co2 {color: #808080;}
@@ -4524,7 +4524,7 @@
 .smalltalk .imp {font-weight: bold; color: red;}
 .smalltalk li, .smalltalk .li1 {font-weight: normal; vertical-align:top;}
 .smalltalk .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.smalltalk .li2 {background: #f2f2f2;}
+.smalltalk .li2 {background: #FCFCFC;}
 .smalltalk .kw1 {color: #7f007f;}
 .smalltalk .coMULTI {color: #007f00; font-style: italic;}
 .smalltalk .sy0 {color: #000066; font-weight:bold;}
@@ -4545,7 +4545,7 @@
 .smarty .imp {font-weight: bold; color: red;}
 .smarty li, .smarty .li1 {font-weight: normal; vertical-align:top;}
 .smarty .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.smarty .li2 {background: #f2f2f2;}
+.smarty .li2 {background: #FCFCFC;}
 .smarty .kw1 {color: #0600FF;}
 .smarty .kw2 {color: #008000;}
 .smarty .kw3 {color: #0600FF;}
@@ -4572,7 +4572,7 @@
 .sql .imp {font-weight: bold; color: red;}
 .sql li, .sql .li1 {font-weight: normal; vertical-align:top;}
 .sql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.sql .li2 {background: #f2f2f2;}
+.sql .li2 {background: #FCFCFC;}
 .sql .kw1 {color: #993333; font-weight: bold;}
 .sql .co1 {color: #808080; font-style: italic;}
 .sql .co2 {color: #808080; font-style: italic;}
@@ -4590,7 +4590,7 @@
 .tcl .imp {font-weight: bold; color: red;}
 .tcl li, .tcl .li1 {font-weight: normal; vertical-align:top;}
 .tcl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.tcl .li2 {background: #f2f2f2;}
+.tcl .li2 {background: #FCFCFC;}
 .tcl .kw1 {color: #ff7700;font-weight:bold;}
 .tcl .kw2 {color: #008000;}
 .tcl .kw3 {color: #dc143c;}
@@ -4612,7 +4612,7 @@
 .teraterm .imp {font-weight: bold; color: red;}
 .teraterm li, .teraterm .li1 {font-weight: normal; vertical-align:top;}
 .teraterm .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.teraterm .li2 {background: #f2f2f2;}
+.teraterm .li2 {background: #FCFCFC;}
 .teraterm .kw1 {color: #000080; font-weight: bold!important;}
 .teraterm .kw2 {color: #808000; font-weight: bold;}
 .teraterm .kw3 {color: #ff0000; font-weight: bold;}
@@ -4631,7 +4631,7 @@
 .text .imp {font-weight: bold; color: red;}
 .text li, .text .li1 {font-weight: normal; vertical-align:top;}
 .text .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.text .li2 {background: #f2f2f2;}
+.text .li2 {background: #FCFCFC;}
 .text .ln-xtra, .text li.ln-xtra, .text div.ln-xtra {background-color: #ffc;}
 .text span.xtra { display:block; }
 
@@ -4640,7 +4640,7 @@
 .thinbasic .imp {font-weight: bold; color: red;}
 .thinbasic li, .thinbasic .li1 {font-weight: normal; vertical-align:top;}
 .thinbasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.thinbasic .li2 {background: #f2f2f2;}
+.thinbasic .li2 {background: #FCFCFC;}
 .thinbasic .kw1 {color: #0000FF; font-weight: bold;}
 .thinbasic .kw2 {color: #993333; font-style: italic; font-weight: bold;}
 .thinbasic .co1 {color: #008000;}
@@ -4658,7 +4658,7 @@
 .tsql .imp {font-weight: bold; color: red;}
 .tsql li, .tsql .li1 {font-weight: normal; vertical-align:top;}
 .tsql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.tsql .li2 {background: #f2f2f2;}
+.tsql .li2 {background: #FCFCFC;}
 .tsql .kw1 {color: #0000FF;}
 .tsql .kw2 {color: #FF00FF;}
 .tsql .kw3 {color: #AF0000;}
@@ -4680,7 +4680,7 @@
 .typoscript .imp {font-weight: bold; color: red;}
 .typoscript li, .typoscript .li1 {font-weight: normal; vertical-align:top;}
 .typoscript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.typoscript .li2 {background: #f2f2f2;}
+.typoscript .li2 {background: #FCFCFC;}
 .typoscript .kw1 {color: #ed7d14;}
 .typoscript .kw2 {font-weight: bold;}
 .typoscript .kw3 {color: #990000; font-weight: bold;}
@@ -4716,7 +4716,7 @@
 .vb .imp {font-weight: bold; color: red;}
 .vb li, .vb .li1 {font-weight: normal; vertical-align:top;}
 .vb .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.vb .li2 {background: #f2f2f2;}
+.vb .li2 {background: #FCFCFC;}
 .vb .kw1 {color: #000080;}
 .vb .co1 {color: #008000;}
 .vb .es0 {color: #800000; font-weight: bold;}
@@ -4729,7 +4729,7 @@
 .vbnet .imp {font-weight: bold; color: red;}
 .vbnet li, .vbnet .li1 {font-weight: normal; vertical-align:top;}
 .vbnet .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.vbnet .li2 {background: #f2f2f2;}
+.vbnet .li2 {background: #FCFCFC;}
 .vbnet .kw1 {color: #0600FF;}
 .vbnet .kw2 {color: #FF8000;}
 .vbnet .kw3 {color: #008000;}
@@ -4754,7 +4754,7 @@
 .verilog .imp {font-weight: bold; color: red;}
 .verilog li, .verilog .li1 {font-weight: normal; vertical-align:top;}
 .verilog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.verilog .li2 {background: #f2f2f2;}
+.verilog .li2 {background: #FCFCFC;}
 .verilog .kw1 {color: #A52A2A; font-weight: bold;}
 .verilog .kw2 {color: #9932CC;}
 .verilog .kw3 {color: #008800;}
@@ -4777,7 +4777,7 @@
 .vhdl .imp {font-weight: bold; color: red;}
 .vhdl li, .vhdl .li1 {font-weight: normal; vertical-align:top;}
 .vhdl .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.vhdl .li2 {background: #f2f2f2;}
+.vhdl .li2 {background: #FCFCFC;}
 .vhdl .kw1 {color: #000080; font-weight: bold;}
 .vhdl .kw2 {color: #0000ff;}
 .vhdl .co1 {color: #008000; font-style: italic;}
@@ -4797,7 +4797,7 @@
 .vim .imp {font-weight: bold; color: red;}
 .vim li, .vim .li1 {font-weight: normal; vertical-align:top;}
 .vim .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.vim .li2 {background: #f2f2f2;}
+.vim .li2 {background: #FCFCFC;}
 .vim .kw1 {color: #804040;}
 .vim .kw2 {color: #668080;}
 .vim .kw3 {color: #25BB4D;}
@@ -4815,7 +4815,7 @@
 .visualfoxpro .imp {font-weight: bold; color: red;}
 .visualfoxpro li, .visualfoxpro .li1 {font-weight: normal; vertical-align:top;}
 .visualfoxpro .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.visualfoxpro .li2 {background: #f2f2f2;}
+.visualfoxpro .li2 {background: #FCFCFC;}
 .visualfoxpro .kw1 {color: blue;}
 .visualfoxpro .kw2 {color: blue;}
 .visualfoxpro .kw3 {color: blue;}
@@ -4837,7 +4837,7 @@
 .visualprolog .imp {font-weight: bold; color: red;}
 .visualprolog li, .visualprolog .li1 {font-weight: normal; vertical-align:top;}
 .visualprolog .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.visualprolog .li2 {background: #f2f2f2;}
+.visualprolog .li2 {background: #FCFCFC;}
 .visualprolog .kw1 {color: #808000;}
 .visualprolog .kw2 {color: #333399;}
 .visualprolog .kw3 {color: #800080;}
@@ -4859,7 +4859,7 @@
 .whitespace .imp {font-weight: bold; color: red;}
 .whitespace li, .whitespace .li1 {font-weight: normal; vertical-align:top;}
 .whitespace .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.whitespace .li2 {background: #f2f2f2;}
+.whitespace .li2 {background: #FCFCFC;}
 .whitespace .co3 {color: #666666; font-style: italic;}
 .whitespace .br0 {color: #66cc66;}
 .whitespace .st0 {color: #ff0000;}
@@ -4873,7 +4873,7 @@
 .whois .imp {font-weight: bold; color: red;}
 .whois li, .whois .li1 {font-weight: normal; vertical-align:top;}
 .whois .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.whois .li2 {background: #f2f2f2;}
+.whois .li2 {background: #FCFCFC;}
 .whois .kw1 {color: #0000FF; font-weight: bold;}
 .whois .kw2 {color: #000080; font-weight: bold;}
 .whois .kw3 {color: #990000; font-weight: bold;}
@@ -4900,7 +4900,7 @@
 .winbatch .imp {font-weight: bold; color: red;}
 .winbatch li, .winbatch .li1 {font-weight: normal; vertical-align:top;}
 .winbatch .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.winbatch .li2 {background: #f2f2f2;}
+.winbatch .li2 {background: #FCFCFC;}
 .winbatch .kw1 {color: #800080;}
 .winbatch .kw2 {color: #0080FF; font-weight: bold;}
 .winbatch .kw3 {color: #0000FF;}
@@ -4924,7 +4924,7 @@
 .xml .imp {font-weight: bold; color: red;}
 .xml li, .xml .li1 {font-weight: normal; vertical-align:top;}
 .xml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.xml .li2 {background: #f2f2f2;}
+.xml .li2 {background: #FCFCFC;}
 .xml .es0 {color: #000099; font-weight: bold;}
 .xml .br0 {color: #66cc66;}
 .xml .sy0 {color: #66cc66;}
@@ -4946,7 +4946,7 @@
 .xorg_conf .imp {font-weight: bold; color: red;}
 .xorg_conf li, .xorg_conf .li1 {font-weight: normal; vertical-align:top;}
 .xorg_conf .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.xorg_conf .li2 {background: #f2f2f2;}
+.xorg_conf .li2 {background: #FCFCFC;}
 .xorg_conf .kw1 {color: #b1b100;}
 .xorg_conf .kw2 {color: #990000;}
 .xorg_conf .kw3 {color: #550000;}
@@ -4961,7 +4961,7 @@
 .xpp .imp {font-weight: bold; color: red;}
 .xpp li, .xpp .li1 {font-weight: normal; vertical-align:top;}
 .xpp .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.xpp .li2 {background: #f2f2f2;}
+.xpp .li2 {background: #FCFCFC;}
 .xpp .kw1 {color: #0000ff;}
 .xpp .kw2 {color: #0000ff;}
 .xpp .kw3 {color: #0000ff;}
@@ -4983,7 +4983,7 @@
 .z80 .imp {font-weight: bold; color: red;}
 .z80 li, .z80 .li1 {font-weight: normal; vertical-align:top;}
 .z80 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;border-right:2px solid #e0e8ef;font-weight: bold;color: #333;}
-.z80 .li2 {background: #f2f2f2;}
+.z80 .li2 {background: #FCFCFC;}
 .z80 .kw1 {color: #0000ff; font-weight:bold;}
 .z80 .kw2 {color: #0000ff;}
 .z80 .kw3 {color: #46aa03; font-weight:bold;}
