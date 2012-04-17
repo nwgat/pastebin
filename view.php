@@ -92,8 +92,7 @@
 			</p>
 			</span>
 			
-			<article class="well">
-				<pre id="code">
+			<article class="well code">
 <?php
 
 	$geshi =& new GeSHi( $result["code"], $lang );
@@ -103,7 +102,6 @@
 	$geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 1 );
 	echo $geshi->parse_code();
 ?>
-				</pre>
 			</article>
 			
 			<?php if( count( $alterations ) > 0 ) { ?>
