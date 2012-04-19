@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="css/diffview.css"/>
   
   <!-- javascript -->
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
