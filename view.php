@@ -1,38 +1,4 @@
-<script src="./js/shCore.js" type="text/javascript"></script>
-<script src="./js/shAutoloader.js" type="text/javascript"></script>
-<script>
-window.onload = function ()
-    {
-SyntaxHighlighter.autoloader(
-  'applescript            /js/shBrushAppleScript.js',
-  'actionscript3          /js/shBrushAS3.js',
-  'bash shell             /js/shBrushBash.js',
-  'coldfusion cf          /js/shBrushColdFusion.js',
-  'cpp c                  /js/shBrushCpp.js',
-  'c# c-sharp csharp      /js/shBrushCSharp.js',
-  'css                    /js/shBrushCss.js',
-  'delphi pascal          /js/shBrushDelphi.js',
-  'diff patch pas         /js/shBrushDiff.js',
-  'erl erlang             /js/shBrushErlang.js',
-  'groovy                 /js/shBrushGroovy.js',
-  'java                   /js/shBrushJava.js',
-  'jfx javafx             /js/shBrushJavaFX.js',
-  'js jscript javascript  /js/shBrushJScript.js',
-  'lua 					  /js/shBrushLua.js',
-  'perl pl                /js/shBrushPerl.js',
-  'php                    /js/shBrushPhp.js',
-  'text plain             /js/shBrushPlain.js',
-  'py python              /js/shBrushPython.js',
-  'ruby rails ror rb      /js/shBrushRuby.js',
-  'sass scss              /js/shBrushSass.js',
-  'scala                  /js/shBrushScala.js',
-  'sql                    /js/shBrushSql.js',
-  'vb vbnet               /js/shBrushVb.js',
-  'xml xhtml xslt html    /js/shBrushXml.js'
-);
-SyntaxHighlighter.all();
-}
-</script>
+
 
 <?php
 	
@@ -143,6 +109,37 @@ echo ("<pre class ='brush: ".$lang."'>".htmlentities( $result['code'] )."</pre>"
 				</ul>
 			</article>
 			<?php } ?>
-		
+<script src="./js/shCore.js" type="text/javascript"></script>
+<script src="./js/shAutoloader.js" type="text/javascript"></script>
+<script>
+SyntaxHighlighter.autoloader(
+  'applescript            /js/shBrushAppleScript.js',
+  'actionscript3          /js/shBrushAS3.js',
+  'bash shell             /js/shBrushBash.js',
+  'coldfusion cf          /js/shBrushColdFusion.js',
+  'cpp c                  /js/shBrushCpp.js',
+  'c# c-sharp csharp      /js/shBrushCSharp.js',
+  'css                    /js/shBrushCss.js',
+  'delphi pascal          /js/shBrushDelphi.js',
+  'diff patch pas         /js/shBrushDiff.js',
+  'erl erlang             /js/shBrushErlang.js',
+  'groovy                 /js/shBrushGroovy.js',
+  'java                   /js/shBrushJava.js',
+  'jfx javafx             /js/shBrushJavaFX.js',
+  'js jscript javascript  /js/shBrushJScript.js',
+  'lua 					  /js/shBrushLua.js',
+  'perl pl                /js/shBrushPerl.js',
+  'php                    /js/shBrushPhp.js',
+  'text plain             /js/shBrushPlain.js',
+  'py python              /js/shBrushPython.js',
+  'ruby rails ror rb      /js/shBrushRuby.js',
+  'sass scss              /js/shBrushSass.js',
+  'scala                  /js/shBrushScala.js',
+  'sql                    /js/shBrushSql.js',
+  'vb vbnet               /js/shBrushVb.js',
+  'xml xhtml xslt html    /js/shBrushXml.js'
+);
+SyntaxHighlighter.all();
+</script>
 <?php include "includes/page/footer.php"; ?>
 
