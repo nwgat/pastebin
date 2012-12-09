@@ -54,3 +54,7 @@ textarea#code, pre {
 pre {
 	white-space: pre !important;
 }
+
+.syntaxhighlighter { overflow-y: hidden !important;
+overflow-x: auto !important;
+ }
