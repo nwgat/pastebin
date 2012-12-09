@@ -1,6 +1,8 @@
 <script src="./js/shCore.js" type="text/javascript"></script>
 <script src="./js/shAutoloader.js" type="text/javascript"></script>
 <script>
+window.onload = function ()
+    {
 SyntaxHighlighter.autoloader(
   'applescript            /js/shBrushAppleScript.js',
   'actionscript3          /js/shBrushAS3.js',
@@ -29,6 +31,7 @@ SyntaxHighlighter.autoloader(
   'xml xhtml xslt html    /js/shBrushXml.js'
 );
 SyntaxHighlighter.all();
+}
 </script>
 
 <?php
