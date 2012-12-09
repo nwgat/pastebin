@@ -22,7 +22,7 @@ class Database {
         
         function Query( $query )
         {
-                $q = mysqli_query( $this->db, "/*" . MYSQLND_QC_ENABLE_SWITCH . "*/" .  $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . mysqli_error($this->db) );
+                $q = mysqli_query( $this->db, $query ) or print( "<h1>Error</h1><p>There has been a problem with the database<br /><span style=\"color:#AA0000\">$query</span>" . mysqli_error($this->db) );
                 return $q;
         }
 		
