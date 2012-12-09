@@ -37,7 +37,6 @@ textarea#code, pre {
 .titler { width: 465px; display: inline-block; }
 .noborder { border: 0px none; }
 .navbar {
-	z-index: 0 !important;
     font-family: Consolas, "Courier New", monospace !important;
 }
 
