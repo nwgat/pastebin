@@ -18,9 +18,8 @@
 <link href="./css/shThemeDefault.css" rel="stylesheet" type="text/css" />
 
   <!-- pastebin styles -->
-  <link rel="stylesheet" type="text/css" href="css/geshi.min.css" />
-  <style type="text/css">body{color:#000!important;padding-bottom:40px;padding-top:60px;}#loginbuttons{display:inline-block;margin-right:20px;}#loginbuttons a{width:28px;}#loginbuttons img{vertical-align:middle;}#originalinfo{padding-top:5px;}textarea#code,pre{font-family:Consolas, 'Courier New', courier;}.langr{color:#6C6C6C;font-size:7pt;font-style:italic;}.titler{display:inline-block;width:465px;}.noborder{border:0 none;}.navbar{font-family:Consolas, "Courier New", monospace!important;z-index:0!important;}pre{white-space:pre!important;}.mycode,#alterations{margin-top:10px;}</style>
-  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+ 
   <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
