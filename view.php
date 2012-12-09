@@ -1,7 +1,7 @@
 <script src="./js/shCore.js" type="text/javascript"></script>
 <script src="./js/shAutoloader.js" type="text/javascript"></script>
 <script>
-SyntaxHighlighter.autoloader.apply(
+SyntaxHighlighter.autoloader(
   'applescript            ./js/shBrushAppleScript.js',
   'actionscript3          ./js/shBrushAS3.js',
   'bash shell             ./js/shBrushBash.js',
