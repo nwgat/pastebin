@@ -13,6 +13,10 @@
   <!-- bootstrap styles -->
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+  <!-- Include *at least* the core style and default theme -->
+<link href="./css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="./css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="Stylesheet" href="./css/shThemeFadeToGrey.css"/>
 
   <!-- pastebin styles -->
   <link rel="stylesheet" type="text/css" href="css/geshi.min.css" />
