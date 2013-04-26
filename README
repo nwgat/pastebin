@@ -10,3 +10,8 @@ $dbpass = 'database password';
 $dbname = 'database name';
 
 ?>
+
+Required Nginx rewrite rules are as follows: 
+
+rewrite /(\d+)$ /view.php?id=$1 last;
+rewrite ^(\D+)$ /$1.php;
