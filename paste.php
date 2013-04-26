@@ -33,12 +33,12 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		}               
 			
 		$paste = array();
-		$paste[ "sname" ] = $sname;
-		$paste[ "nname" ] = $nname;
-		$paste[ "code" ] = $code;
-		$paste[ "language" ] = $lang;
+		$paste[ "sname" ] = mysql_real_escape_string($sname);
+		$paste[ "nname" ] = mysql_real_escape_string($nname);
+		$paste[ "code" ] = mysql_real_escape_string($code);
+		$paste[ "language" ] = mysql_real_escape_string($lang);
 		$paste[ "deleteafter" ] = (int)$_POST["keepfor"];
-		$paste[ "shemail" ] = $shemail;		
+		$paste[ "shemail" ] = mysql_real_escape_string($shemail);		
         $paste[ "private"] = $private;
 		if( !empty( $alter ) )
 		{	
