@@ -59,7 +59,7 @@ if( !empty( $edit ) )
       
       foreach( $top_langs as $k => $v )
       {
-        echo '      <option value="' . $v["language"] . '">' . htmlentities( $langs[$v["language"]]['friendly_name'] ) . '</option>' . "\r\n";      
+        echo '      <option value="' . htmlentities($v["language"]) . '">' . htmlentities( $langs[$v["language"]]['friendly_name'] ) . '</option>' . "\r\n";      
       }
 
       ?>
