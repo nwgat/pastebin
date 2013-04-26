@@ -73,7 +73,7 @@ if( !empty( $edit ) )
 		if( isset( $_GET[$k] ) || ( !empty($orig) && $orig["language"] == $k ) )
 			$option_html_params = ' selected="selected"';
 		
-        echo '      <option value="' . $k . '"' . $option_html_params . '>' . htmlentities( $langs[$k]['friendly_name'] ) . '</option>' . "\r\n";  
+        echo '      <option value="' . htmlentities($k) . '"' . $option_html_params . '>' . htmlentities( $langs[$k]['friendly_name'] ) . '</option>' . "\r\n";  
       }
       ?>
     </select>
