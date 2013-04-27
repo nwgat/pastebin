@@ -1,5 +1,3 @@
-
-
 <?php
 	
 	include "includes/common.php";
@@ -95,7 +93,7 @@
 			
 			<article class="well code">
 <?php
-echo ("<pre class ='brush: ".$lang."'>".htmlentities( $result['code'] )."</pre>");
+echo ("<script type='syntaxhighlighter' class='brush: ".htmlentities($lang)."'><![CDATA[".htmlentities( $result['code'] )."]]></script>");
 ?>
 			</article>
 			
@@ -109,8 +107,6 @@ echo ("<pre class ='brush: ".$lang."'>".htmlentities( $result['code'] )."</pre>"
 				</ul>
 			</article>
 			<?php } ?>
-<script src="./js/shCore.js" type="text/javascript"></script>
-<script src="./js/shAutoloader.js" type="text/javascript"></script>
 <script>
 SyntaxHighlighter.autoloader(
   'applescript            /js/shBrushAppleScript.js',
@@ -127,7 +123,7 @@ SyntaxHighlighter.autoloader(
   'java                   /js/shBrushJava.js',
   'jfx javafx             /js/shBrushJavaFX.js',
   'js jscript javascript  /js/shBrushJScript.js',
-  'lua 					  /js/shBrushLua.js',
+  'lua 		     /js/shBrushLua.js',
   'perl pl                /js/shBrushPerl.js',
   'php                    /js/shBrushPhp.js',
   'text plain             /js/shBrushPlain.js',
@@ -139,7 +135,11 @@ SyntaxHighlighter.autoloader(
   'vb vbnet               /js/shBrushVb.js',
   'xml xhtml xslt html    /js/shBrushXml.js'
 );
-SyntaxHighlighter.all();
+$(window).load(function() {
+SyntaxHighlighter.vars.discoveredBrushes=null;
+SyntaxHighlighter.highlight();
+$(".code").transition({ opacity: 1.0}, 600, 'ease'); 
+});
 </script>
 <?php include "includes/page/footer.php"; ?>
 
