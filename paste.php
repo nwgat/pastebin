@@ -33,21 +33,22 @@ if($_POST['user_token'] == $_SESSION['user_token'])
 		}               
 			
 		$paste = array();
-		$paste[ "sname" ] = mysql_real_escape_string($sname);
-		$paste[ "nname" ] = mysql_real_escape_string($nname);
-		$paste[ "code" ] = mysql_real_escape_string($code);
-		$correct = $db->Query("SELECT COUNT(*) FROM `pb_lua`.`languages` WHERE lang_id = ".mysql_real_escape_string($lang)."LIMIT 0, 1");
+		$paste[ "sname" ] = $sname;
+		$paste[ "nname" ] = $nname;
+		$paste[ "code" ] = $code;
+		$correct = $db->Query("SELECT COUNT(*) FROM `pb_lua`.`languages` WHERE lang_id = '" . mysql_real_escape_string($lang) . "' LIMIT 0, 1");
 		if ($correct < 1)
 		{
-		$lang = "text";	
+		$paste[ "language" ] = "text";	
 		}
 		else
 		{
-		$paste[ "language" ] = mysql_real_escape_string($lang);
+		$paste[ "language" ] = $lang;
 		}
 		$paste[ "deleteafter" ] = (int)$_POST["keepfor"];
-		$paste[ "shemail" ] = mysql_real_escape_string($shemail);		
-        $paste[ "private"] = $private;
+		$paste[ "shemail" ] = $shemail;		
+                $paste[ "private"] = $private;
+
 		if( !empty( $alter ) )
 		{	
 			$paste[ "alter" ] = (int)$alter;
