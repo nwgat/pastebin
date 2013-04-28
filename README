@@ -15,3 +15,6 @@ Required Nginx rewrite rules are as follows:
 
 rewrite /(\d+)$ /view.php?id=$1 last;
 rewrite ^(\D+)$ /$1.php;
+
+In order for pastes to delete after the expire 
+time you need to set the hourly.php script in the /cron folder to run once an hour.
