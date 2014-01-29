@@ -85,7 +85,6 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href='./index.php?login'><img src='img/google.png' alt='Google'/> Login Via Google</a></li>
-  <li><a href='./index.php?login&amp;provider=steam'><img src='img/steam.png' alt='Steam Community'/> Login Via Steam</a></li>
               </ul>
             </li>
           </ul>
