@@ -23,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
  
   <!-- javascript -->
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="//code.jquery.com/jquery-latest.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/shCore.js" type="text/javascript"></script>
   <script src="./js/shAutoloader.js" type="text/javascript"></script>
