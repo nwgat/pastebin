@@ -2,7 +2,7 @@
 <html>
 <?php flush(); ?>
 <head>
-  <title>Luahelp Pastebin - <?php echo $page; ?></title>
+  <title>Gparent's Pastebin - <?php echo $page; ?></title>
   
 
   <!-- meta tags -->
@@ -51,7 +51,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="./">Luahelp Pastebin</a>
+            <a class="brand" href="./">Gparent's Pastebin</a>
             <div class="nav-collapse">
               <ul class="nav">
                 <?php 
@@ -69,8 +69,8 @@
                }
                ?>
 				<li class="divider-vertical"></li>
-				<li><a href="irc://irc.gamesurge.net/luahelp">Join IRC</a></li>
-				<li><a href="https://github.com/harderthanfire/-luahelp-Pastebin">GitHub</a></li>
+				<li><a href="ircs://irc.freenode.net/digitalocean">Join IRC</a></li>
+				<li><a href="https://github.com/gparent/pastebin">GitHub</a></li>
 				<li class="divider-vertical"></li>
              </ul>
 			 
