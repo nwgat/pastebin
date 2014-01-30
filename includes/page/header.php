@@ -14,20 +14,20 @@
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
   <!-- Include *at least* the core style and default theme -->
-<link href="./css/shCore.css" rel="stylesheet" type="text/css" />
-<link href="./css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css" rel="stylesheet" type="text/css" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css" rel="stylesheet" type="text/css" />
 
-<link type="text/css" rel="Stylesheet" href="./css/shThemeFadeToGrey.css"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreFadeToGrey.min.css" type="text/css" rel="stylesheet" />
 
   <!-- pastebin styles -->
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
  
   <!-- javascript -->
-  <script src="./js/jquery.min.js" type="text/javascript"></script>
-  <script src="./js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./js/shCore.js" type="text/javascript"></script>
-  <script src="./js/shAutoloader.js" type="text/javascript"></script>
-  <script src="./js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shAutoloader.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js" type="text/javascript"></script>
 
   
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
