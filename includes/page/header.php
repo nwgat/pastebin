@@ -11,16 +11,16 @@
   <meta name="author" content="Stephen Swires, HTF">
 
   <!-- bootstrap styles -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="./css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
   <!-- Include *at least* the core style and default theme -->
 <link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css" rel="stylesheet" type="text/css" />
 <link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css" rel="stylesheet" type="text/css" />
 
-<link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreFadeToGrey.min.css" type="text/css" rel="stylesheet" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreFadeToGrey.min.css" rel="stylesheet" type="text/css" />
 
   <!-- pastebin styles -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
  
   <!-- javascript -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
